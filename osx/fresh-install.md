@@ -1,3 +1,4 @@
+```
 # Show Hidden files
 defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder
@@ -75,3 +76,4 @@ mas install 409203825
 mas install 497799835
 
 brew install zsh zsh-completions
+```
