@@ -39,6 +39,18 @@ yaourt -Syu
 rm -rf package-query/ yaourt/
 ```
 
+# Add `multilib` repository
+
+```bash
+sudo vi /etc/pacman.conf
+```
+
+find the `[multilib]` part and uncomment it.
+
+```bash
+sudo pacman -Syu
+```
+
 ## Install i3 (from dotfiles)
 
 ```bash
