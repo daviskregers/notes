@@ -9,11 +9,16 @@ dd if=/path/to/image.iso of=/dev/sdX
 
 Reboot computer and boot into the arch stick.
 
-```bash
 
+Check for efivars and internet connection.
+
+```bash
 ls /sys/firmware/efi/efivars
 ping archlinux.org
 ```
+
+If the efivars returns a list of files instead of an error, you will need to make an EFI partition in later steps.
+
 
 ## Format drives
 
@@ -27,11 +32,19 @@ fdisk /dev/sdX
 Where X is the drive you want to install the arch to. This will open an interface where you can manage drive partitions, to delete them all - enter 
 the command `d` a few times.
 
-### Create boot partition
+### Create EFI partition (skip if no efivars found)
 
 1. Press n
 2. Select p (primary)
 3. Press enter (1)
+4. Press enter (start at the very start)
+5. Write `+550M` - this will create a 550M partition
+
+### Create boot partition (skip if efivars found)
+
+1. Press n
+2. Select p (primary)
+3. Press enter (2)
 4. Press enter (start at the very start)
 5. Write `+200M` - this will create a 200M partition
 
@@ -68,7 +81,7 @@ There are no changes made to the drive yet. To apply them press `w`. Note that i
 
 ```bash
 
-mkfs.ext4 /dev/sda1
+mkfs.ext4 /dev/sda1 or mkfs.fat -F32 /dev/sda1 # (no efivars vs efivars)
 mkfs.ext4 /dev/sda3
 mkfs.ext4 /dev/sda4
 mkswap /dev/sda2
@@ -78,9 +91,10 @@ mkswap /dev/sda2
 ## Mount drives
 
 ```bash
-mount /dev/sda3
-mkdir -p /mnt/boot /mnt/home
+mount /dev/sda3 /mnt
+mkdir -p /mnt/boot /mnt/home /mnt/efi
 mount /dev/sda1 /mnt/boot
+mount /dev/sda1 /mnt/efi
 mount /dev/sda4 /mnt/home
 ```
 
@@ -93,7 +107,7 @@ pacstrap /mnt base base-devel
 ## Write the mounts to `fstab`
 
 ```bash
-genfstab -U >> /etc/fstab
+genfstab /mnt -U >> /mnt/etc/fstab
 ```
 
 ## Change root to freshly installed arch
