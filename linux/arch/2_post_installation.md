@@ -3,35 +3,24 @@
 ## Add your account
 
 ```bash
-useradd -m -g users -s /bin/bash davis
+useradd -m -G wheel,users -s /bin/bash davis
 ```
 
-## Instasll sudo & add to sudoers
-
-... 
-
-## Install i3
+## Change password
 
 ```bash
-pacman -S i3-wm dmenu xorg xorg-xinit
-nano ~/.xinitrc 
+passwd davis
 ```
 
-```
-#! /bin/bash
-exec i3
+## Install sudo & add to sudoers
+
+```bash
+pacman -S sudo
+visudo
 ```
 
-```
-nano /etc/profile
-```
+Add `davis ALL=(ALL) ALL` after the `root ALL=(ALL) ALL`.
 
-```
-# autostart systemd default session on tty1
-if [[ "$(tty)" == '/dev/tty1' ]]; then
-	exec startx
-fi
-```
 
 # Install `yaourt`
 
@@ -48,6 +37,47 @@ mkpkg -si
 cd ..
 yaourt -Syu
 rm -rf package-query/ yaourt/
+```
+
+## Install i3 (from dotfiles)
+
+```bash
+pacman -S i3-wm i3status i3blocks dmenu xorg xorg-xinit git
+git clone https://github.com/daviskregers/dotfiles.git
+cd dotfiles
+chmod +x sync.sh
+./sync.sh
+chmod +x apps.sh
+./apps.sh
+```
+
+if something fails due to keys / signatures, add them
+
+```bash
+gpg --recv-keys A2C794A986419D8A
+```
+
+# Install i3 (from scratch - skip if dotfiles used)
+
+```bash
+pacman -S i3-wm dmenu xorg xorg-xinit
+nano .xinitrc
+```
+
+```
+#! /bin/bash
+exec i3
+```
+
+```
+nano /etc/profile
+```
+
+```
+# autostart systemd default session on tty1
+if [[ "$(tty)" == '/dev/tty1' ]]; then
+	exec startx
+fi
 ```
 
 ## Add sound
