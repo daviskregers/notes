@@ -6,7 +6,7 @@ To create a new project using cargo:
 
 ```
 cargo new projectname --bin or --lib
-``
+```
 
 To compile the project:
 
