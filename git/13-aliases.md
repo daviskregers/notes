@@ -7,10 +7,10 @@ git log --all --graph --decorate --oneline
 ```
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master  git hist
+ master  git hist
 git: 'hist' is not a git command. See 'git --help'.
-davis@davis-arch  ~/projects/learning-git/project   master  git config --global alias.hist "log --all --graph --decorate --oneline" 
- davis@davis-arch  ~/projects/learning-git/project   master  git hist
+ master  git config --global alias.hist "log --all --graph --decorate --oneline" 
+  master  git hist
 ```
 
 Not that commands inside the alias does not contain the `git` prefix.

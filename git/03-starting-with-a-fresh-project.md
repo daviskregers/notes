@@ -14,19 +14,19 @@ Initialized empty Git repository in /home/davis/projects/learning-git/project/.g
 davis@davis-arch  ~/projects/learning-git  ls         
 project
 davis@davis-arch  ~/projects/learning-git  cd project 
-davis@davis-arch  ~/projects/learning-git/project   master  ls
-davis@davis-arch  ~/projects/learning-git/project   master  git status
+ master  ls
+ master  git status
 On branch master
 
 No commits yet
 
 nothing to commit (create/copy files and use "git add" to track)
-davis@davis-arch  ~/projects/learning-git/project   master  ls -al
+ master  ls -al
 total 12
 drwxr-xr-x 3 davis www-data 4096 Jan 21 20:04 .
 drwxr-xr-x 3 davis www-data 4096 Jan 21 20:04 ..
 drwxr-xr-x 7 davis www-data 4096 Jan 21 20:04 .git
-davis@davis-arch  ~/projects/learning-git/project   master  
+ master  
 ```
 
 You can see that a diretory called `project` is created, it contains the `.git` hidden directory.

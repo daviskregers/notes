@@ -1,16 +1,16 @@
 # Simple rebase
 
 ```
- davis@davis-arch  ~/projects/learning-git/project   master  git checkout -b myfeature
+  master  git checkout -b myfeature
 Switched to a new branch 'myfeature'
- davis@davis-arch  ~/projects/learning-git/project   myfeature  echo "feature" >> file2
- davis@davis-arch  ~/projects/learning-git/project   myfeature ●  git commit -am "feature"
+  myfeature  echo "feature" >> file2
+  myfeature ●  git commit -am "feature"
 [myfeature 156f433] feature
  1 file changed, 1 insertion(+)
- davis@davis-arch  ~/projects/learning-git/project   myfeature  git checkout master
+  myfeature  git checkout master
 Switched to branch 'master'
- davis@davis-arch  ~/projects/learning-git/project   master  echo "edit" >> file
- ✘ davis@davis-arch  ~/projects/learning-git/project   master ●  git commit -am "edit"
+  master  echo "edit" >> file
+ ✘  master ●  git commit -am "edit"
 [master 02064fc] edit
  1 file changed, 1 insertion(+)
 ```
@@ -46,9 +46,9 @@ git log --oneline --decorate --all --graph
 ```
 
 ```
- ✘ davis@davis-arch  ~/projects/learning-git/project   master  git checkout myfeature
+ ✘  master  git checkout myfeature
 Switched to branch 'myfeature'
- davis@davis-arch  ~/projects/learning-git/project   myfeature  git rebase master
+  myfeature  git rebase master
 First, rewinding head to replay your work on top of it...
 Applying: feature
 ```
@@ -84,13 +84,13 @@ git log --oneline --decorate --all --graph
 ```
 
 ```
- ✘ davis@davis-arch  ~/projects/learning-git/project   myfeature  echo "another edit" >> file
- davis@davis-arch  ~/projects/learning-git/project   myfeature ●  git commit -am "Another change"
+ ✘  myfeature  echo "another edit" >> file
+  myfeature ●  git commit -am "Another change"
 [myfeature 42f5865] Another change
  1 file changed, 1 insertion(+)
- davis@davis-arch  ~/projects/learning-git/project   myfeature  git checkout master
+  myfeature  git checkout master
 Switched to branch 'master'
- davis@davis-arch  ~/projects/learning-git/project   master  git merge myfeature 
+  master  git merge myfeature 
 Updating 02064fc..42f5865
 Fast-forward
  file  | 1 +

@@ -3,12 +3,12 @@
 If we need to back-out the changes from the staging area (unstage), we can use a following command:
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master  touch l1/file1-2
-davis@davis-arch  ~/projects/learning-git/project   master  touch l1/l2/file-2-2
-davis@davis-arch  ~/projects/learning-git/project   master  touch l1/l2/l3/file-3-2
-davis@davis-arch  ~/projects/learning-git/project   master  touch l1/l2/l3/l4/file-4-2 
-davis@davis-arch  ~/projects/learning-git/project   master  git add .
-davis@davis-arch  ~/projects/learning-git/project   master ✚  git status
+ master  touch l1/file1-2
+ master  touch l1/l2/file-2-2
+ master  touch l1/l2/l3/file-3-2
+ master  touch l1/l2/l3/l4/file-4-2 
+ master  git add .
+ master ✚  git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -18,8 +18,8 @@ Changes to be committed:
 	new file:   l1/l2/l3/file-3-2
 	new file:   l1/l2/l3/l4/file-4-2
 
-davis@davis-arch  ~/projects/learning-git/project   master ✚  git reset HEAD l1/l2/file-2-2
-davis@davis-arch  ~/projects/learning-git/project   master ✚  git status
+ master ✚  git reset HEAD l1/l2/file-2-2
+ master ✚  git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -40,8 +40,8 @@ Now, the file `l1/l2/file2-2` has moved back into the `working directory` state.
 If we want to revert (`discard`) the changes to the file as it was last commited:
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master ✚  echo "changes" >> l1/l2/l3/file-3-2
-davis@davis-arch  ~/projects/learning-git/project   master ●✚  git status
+ master ✚  echo "changes" >> l1/l2/l3/file-3-2
+ master ●✚  git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -61,8 +61,8 @@ Untracked files:
 
 	l1/l2/file-2-2
 
-davis@davis-arch  ~/projects/learning-git/project   master ●✚  git checkout l1/l2/l3/file-3-2
-davis@davis-arch  ~/projects/learning-git/project   master ✚  git status
+ master ●✚  git checkout l1/l2/l3/file-3-2
+ master ✚  git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)

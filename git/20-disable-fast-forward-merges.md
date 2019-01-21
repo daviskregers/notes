@@ -1,13 +1,13 @@
 # Disable fast forward merges
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master  git status
+ master  git status
 On branch master
 nothing to commit, working tree clean
- davis@davis-arch  ~/projects/learning-git/project   master  git checkout -b other-change
+  master  git checkout -b other-change
 Switched to a new branch 'other-change'
- davis@davis-arch  ~/projects/learning-git/project   other-change  echo "other change" >> file
- davis@davis-arch  ~/projects/learning-git/project   other-change ●  git status
+  other-change  echo "other change" >> file
+  other-change ●  git status
 On branch other-change
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -16,25 +16,25 @@ Changes not staged for commit:
 	modified:   file
 
 no changes added to commit (use "git add" and/or "git commit -a")
- davis@davis-arch  ~/projects/learning-git/project   other-change ●  git commit -am "Other change"
+  other-change ●  git commit -am "Other change"
 [other-change a4d0bc9] Other change
  1 file changed, 1 insertion(+)
- davis@davis-arch  ~/projects/learning-git/project   other-change  git status
+  other-change  git status
 On branch other-change
 nothing to commit, working tree clean
- davis@davis-arch  ~/projects/learning-git/project   other-change  git checkout master
+  other-change  git checkout master
 Switched to branch 'master'
- davis@davis-arch  ~/projects/learning-git/project   master  git merge other-change --no-ff
+  master  git merge other-change --no-ff
 Merge made by the 'recursive' strategy.
  file | 1 +
  1 file changed, 1 insertion(+)
- davis@davis-arch  ~/projects/learning-git/project   master  git status
+  master  git status
 On branch master
 
 ```
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master  git log --oneline --decorate --graph
+ master  git log --oneline --decorate --graph
 
 *   9521a8d (HEAD -> master) Merge branch 'other-change'
 |\  
@@ -50,6 +50,6 @@ davis@davis-arch  ~/projects/learning-git/project   master  git log 
 ```
 
 ```
- davis@davis-arch  ~/projects/learning-git/project   master  git branch -d other-change 
+  master  git branch -d other-change 
 Deleted branch other-change (was a4d0bc9).
 ```

@@ -1,25 +1,25 @@
 # Automatic merges
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master  git status
+ master  git status
 On branch master
 nothing to commit, working tree clean
- davis@davis-arch  ~/projects/learning-git/project   master  git checkout -b simple-change
+  master  git checkout -b simple-change
 Switched to a new branch 'simple-change'
- davis@davis-arch  ~/projects/learning-git/project   simple-change  echo "simple change" >> file
- ✘ davis@davis-arch  ~/projects/learning-git/project   simple-change ●  git commit -am "simple change"
+  simple-change  echo "simple change" >> file
+ ✘  simple-change ●  git commit -am "simple change"
 [simple-change 83f3159] simple change
  1 file changed, 1 insertion(+)
- davis@davis-arch  ~/projects/learning-git/project   simple-change  git status
+  simple-change  git status
 On branch simple-change
 nothing to commit, working tree clean
- davis@davis-arch  ~/projects/learning-git/project   simple-change  git checkout branch
+  simple-change  git checkout branch
 error: pathspec 'branch' did not match any file(s) known to git
- ✘ davis@davis-arch  ~/projects/learning-git/project   simple-change  git checkout master
+ ✘  simple-change  git checkout master
 Switched to branch 'master'
- davis@davis-arch  ~/projects/learning-git/project   master  echo "file2" >> file2
- ✘ davis@davis-arch  ~/projects/learning-git/project   master  git add file2         
- davis@davis-arch  ~/projects/learning-git/project   master ✚  git commit -m "file2"
+  master  echo "file2" >> file2
+ ✘  master  git add file2         
+  master ✚  git commit -m "file2"
 [master 19ab207] file2
  1 file changed, 1 insertion(+)
  create mode 100644 file2
@@ -46,7 +46,7 @@ git log --oneline --decorate --graph --all
 ```
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master  git merge simple-change -m "Mergin changes from simple-change Branch"
+ master  git merge simple-change -m "Mergin changes from simple-change Branch"
 Merge made by the 'recursive' strategy.
  file | 1 +
  1 file changed, 1 insertion(+)
@@ -72,12 +72,12 @@ Merge made by the 'recursive' strategy.
 ```
 
 ```
- davis@davis-arch  ~/projects/learning-git/project   master  git branch -d simple-change 
+  master  git branch -d simple-change 
 Deleted branch simple-change (was 83f3159).
 ```
 
 ```
- davis@davis-arch  ~/projects/learning-git/project   master  cat file
+  master  cat file
 initial
 change
 other change

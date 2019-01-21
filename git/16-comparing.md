@@ -1,20 +1,20 @@
 # Comparing working directory and staging area
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master  git status
+ master  git status
 On branch master
 nothing to commit, working tree clean
- davis@davis-arch  ~/projects/learning-git/project   master  echo "initial" >> file
- davis@davis-arch  ~/projects/learning-git/project   master  git add file
- davis@davis-arch  ~/projects/learning-git/project   master ✚  git status
+  master  echo "initial" >> file
+  master  git add file
+  master ✚  git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
 	new file:   file
 
- davis@davis-arch  ~/projects/learning-git/project   master ✚  echo "change" >> file
- davis@davis-arch  ~/projects/learning-git/project   master ●✚  git status
+  master ✚  echo "change" >> file
+  master ●✚  git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -52,17 +52,17 @@ git difftool
 # Comparing working directory and Repository (last commit)
 
 ```
- davis@davis-arch  ~/projects/learning-git/project   master  git status       
+  master  git status       
 On branch master
 nothing to commit, working tree clean
- davis@davis-arch  ~/projects/learning-git/project   master  echo "initial" >> file
- davis@davis-arch  ~/projects/learning-git/project   master  git add file
- davis@davis-arch  ~/projects/learning-git/project   master ✚  git commit -m "add file"
+  master  echo "initial" >> file
+  master  git add file
+  master ✚  git commit -m "add file"
 [master 84f00a8] add file
  1 file changed, 1 insertion(+)
  create mode 100644 file
- davis@davis-arch  ~/projects/learning-git/project   master  echo "something" >> file
-davis@davis-arch  ~/projects/learning-git/project   master ●  git status
+  master  echo "something" >> file
+ master ●  git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -97,7 +97,7 @@ git difftool HEAD
 # Compare between staging and repository (last commit)
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master ●  git status
+ master ●  git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -106,8 +106,8 @@ Changes not staged for commit:
 	modified:   file
 
 no changes added to commit (use "git add" and/or "git commit -a")
- davis@davis-arch  ~/projects/learning-git/project   master ●  git add file
- davis@davis-arch  ~/projects/learning-git/project   master ✚  git status
+  master ●  git add file
+  master ✚  git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -138,7 +138,7 @@ git diftool --staged HEAD
 # Limiting comparison to one file
 
 ```
- davis@davis-arch  ~/projects/learning-git/project   master ●✚  git status
+  master ●✚  git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)

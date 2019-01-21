@@ -1,23 +1,23 @@
 # Rebasing conflict
 
 ```
- davis@davis-arch  ~/projects/learning-git/project   master  git status
+  master  git status
 On branch master
 nothing to commit, working tree clean
- davis@davis-arch  ~/projects/learning-git/project   master  echo "change" >> file
- davis@davis-arch  ~/projects/learning-git/project   master ●  git commit -am "mb before rebase conflicts"
+  master  echo "change" >> file
+  master ●  git commit -am "mb before rebase conflicts"
 [master 0c5efff] mb before rebase conflicts
  1 file changed, 1 insertion(+)
- davis@davis-arch  ~/projects/learning-git/project   master  git checkout -b bigtrouble
+  master  git checkout -b bigtrouble
 Switched to a new branch 'bigtrouble'
- davis@davis-arch  ~/projects/learning-git/project   bigtrouble  echo "other change" >> file
- ✘ davis@davis-arch  ~/projects/learning-git/project   bigtrouble ●  git commit -am "fb adding trouble to file"
+  bigtrouble  echo "other change" >> file
+ ✘  bigtrouble ●  git commit -am "fb adding trouble to file"
 [bigtrouble 8b32aa4] fb adding trouble to file
  1 file changed, 1 insertion(+)
- davis@davis-arch  ~/projects/learning-git/project   bigtrouble  git checkout master
+  bigtrouble  git checkout master
 Switched to branch 'master'
- davis@davis-arch  ~/projects/learning-git/project   master  echo "something else" >> file
- davis@davis-arch  ~/projects/learning-git/project   master ●  git commit -am "mb conflicting changes brewing"
+  master  echo "something else" >> file
+  master ●  git commit -am "mb conflicting changes brewing"
 [master 0861e5d] mb conflicting changes brewing
  1 file changed, 1 insertion(+)
 
@@ -57,7 +57,7 @@ git log --oneline --decorate --all --graph
 ```
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   bigtrouble  git rebase master
+ bigtrouble  git rebase master
 First, rewinding head to replay your work on top of it...
 Applying: fb adding trouble to file
 Using index info to reconstruct a base tree...
@@ -146,18 +146,18 @@ git log --oneline --decorate --all --graph
 Do some additional changes:
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   bigtrouble  echo "Yet another change" >> file
- davis@davis-arch  ~/projects/learning-git/project   bigtrouble ●  git commit -am "change after rebase"
+ bigtrouble  echo "Yet another change" >> file
+  bigtrouble ●  git commit -am "change after rebase"
 [bigtrouble ddef7ba] change after rebase
  1 file changed, 1 insertion(+)
- davis@davis-arch  ~/projects/learning-git/project   bigtrouble  git checkout master
+  bigtrouble  git checkout master
 Switched to branch 'master'
- davis@davis-arch  ~/projects/learning-git/project   master  git merge bigtrouble 
+  master  git merge bigtrouble 
 Updating 0861e5d..ddef7ba
 Fast-forward
  file | 2 ++
  1 file changed, 2 insertions(+)
- davis@davis-arch  ~/projects/learning-git/project   master  git status
+  master  git status
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)

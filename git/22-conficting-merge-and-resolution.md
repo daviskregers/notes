@@ -1,22 +1,22 @@
 # Conflicting merge and resolution
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master  git status
+ master  git status
 On branch master
 nothing to commit, working tree clean
- davis@davis-arch  ~/projects/learning-git/project   master  git checkout -b conflicting-change
+  master  git checkout -b conflicting-change
 Switched to a new branch 'conflicting-change'
- davis@davis-arch  ~/projects/learning-git/project   conflicting-change  echo "conflicting">> file
- davis@davis-arch  ~/projects/learning-git/project   conflicting-change ●  git commit -am "Conflicting change"
+  conflicting-change  echo "conflicting">> file
+  conflicting-change ●  git commit -am "Conflicting change"
 [conflicting-change 5d495a8] Conflicting change
  1 file changed, 1 insertion(+)
- davis@davis-arch  ~/projects/learning-git/project   conflicting-change  git checkout master
+  conflicting-change  git checkout master
 Switched to branch 'master'
- davis@davis-arch  ~/projects/learning-git/project   master  echo "yet another change" >> file
- davis@davis-arch  ~/projects/learning-git/project   master ●  git commit -am "yet another change"
+  master  echo "yet another change" >> file
+  master ●  git commit -am "yet another change"
 [master 14ae637] yet another change
  1 file changed, 1 insertion(+)
- davis@davis-arch  ~/projects/learning-git/project   master  git status
+  master  git status
 On branch master
 nothing to commit, working tree clean
 ```
@@ -63,7 +63,7 @@ index 811f265..0f9aba8 100644
 ```
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master  git merge conflicting-change 
+ master  git merge conflicting-change 
 Auto-merging file
 CONFLICT (content): Merge conflict in file
 Automatic merge failed; fix conflicts and then commit the result.
@@ -72,7 +72,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 Now we are in a merging state, we have to fix the merge manually.
 
 ```
-✘ davis@davis-arch  ~/projects/learning-git/project   master ●✚ >M<  cat file
+✘  master ●✚ >M<  cat file
 initial
 change
 other change
@@ -95,9 +95,9 @@ git mergetool
 You can decide which side you want to use. I'm going to select the right side, and click "save".
 
 ```
-davis@davis-arch  ~/projects/learning-git/project   master ✚ >M<  git mergetool
+ master ✚ >M<  git mergetool
 No files need merging
- davis@davis-arch  ~/projects/learning-git/project   master ✚ >M<  git status
+  master ✚ >M<  git status
 On branch master
 All conflicts fixed but you are still merging.
   (use "git commit" to conclude merge)
@@ -111,9 +111,9 @@ Untracked files:
 
 	file.orig
 
- davis@davis-arch  ~/projects/learning-git/project   master ✚ >M<  git commit -am "merge conflict"
+  master ✚ >M<  git commit -am "merge conflict"
 [master fa79281] merge conflict
- davis@davis-arch  ~/projects/learning-git/project   master  git status
+  master  git status
 On branch master
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
