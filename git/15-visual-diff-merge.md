@@ -8,6 +8,15 @@ You can install it on arch:
 yaourt -S p4v
 ```
 
+On ubuntu-based machine:
+```
+cd /tmp
+wget http://www.perforce.com/downloads/perforce/r18.1/bin.linux26x86_64/p4v.tgz
+tar zxvf p4v.tgz
+sudo cp -r p4v-* /usr/local/p4v/
+sudo ln -s /usr/local/p4v/bin/p4merge /usr/local/bin/p4merge
+```
+
 Now we can configure git to use it for comparing and conflict resolution:
 
 ```
