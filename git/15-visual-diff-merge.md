@@ -17,7 +17,7 @@ sudo cp -r p4v-* /usr/local/p4v/
 sudo ln -s /usr/local/p4v/bin/p4merge /usr/local/bin/p4merge
 ```
 
-Now we can configure git to use it for comparing and conflict resolution:
+Now we can configure git to use it for comparing and conflict resolution (notice that in ubuntu case it's `/usr/local/bin` not `/usr/bin`):
 
 ```
 git config --global merge.tool p4merge
