@@ -158,4 +158,3 @@ println!("Counter after creating a {}", Rc::strong_count(&a));
 let c = Cons(4, Rc::clone(&a));
 println!("Counter after creating a {}", Rc::strong_count(&a));
 ```
-
