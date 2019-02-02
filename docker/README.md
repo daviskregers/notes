@@ -7,9 +7,9 @@ Sources:
 - [x] Introduction
 - [x] Manipulating containers with docker client
 - [x] Building custom images through docker server
-- [ ] Making real projects with docker
-- [ ] Docker compose with multiple local containers
-- [ ] Creating production-grade workflow
+- [x] Making real projects with docker
+- [x] Docker compose with multiple local containers
+- [x] Creating production-grade workflow
 - [ ] Continous Integration and deployment with AWS
 - [ ] Building a Multi-Continer Application
 - [ ] Dockerizing multiple services
