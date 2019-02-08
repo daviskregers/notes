@@ -3,17 +3,19 @@
 Install
 
 ```
+pip install awscli
 pip install awsebcli --upgrade --user
 ```
 
 Verify
 
 ```
+aws help
 eb --version
 ```
 
-Uninstall 
+Configure
 
 ```
-pip uninstall awsebcli
+aws configure
 ```
