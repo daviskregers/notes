@@ -11,8 +11,8 @@ Sources:
 - [x] Docker compose with multiple local containers
 - [x] Creating production-grade workflow
 - [x] Continous Integration and deployment with AWS
-- [ ] Building a Multi-Continer Application
-- [ ] Dockerizing multiple services
+- [x] Building a Multi-Continer Application
+- [x] Dockerizing multiple services
 - [ ] A CI workflow for multiple images
 - [ ] Multi-container deployments to AWS
 - [ ] Kubernetes
