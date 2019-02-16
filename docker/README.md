@@ -10,7 +10,7 @@ Sources:
 - [x] Making real projects with docker
 - [x] Docker compose with multiple local containers
 - [x] Creating production-grade workflow
-- [ ] Continous Integration and deployment with AWS
+- [x] Continous Integration and deployment with AWS
 - [ ] Building a Multi-Continer Application
 - [ ] Dockerizing multiple services
 - [ ] A CI workflow for multiple images
