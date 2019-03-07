@@ -3,6 +3,8 @@
 ## Sources:
 - [https://www.howtogeek.com/177621/the-beginners-guide-to-iptables-the-linux-firewall/](https://www.howtogeek.com/177621/the-beginners-guide-to-iptables-the-linux-firewall/)
 
+----
+
 IPTables uses three different chains: `input`, `forward` and `output`.
 
 ### `Input` 
