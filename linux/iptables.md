@@ -122,7 +122,7 @@ you execute a command to save the changes. This command can differ depending on 
 
 ```bash
 sudo /sbin/iptables-save
-``
+```
 
 `Red Hat / CentOS`
 
