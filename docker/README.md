@@ -13,8 +13,8 @@ Sources:
 - [x] Continous Integration and deployment with AWS
 - [x] Building a Multi-Continer Application
 - [x] Dockerizing multiple services
-- [ ] A CI workflow for multiple images
-- [ ] Multi-container deployments to AWS
+- [x] A CI workflow for multiple images
+- [x] Multi-container deployments to AWS
 - [ ] Kubernetes
 - [ ] Maintaining sets of containers with deployments
 - [ ] Multi-container app with kubernetes
