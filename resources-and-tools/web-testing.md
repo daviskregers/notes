@@ -5,6 +5,8 @@
 - [https://www.htbridge.com/websec/](https://www.htbridge.com/websec/)
 - [https://web.dev/measure](https://web.dev/measure)
 - [https://tools.pingdom.com/](https://tools.pingdom.com/)
+- [https://securityheaders.com/](https://securityheaders.com/)
+- [https://report-uri.com/home/analyse](https://report-uri.com/home/analyse)
 
 # Resources
 
