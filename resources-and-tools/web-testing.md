@@ -10,3 +10,4 @@
 
 - [Strong Ciphers for Apache, nginx and Lighttpd - cipherli.st](https://cipherli.st/)
 - [Best nginx configuration for improved security(and performance)](https://gist.github.com/plentz/6737338)
+- [How to Activate HTTP/2 with TLS 1.3 Encryption in NGINX for Secure Connections without a Performance Penalty](https://www.cloudinsidr.com/content/how-to-activate-http2-with-ssltls-encryption-in-nginx-for-secure-connections/)
