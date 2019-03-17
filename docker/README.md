@@ -15,10 +15,10 @@ Sources:
 - [x] Dockerizing multiple services
 - [x] A CI workflow for multiple images
 - [x] Multi-container deployments to AWS
-- [ ] Kubernetes
-- [ ] Maintaining sets of containers with deployments
-- [ ] Multi-container app with kubernetes
-- [ ] Handling traffic with ingress controllers
+- [x] Kubernetes
+- [x] Maintaining sets of containers with deployments
+- [x] Multi-container app with kubernetes
+- [x] Handling traffic with ingress controllers
 - [ ] Kubernetes production deployment
 - [ ] HTTPS with kubernetes
 
