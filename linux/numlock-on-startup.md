@@ -1,3 +1,5 @@
+# Enable numlock on startup
+
 ```bash
 davis@davis-arch  ~  sudo pacman -S numlockx
 [sudo] password for davis: 
