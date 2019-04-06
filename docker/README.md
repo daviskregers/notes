@@ -19,7 +19,7 @@ Sources:
 - [x] Maintaining sets of containers with deployments
 - [x] Multi-container app with kubernetes
 - [x] Handling traffic with ingress controllers
-- [ ] Kubernetes production deployment
-- [ ] HTTPS with kubernetes
+- [x] Kubernetes production deployment
+- [x] HTTPS with kubernetes
 
 Code is available at: [https://github.com/daviskregers/docker](https://github.com/daviskregers/docker)
