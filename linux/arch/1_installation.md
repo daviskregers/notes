@@ -58,6 +58,13 @@ the command `d` a few times.
 
 ### Create / root partition
 
+```
+Later on switched to using root `/` and home `/home` in the same partition because 
+sometimes by root directory would run out of space because of docker images, which sometimes becomes annoying to deal with.
+
+Could have increased the root partition, but aside from that, I don't really need that much.
+```
+
 1. Press n
 2. Select p
 3. Enter
@@ -82,9 +89,9 @@ There are no changes made to the drive yet. To apply them press `w`. Note that i
 ```bash
 
 mkfs.ext4 /dev/sda1 or mkfs.fat -F32 /dev/sda1 # (no efivars vs efivars)
-mkfs.ext4 /dev/sda3
+mkfs.ext4 /dev/sda2
 mkfs.ext4 /dev/sda4
-mkswap /dev/sda2
+mkswap /dev/sda3
 
 ```
 
@@ -93,7 +100,7 @@ mkswap /dev/sda2
 ```bash
 mount /dev/sda3 /mnt
 mkdir -p /mnt/boot /mnt/home /mnt/efi
-mount /dev/sda1 /mnt/boot
+mount /dev/sda2 /mnt/boot
 mount /dev/sda1 /mnt/efi
 mount /dev/sda4 /mnt/home
 ```
