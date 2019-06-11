@@ -8,10 +8,10 @@ AccessingCell(arr, cellNumber):
         return exception // cell number cannot be bigger than size of array
     else
         return arr[cellNumber]
-```
 
 Total time complexity  = O(1)
 Total space complexity = O(1)
+```
 
 ## Searching a given value in 1D array
 
@@ -23,10 +23,12 @@ SearchInArray(arr, valueToSearch):
         if( arr[i] equals valueToSearch )
             return i
     return error // value not found
-```
 
 Total time complexity - O(n)
 Space complexity - O(1)
+```
+
+
 
 ## Deleting a given value from 1D array
 
@@ -38,7 +40,8 @@ DeletingValueFromArray(arr, location):
         arr[location] = Integer.MinValue 
     else
         return // location is already blank
-```
 
 Total time complexity  = O(1)
 Total space complexity = O(1)
+```
+
