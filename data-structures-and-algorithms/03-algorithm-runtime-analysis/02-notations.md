@@ -4,7 +4,7 @@ There are 3 notations for runtime analysis:
 - Omega (Ω):
     - This notation gives the tighter lower bound of a given algorithm
     - In laymans terms - we can say that for any given input, running time of a given algorithm will not be `less than` given time.
-- Bog-o (O)
+- Big-O (O)
     - This notation gives the tighter upper bound of a given algorithm
     - For any given input, running time of a given algorithm will not be `more than` given time.
 - Theta (Θ)
@@ -26,7 +26,7 @@ So in total, we have `n` number of cells. To check all the cells, it will take `
 
 - Omega (Ω):
     - Ω(1)
-- Bog-o (O)
+- Big-O (O)
     - O(n)
 - Theta (Θ)
     - Θ(n/2)
