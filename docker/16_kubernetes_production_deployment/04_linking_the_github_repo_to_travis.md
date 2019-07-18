@@ -8,7 +8,7 @@ First, we are going to push the `Sync account` button on the left side.
 
 Then we are going to add the repo in `Manage repositories on Github`.
 
-![](../../2019-04-06-10-58-14.png)
+![](../../images/2019-04-06-10-58-14.png)
 
 Click on `save` and then the `multi-k8s` building should be enabled. You can click on `Settings` to verify it.
 
