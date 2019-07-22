@@ -113,3 +113,4 @@ The Kruskal's algorithm concentrates on edges, finalizes edge in every iteration
 
 The Prim's algorithm concentrates on vertices, finalizes vertices in every iteration.
 
+![](../../images/2019-07-22-16-15-32.png)
