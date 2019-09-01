@@ -71,7 +71,7 @@ In tmux, hit the prefix `ctrl+b` and then:
 
 Resources:
 
-* [cheat sheet](http://cheat.errtheblog.com/s/tmux/)
+* [cheat sheet](https://tmuxcheatsheet.com/)
 * [Enable mouse scroll](https://superuser.com/questions/210125/scroll-shell-output-with-mouse-in-tmux)
 
 Notes:
