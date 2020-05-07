@@ -1,0 +1,21 @@
+# The 3 Business types: pick yours
+
+- Startup businesses
+    - ambitious business ideas
+    - very sensitive to competition
+    - High time commitment
+    - high risk, high profit potential
+    - Any business designed to grow rapidly.
+- Lifestyle businesses
+    - medium sized ideas
+    - moderately sensitive to competition
+    - between full-time and part-time
+    - medium risk and profit
+    - Business designed to uphold a certain lifestyle of yours.
+    - Meets only your financial needs
+- Side businesses
+    - templates, minimum innovation
+    - not sensitive to competition
+    - low time commitment
+    - low risk, low profit
+    - Create something easy to sell, use your skills and hobbies
