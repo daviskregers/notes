@@ -43,7 +43,7 @@ class ViewModel
 }
 ```
 
-    - Non-obligatory dependencies
+- Non-obligatory dependencies
 
 ```csharp
 public class Customer {
@@ -56,7 +56,7 @@ public class Customer {
 }
 ```
 
-    - 3rd party framework imposes a public default constructor
+- 3rd party framework imposes a public default constructor
 
 ```csharp
 public class Customer {
@@ -71,8 +71,8 @@ public class Customer {
 }
 ```
 
-    - A certain dependency is used only in a single method
-        - use method injection instead
+- A certain dependency is used only in a single method
+    - use method injection instead
 
 ## Property Injection
 
@@ -94,6 +94,7 @@ public class Customer
 
     public ILogger logger { get; set; } = new Logger();
 }
+```
 
 ## Method injection
 
