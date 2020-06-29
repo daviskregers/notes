@@ -9,5 +9,5 @@ Sources: [Software Architecture: Meta and SOLID Principles in C#](https://www.ud
 - [x] OCP
 - [x] LSP
 - [x] ISP
-- [ ] DIP
+- [x] DIP
 - [ ] Metaprinciples
