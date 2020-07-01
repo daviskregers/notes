@@ -10,4 +10,4 @@ Sources: [Software Architecture: Meta and SOLID Principles in C#](https://www.ud
 - [x] LSP
 - [x] ISP
 - [x] DIP
-- [ ] Metaprinciples
+- [x] Metaprinciples
