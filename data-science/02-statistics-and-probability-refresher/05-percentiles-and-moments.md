@@ -1,6 +1,6 @@
 # Percentiles and moments
 
-TODO: link to notebook
+Python notebook: https://github.com/daviskregers/data-science-recap/blob/main/04-percentiles-and-moments.ipynb
 
 ## Percentiles
 

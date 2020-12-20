@@ -1,3 +1,3 @@
 # Crash course into matplotlib
 
-TODO: link to notebook
+Python notebook: https://github.com/daviskregers/data-science-recap/blob/main/05-matplotlib.ipynb

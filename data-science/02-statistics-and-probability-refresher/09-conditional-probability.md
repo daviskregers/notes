@@ -1,5 +1,7 @@
 # Conditional Probability
 
+Python notebook: https://github.com/daviskregers/data-science-recap/blob/main/08-conditional-probability.ipynb
+
 - If I have two events that depend on each other, what's the probability that both will occur?
 - Notation: $P(A, B)$ is the probability of A and B both occuring
 - $P(B|A)$ - probability of B given that A has occurred.

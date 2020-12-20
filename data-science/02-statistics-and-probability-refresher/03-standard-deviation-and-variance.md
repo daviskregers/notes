@@ -1,6 +1,6 @@
 # Standard Deviation and Variance
 
-    TODO: link to notebook
+Python notebook https://github.com/daviskregers/data-science-recap/blob/main/02-standard-deviation-and-variance.ipynb
 
 ## Variance measures how "spread-out" the data is.
 

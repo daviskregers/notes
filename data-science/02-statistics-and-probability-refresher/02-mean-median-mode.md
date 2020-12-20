@@ -1,5 +1,6 @@
 # Mean, Median and Mode
-TODO: link to notebook
+
+Python notebook: https://github.com/daviskregers/data-science-recap/blob/main/01-mean-median-mode.ipynb
 
 ## Mean
 

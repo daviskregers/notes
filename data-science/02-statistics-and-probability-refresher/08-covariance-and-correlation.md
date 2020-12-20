@@ -1,6 +1,6 @@
 # Covariance and correlation
 
-TODO: link to notebook
+Python notebook: https://github.com/daviskregers/data-science-recap/blob/main/07-covariance-and-correlation.ipynb
 
 ![covariance](img/covariance.png)
 

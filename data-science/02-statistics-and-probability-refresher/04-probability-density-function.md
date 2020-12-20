@@ -1,8 +1,8 @@
 # Probability Density function
 
-TODO: link to notebook
+Python nootebook: https://github.com/daviskregers/data-science-recap/blob/main/03-distributions.ipynb
 
-# Probability density function
+## Probability density function
 
 Speak to a probability of a given range of values happening.
 
