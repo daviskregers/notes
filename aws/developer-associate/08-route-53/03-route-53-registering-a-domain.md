@@ -19,3 +19,7 @@
 ---
 
 Once you have made the purchase you should see a public hosted zone created in the `Hosted Zones` section as well where you can manage the DNS records for it.
+
+![](img/2022-02-08-06-14-29.png)
+
+![](img/2022-02-08-06-14-39.png)
