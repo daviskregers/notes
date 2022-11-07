@@ -1,6 +1,6 @@
 # Kinesis Data Analytics
 
-![](img/2022-04-27-08-35-12.png)
+![](2022-04-27-08-35-12.png)
 
 - Perform real-time analytics on Kinesis Streams using SQL
 - Fully managed, no servers to provision

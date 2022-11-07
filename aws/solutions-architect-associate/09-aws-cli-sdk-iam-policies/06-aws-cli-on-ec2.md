@@ -21,4 +21,4 @@
 
 In order to do this, we go to `IAM` service and create a new role, attach it to an EC2 service, attach policies that we need.
 
-![](images/2019-12-30-12-41-43.png)
+![](2019-12-30-12-41-43.png)

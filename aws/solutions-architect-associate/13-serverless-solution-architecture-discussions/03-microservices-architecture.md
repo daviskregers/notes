@@ -5,7 +5,7 @@
 - Each architecture for each micro service may vary in form and shape
 - We want a micro-service architecture so we can have a leaner development lifecycle for each service.
 
-![](images/2020-01-01-12-22-44.png)
+![](2020-01-01-12-22-44.png)
 
 ## Discussions on Micro Services
 

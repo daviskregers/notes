@@ -18,7 +18,7 @@
 - Top Level Domain (TLD): .com, .us, .in, .gov, .org...
 - Second Level Domain (SLD): amazon.com, google.com, ...
 
-![](img/2022-02-07-17-14-40.png)
+![](2022-02-07-17-14-40.png)
 
 ## How DNS Works
 

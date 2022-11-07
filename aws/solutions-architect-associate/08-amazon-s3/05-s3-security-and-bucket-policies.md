@@ -28,6 +28,6 @@
 
 The permissions can be modified in the permissions tab of the bucket.
 
-![](images/2019-12-30-12-07-58.png)
+![](2019-12-30-12-07-58.png)
 
 When using the `Bucket Policy` tag, we can use [https://awspolicygen.s3.amazonaws.com/policygen.html](https://awspolicygen.s3.amazonaws.com/policygen.html) to generate the json code.

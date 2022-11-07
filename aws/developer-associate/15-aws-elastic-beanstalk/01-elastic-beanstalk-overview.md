@@ -49,7 +49,7 @@
 
 ## Web Server Tier vs Worker Tier
 
-![](img/2022-04-20-11-46-24.png)
+![](2022-04-20-11-46-24.png)
 
 - Scale based on the number of SQS messages
 - Can push messages to SQS queue from another Web Server Tier

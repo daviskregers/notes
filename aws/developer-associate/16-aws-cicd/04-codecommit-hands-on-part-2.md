@@ -4,4 +4,4 @@ In order to push files from our computer we need to set up the credentials. That
 
 There is a tab for creating SSH keys and HTTPS credentials for the IAM account.
 
-![](img/2022-04-21-08-17-25.png)
+![](2022-04-21-08-17-25.png)

@@ -17,5 +17,5 @@ WHERE "user_id" = "partitionKeyValue" AND "game_ts" = "sortKeyValue"
 
 The editor can be acessed in the left sidebar.
 
-![](img/2022-05-17-07-50-14.png)
+![](2022-05-17-07-50-14.png)
 

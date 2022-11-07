@@ -17,7 +17,7 @@ aws sts get-session-token --serial-number arn-of-the-mfa-device --token-code cod
 
 In order to do this, you need to go to your IAM settings and assign an MFA device under the Security Credentials tab:
 
-![](img/2022-02-10-08-34-27.png)
+![](2022-02-10-08-34-27.png)
 
 This Assigned MFA device is the $arn-of-the-mfa-device, the $code-from-token is the code on your MFA device.
 

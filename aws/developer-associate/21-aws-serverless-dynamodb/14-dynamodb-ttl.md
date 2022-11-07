@@ -9,13 +9,13 @@
 - A delete operation for each expired item enters the DynamoDB Streams (can help recover expired items)
 - Use cases: reduce stored data by keeping only current items, adhere to regulatory obligations...
 
-![](img/2022-05-17-08-19-58.png)
+![](2022-05-17-08-19-58.png)
 
 ---
 
-![](img/2022-05-17-08-20-37.png)
+![](2022-05-17-08-20-37.png)
 
-![](img/2022-05-17-08-20-53.png)
+![](2022-05-17-08-20-53.png)
 
-![](img/2022-05-17-08-21-15.png)
+![](2022-05-17-08-21-15.png)
 

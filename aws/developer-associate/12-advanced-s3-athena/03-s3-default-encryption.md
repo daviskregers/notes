@@ -6,4 +6,4 @@
 
 We can manage this in the S3 bucket properties:
 
-![](img/2022-02-17-06-40-54.png)
+![](2022-02-17-06-40-54.png)

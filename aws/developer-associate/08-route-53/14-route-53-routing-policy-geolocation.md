@@ -7,4 +7,4 @@
 - Use cases: website localization, restrict content distribution, load balancing..
 - Can be associated with health checks
 
-![](img/2022-02-08-07-14-17.png)
+![](2022-02-08-07-14-17.png)

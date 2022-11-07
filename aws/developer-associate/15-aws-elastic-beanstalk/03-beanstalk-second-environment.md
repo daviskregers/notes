@@ -5,13 +5,13 @@ If we were to create new environment, it will ask us to choose the tier we want 
 - Web Server environment
 - Worker environment
 
-![](img/2022-04-20-13-02-36.png)
+![](2022-04-20-13-02-36.png)
 
 While creating, we are are going to use the `Configure more options`.
 
 Here, we'll have multiple presets available:
 
-![](img/2022-04-20-13-04-32.png)
+![](2022-04-20-13-04-32.png)
 
 Also, there will be an option to configure everything related to the beanstalk
 

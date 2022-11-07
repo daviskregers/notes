@@ -34,5 +34,5 @@
 
 - You cannot set an ALIAS record for an EC2 DNS name
 
-![](img/2022-02-08-06-38-26.png)
-![](img/2022-02-08-06-38-45.png)
+![](2022-02-08-06-38-26.png)
+![](2022-02-08-06-38-45.png)

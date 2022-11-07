@@ -26,14 +26,14 @@
 
 The creation process is fairly easy:
 
-![](images/2019-12-30-11-42-53.png)
+![](2019-12-30-11-42-53.png)
 
-![](images/2019-12-30-11-43-40.png)
+![](2019-12-30-11-43-40.png)
 
-![](images/2019-12-30-11-44-07.png)
+![](2019-12-30-11-44-07.png)
 
 When opening the bucket, we can upload files to it: 
 
-![](images/2019-12-30-11-45-13.png)
+![](2019-12-30-11-45-13.png)
 
-![](images/2019-12-30-11-46-52.png)
+![](2019-12-30-11-46-52.png)

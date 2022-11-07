@@ -14,17 +14,17 @@ systemctl enable httd
 
 Once the instance is up and running, we can open it's public IP in a browser.
 
-![](img/2021-09-15-17-34-22.png)
+![](2021-09-15-17-34-22.png)
 
 Now we are going to create an AMI from it.
 
-![](img/2021-09-15-17-35-18.png)
+![](2021-09-15-17-35-18.png)
 
-![](img/2021-09-15-17-36-16.png)
+![](2021-09-15-17-36-16.png)
 
 We'll have to wait some time until the AMI becomes available. We can check that in `EC2 -> Images -> AMIs`.
 
-![](img/2021-09-15-17-37-25.png)
+![](2021-09-15-17-37-25.png)
 
 Now we can go to `Launch instances -> My AMIs` and select our AMI. Then in the user data we input this:
 

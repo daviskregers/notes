@@ -43,7 +43,7 @@
 
 ## API - Encrypt and Decrypt
 
-![](images/2020-01-01-14-14-46.png)
+![](2020-01-01-14-14-46.png)
 
 ## Encryption in AWS Services
 

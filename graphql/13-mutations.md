@@ -69,7 +69,7 @@ We are going to get a response of:
 
 But, in the mongodb, it has added it.
 
-![](images/2019-12-23-12-50-47.png)
+![](2019-12-23-12-50-47.png)
 
 The reason why it does not return the data, is because we haven't returned anything from the resolve function.
 
@@ -116,11 +116,11 @@ module.exports = new GraphQLSchema({
 });
 ```
 
-![](images/2019-12-23-12-52-56.png)
-![](images/2019-12-23-13-07-06.png)
+![](2019-12-23-12-52-56.png)
+![](2019-12-23-13-07-06.png)
 
 Now we can query this:
 
-![](images/2019-12-23-13-05-39.png)
+![](2019-12-23-13-05-39.png)
 
-![](images/2019-12-23-13-06-16.png)
+![](2019-12-23-13-06-16.png)

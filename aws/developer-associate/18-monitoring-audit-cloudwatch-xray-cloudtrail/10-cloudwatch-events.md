@@ -13,26 +13,26 @@
 
 In CloudWatch, on the left sidebar there is a section Rules
 
-![](img/2022-04-26-16-59-01.png)
+![](2022-04-26-16-59-01.png)
 
 We can create a new rule
 
-![](img/2022-04-26-16-59-53.png)
+![](2022-04-26-16-59-53.png)
 
 Every time an EC2 instance goes into a pending state, we create an event.
 
-![](img/2022-04-26-17-00-22.png)
+![](2022-04-26-17-00-22.png)
 
-![](img/2022-04-26-17-00-40.png)
+![](2022-04-26-17-00-40.png)
 
 We are going to send an email from SNS with the entire event JSON
 
-![](img/2022-04-26-17-02-45.png)
+![](2022-04-26-17-02-45.png)
 
-![](img/2022-04-26-17-03-58.png)
+![](2022-04-26-17-03-58.png)
 
 
 The rules that you create in CloudWatch events will also appear on EventBridge.
 
-![](img/2022-04-26-17-04-41.png)
+![](2022-04-26-17-04-41.png)
 

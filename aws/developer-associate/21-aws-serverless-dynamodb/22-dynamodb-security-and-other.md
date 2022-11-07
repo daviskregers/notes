@@ -15,7 +15,7 @@
 
 ## Users interact with DynamoDB Directly
 
-![](img/2022-05-17-08-49-37.png)
+![](2022-05-17-08-49-37.png)
 
 ## Fine-Grained Access Control
 

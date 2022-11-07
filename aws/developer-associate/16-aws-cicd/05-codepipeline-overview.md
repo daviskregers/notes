@@ -10,7 +10,7 @@
     - Example: Build->Test->Deploy->Load Testing->...
     - Manual approval can be defined at any stage
 
-![](img/2022-04-21-08-20-30.png)
+![](2022-04-21-08-20-30.png)
 
 ## Artifacts
 

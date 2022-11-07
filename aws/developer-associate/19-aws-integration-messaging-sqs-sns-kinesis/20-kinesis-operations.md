@@ -8,7 +8,7 @@
 - No automatic scaling (manually increase/decrease capacity)
 - Can't split into more than two shards in a single operation
 
-![](img/2022-04-27-08-14-18.png)
+![](2022-04-27-08-14-18.png)
 
 ## Merging Shards
 
@@ -17,4 +17,4 @@
 - Old shards are closed and will be deleted once the data is expired
 - Can't merge more than two shards in a single operation
 
-![](img/2022-04-27-08-15-33.png)
+![](2022-04-27-08-15-33.png)

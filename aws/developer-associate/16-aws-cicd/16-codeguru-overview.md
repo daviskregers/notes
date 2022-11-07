@@ -6,7 +6,7 @@
     - CodeGuru Reviewer: automated code reviews for static code analysis (development)
     - CodeGuru Profiler: visibility/recommendations about application performance during runtime (production)
 
-![](img/2022-04-21-09-58-18.png)
+![](2022-04-21-09-58-18.png)
 
 ## CodeGuru Reviewer
 

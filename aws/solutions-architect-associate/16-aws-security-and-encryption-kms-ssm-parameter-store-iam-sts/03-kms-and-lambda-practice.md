@@ -4,21 +4,21 @@
 
 In KMS we have a `AWS Managed keys` section available that stores keys for aws managed services that we have had enabled encryption.
 
-![](images/2020-01-01-14-17-26.png)
+![](2020-01-01-14-17-26.png)
 
 You can also go to `Customer managed keys` and create your own keys.
 
-![](images/2020-01-01-14-20-25.png)
+![](2020-01-01-14-20-25.png)
 
 When created a key, we can also open it up and enable key rotation:
 
-![](images/2020-01-01-14-21-23.png)
+![](2020-01-01-14-21-23.png)
 
 ## Lamda
 
 We are going to create a new lambda function.
 
-![](images/2020-01-01-14-22-46.png)
+![](2020-01-01-14-22-46.png)
 
 Now, if we wanted to use database password, this is bad:
 
@@ -34,7 +34,7 @@ We can leverage environment variables though, but it is still not perfect, becau
 
 We can leverage the encryption option with the previously created `Customer managed key` though.
 
-![](images/2020-01-01-14-26-30.png)
+![](2020-01-01-14-26-30.png)
 
 Now if we change the code to run this:
 
@@ -65,20 +65,20 @@ This is because our lamda function does not have the permission to decrypt it.
 
 We are going to open up a new tab with the `View the lamda-demo-kms-role-fo9pvnp8 role`.
 
-![](images/2020-01-01-14-31-25.png)
+![](2020-01-01-14-31-25.png)
 
 Then create and attach a policy.
 
-![](images/2020-01-01-14-33-34.png)
+![](2020-01-01-14-33-34.png)
 
-![](images/2020-01-01-14-35-24.png)
+![](2020-01-01-14-35-24.png)
 
-![](images/2020-01-01-14-35-42.png)
+![](2020-01-01-14-35-42.png)
 
 Test it once more:
 
-![](images/2020-01-01-14-36-02.png)
+![](2020-01-01-14-36-02.png)
 
 If we view the logs, we can see the both prints of the encrypted and decrypted versions:
 
-![](images/2020-01-01-14-37-12.png)
+![](2020-01-01-14-37-12.png)

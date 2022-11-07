@@ -12,7 +12,7 @@
 
 ## RPO and RTO
 
-![](images/2020-01-02-15-58-04.png)
+![](2020-01-02-15-58-04.png)
 
 ## Disaster Recovery Strategies
 
@@ -21,11 +21,11 @@
 - Warm Standby
 - Hot Site / Multi Site Approach
 
-![](images/2020-01-02-15-58-53.png)
+![](2020-01-02-15-58-53.png)
 
 ## Backup and Restore (High RPO)
 
-![](images/2020-01-02-15-59-24.png)
+![](2020-01-02-15-59-24.png)
 
 ## Disaster Recovery - Pilot Light
 
@@ -34,25 +34,25 @@
 - Very similar to backup and restore
 - Faster than backup and restore as critical systems are already up
 
-![](images/2020-01-02-16-00-31.png)
+![](2020-01-02-16-00-31.png)
 
 ## Warm Standby
 
 - Full system is up and running, but at minimum size
 - Upon disaster, we can scale to production load
 
-![](images/2020-01-02-16-01-06.png)
+![](2020-01-02-16-01-06.png)
 
 ## Multi Site / Hot Site Approach
 
 - Very low RTO (minutes or seconds) - very expensive
 - Full Production Scale is running AWS and On Premise
 
-![](images/2020-01-02-16-01-54.png)
+![](2020-01-02-16-01-54.png)
 
 ## All AWS Multi Region
 
-![](images/2020-01-02-16-02-24.png)
+![](2020-01-02-16-02-24.png)
 
 ## Disaster Recovery Tips
 

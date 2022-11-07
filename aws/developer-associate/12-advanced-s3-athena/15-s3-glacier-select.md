@@ -6,4 +6,4 @@
 
 https://aws.amazon.com/blogs/aws/s3-glacier-select/
 
-![](img/2022-02-17-07-54-41.png)
+![](2022-02-17-07-54-41.png)

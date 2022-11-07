@@ -13,5 +13,5 @@ option_settings:
 - Then make sure your application code is instrumented with the X-Ray SDK
 - Note: The X-Ray daemon is not provided for Multicontainer Docker
 
-![](img/2022-04-26-17-55-43.png)
+![](2022-04-26-17-55-43.png)
 

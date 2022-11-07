@@ -1,8 +1,8 @@
 # Kinesis Data Streams Hands On
 
-![](img/2022-04-27-07-53-52.png)
+![](2022-04-27-07-53-52.png)
 
-![](img/2022-04-27-07-55-31.png)
+![](2022-04-27-07-55-31.png)
 
 ```console
 $ aws --version

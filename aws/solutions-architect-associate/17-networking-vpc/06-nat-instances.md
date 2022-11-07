@@ -7,33 +7,33 @@
 - Route table must be configured to route traffic from private subnets to NAT instance
 
 
-![](images/2020-01-01-16-40-26.png)
+![](2020-01-01-16-40-26.png)
 
 To do this, we are going to add a new EC2 instance with a NAT template.
 
-![](images/2020-01-01-16-44-56.png)
+![](2020-01-01-16-44-56.png)
 
 Place it in the public subnet
 
-![](images/2020-01-01-16-45-28.png)
+![](2020-01-01-16-45-28.png)
 
-![](images/2020-01-01-16-48-08.png)
+![](2020-01-01-16-48-08.png)
 
-![](images/2020-01-01-16-51-46.png)
+![](2020-01-01-16-51-46.png)
 
 And we are going to launch a private instance in the private subnet.
 
-![](images/2020-01-01-16-49-07.png)
+![](2020-01-01-16-49-07.png)
 
 Make sure to disable the Source/Dest check for the NAT.
 
-![](images/2020-01-01-16-50-27.png)
+![](2020-01-01-16-50-27.png)
 
 Also would be recommended that the key pair is a different from the public ones.
 
 Then edit the routes of the Private Instance and add the NAT instance.
 
-![](images/2020-01-01-16-53-38.png)
+![](2020-01-01-16-53-38.png)
 
 By doing this, the private instance will have an access to the internet, through the NAT instance.
 

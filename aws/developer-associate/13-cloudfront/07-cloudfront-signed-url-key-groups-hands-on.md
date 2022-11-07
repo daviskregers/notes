@@ -17,12 +17,12 @@
 
 To add the key first we generate a RSA 2048 bit key, the private one we keep to ourselves, the public one we add to the `CloudFront -> Public Keys`.
 
-![](img/2022-02-17-09-02-09.png)
+![](2022-02-17-09-02-09.png)
 
 Then we can create a key group.
 
-![](img/2022-02-17-09-04-00.png)
+![](2022-02-17-09-04-00.png)
 
 You can also create the keypairs using the unrecommended way - log into the root account and go to security credentials.
 
-![](img/2022-02-17-09-05-41.png)
+![](2022-02-17-09-05-41.png)

@@ -12,9 +12,9 @@
     - Amazon SNS
 - Note: you can send events to a DLQ directly from SQS
 
-![](img/2022-05-12-08-17-23.png)
+![](2022-05-12-08-17-23.png)
 https://docs.aws.amazon.com/lambda/latest/dg/invocation-async.html
 
 
-![](img/2022-05-12-08-17-38.png)
+![](2022-05-12-08-17-38.png)
 https://docs.aws.amazon.com/lambda/latest/dg/invocation-eventsourcemapping.html

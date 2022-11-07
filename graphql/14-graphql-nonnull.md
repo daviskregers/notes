@@ -40,4 +40,4 @@ const Mutation = new GraphQLObjectType({
 });
 ```
 
-![](images/2019-12-23-13-11-02.png)
+![](2019-12-23-13-11-02.png)

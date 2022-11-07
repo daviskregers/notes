@@ -5,7 +5,7 @@
 - To assist with this, you can define a task placement strategy and task placement constraints.
 - Note: this is only for ECS with EC2 not Fargate
 
-![](img/2022-04-20-11-03-18.png)
+![](2022-04-20-11-03-18.png)
 
 ## ECS Task Placement Process
 

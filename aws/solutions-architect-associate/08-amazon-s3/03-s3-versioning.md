@@ -8,12 +8,12 @@
     - Easy roll back to previous version
 - Any file that is not versioned prior to enabling versioning will have version "null"
 
-![](images/2019-12-30-11-49-00.png)
+![](2019-12-30-11-49-00.png)
 
-![](images/2019-12-30-11-49-40.png)
+![](2019-12-30-11-49-40.png)
 
 If we upload the same file once more:
 
-![](images/2019-12-30-11-51-14.png)
+![](2019-12-30-11-51-14.png)
 
 Even if we hide the versions and delete the file, it will still be visible under the versions tab.

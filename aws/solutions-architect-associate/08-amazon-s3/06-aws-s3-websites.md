@@ -4,9 +4,9 @@
 - The website URL will be `<bucket-name>.s3-website-<aws-region>.amazonaws.com` OR `<bucket-name>.s3-website.<aws-region>.amazonaws.com`
 - If you get a 403 (forbidden) error, make sure the bucket policy allows public reads.
 
-![](images/2019-12-30-12-11-32.png)
+![](2019-12-30-12-11-32.png)
 
-![](images/2019-12-30-12-12-26.png)
+![](2019-12-30-12-12-26.png)
 
 ```json
 {

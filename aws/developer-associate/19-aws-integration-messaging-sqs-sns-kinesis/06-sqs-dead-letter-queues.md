@@ -13,6 +13,6 @@
 - Feature to help consume messages in the DLQ to understand what is wrong with them
 - When our code is fixed, we can redrive the messages from the DLQ back into the source queue (or any other queue) in batches wihout writing custom code.
 
-![](img/2022-04-27-06-54-39.png)
+![](2022-04-27-06-54-39.png)
 
-![](img/2022-04-27-06-55-51.png)
+![](2022-04-27-06-55-51.png)

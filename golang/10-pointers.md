@@ -1,6 +1,6 @@
 # Pointers
 
-- Creating pointers
+- Creating [[Pointers]]
     - Pointer types use an asterisk (*) as a prefix to type pointed to
         - *int a pointer to an integer
     - Use the addressof operator (&) to get an address of variable

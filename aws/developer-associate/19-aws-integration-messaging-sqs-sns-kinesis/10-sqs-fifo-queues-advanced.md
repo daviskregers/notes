@@ -7,7 +7,7 @@
     - Content-based deduplication: will do a SHA-256 hash of the message body
     - Explicitly provide a Message Deduplication ID
 
-![](img/2022-04-27-07-07-48.png)
+![](2022-04-27-07-07-48.png)
 
 ## Message Grouping
 
@@ -17,8 +17,8 @@
     - Each Group ID can have different consumer (parallel processing)
     - Ordering across groups is not guaranteed
 
-![](img/2022-04-27-07-09-31.png)
+![](2022-04-27-07-09-31.png)
 
-![](img/2022-04-27-07-09-56.png)
+![](2022-04-27-07-09-56.png)
 
-![](img/2022-04-27-07-10-20.png)
+![](2022-04-27-07-10-20.png)

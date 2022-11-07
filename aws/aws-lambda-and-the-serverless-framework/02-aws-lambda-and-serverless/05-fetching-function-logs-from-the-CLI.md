@@ -4,13 +4,13 @@
 
 We can open up the `Monitoring` tab in the function and see some metrics.
 
-![](img/2021-10-12-14-02-34.png)
+![](2021-10-12-14-02-34.png)
 
 To see the logs, we can click on the `View logs in CloudWatch` button.
 
 There will be a list of requests that we can get logs for. Choose one of them.
 
-![](img/2021-10-12-14-04-32.png)
+![](2021-10-12-14-04-32.png)
 
 ## Stream function logs to our computer using Serverless
 

@@ -1,6 +1,6 @@
 # Three Tier Architecture
 
-![](img/2022-02-08-08-06-31.png)
+![](2022-02-08-08-06-31.png)
 
 ## LAMP Stack on EC2
 
@@ -20,6 +20,6 @@
 
 ## A more complicated wordpress setup
 
-![](img/2022-02-08-08-11-11.png)
+![](2022-02-08-08-11-11.png)
 
 https://aws.amazon.com/blogs/architecture/wordpress-best-practices-on-aws/

@@ -28,4 +28,4 @@
 - Use API call PutMetricData
 - Use exponential back off in case of throttle errors
 
-![](images/2020-01-01-13-58-34.png)
+![](2020-01-01-13-58-34.png)

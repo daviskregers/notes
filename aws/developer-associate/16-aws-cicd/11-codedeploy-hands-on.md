@@ -6,11 +6,11 @@ Before we start using CodeDeploy we need to create 2 new IAM roles:
 
 When creating a role, we can choose an AWS Service as CodeDeploy and it will allow us to choose common use cases:
 
-![](img/2022-04-21-09-24-35.png)
+![](2022-04-21-09-24-35.png)
 
-![](img/2022-04-21-09-25-16.png)
+![](2022-04-21-09-25-16.png)
 
-![](img/2022-04-21-09-25-36.png)
+![](2022-04-21-09-25-36.png)
 
 **EC2 Service Role**
 
@@ -22,15 +22,15 @@ Our EC2 instance must be able to pull the data from S3, so we need to add a role
 
 Now we can create an CodeDeploy application.
 
-![](img/2022-04-21-09-27-32.png)
+![](2022-04-21-09-27-32.png)
 
 Then we can create an EC2 instance we can deploy to. Make sure it has the EC2 Service role.
 
-![](img/2022-04-21-09-28-50.png)
+![](2022-04-21-09-28-50.png)
 
 We'll also allow access from port 80.
 
-![](img/2022-04-21-09-29-49.png)
+![](2022-04-21-09-29-49.png)
 
 Now we can ssh into the instance and run following commands:
 
@@ -49,34 +49,34 @@ Once the EC2 is set up we need to create a deployment group in the CodeDeploy ap
 
 We can attach tags to our instances:
 
-![](img/2022-04-21-09-33-08.png)
+![](2022-04-21-09-33-08.png)
 
 Now we fill in the deployment group form:
 
-![](img/2022-04-21-09-33-51.png)
+![](2022-04-21-09-33-51.png)
 
-![](img/2022-04-21-09-34-24.png)
+![](2022-04-21-09-34-24.png)
 
-![](img/2022-04-21-09-35-01.png)
+![](2022-04-21-09-35-01.png)
 
-![](img/2022-04-21-09-35-14.png)
+![](2022-04-21-09-35-14.png)
 
-![](img/2022-04-21-09-35-29.png)
+![](2022-04-21-09-35-29.png)
 
-![](img/2022-04-21-09-35-38.png)
+![](2022-04-21-09-35-38.png)
 
-![](img/2022-04-21-09-35-48.png)
+![](2022-04-21-09-35-48.png)
 
-![](img/2022-04-21-09-36-02.png)
+![](2022-04-21-09-36-02.png)
 
 ---
 
 Now we can create a new deployment.
 
-![](img/2022-04-21-09-36-38.png)
+![](2022-04-21-09-36-38.png)
 
-![](img/2022-04-21-09-37-36.png)
+![](2022-04-21-09-37-36.png)
 
 We can create a new S3 bucket and modify the buildspec.yml to upload the files to that S3 bucket.
 
-![](img/2022-04-21-09-38-39.png)
+![](2022-04-21-09-38-39.png)

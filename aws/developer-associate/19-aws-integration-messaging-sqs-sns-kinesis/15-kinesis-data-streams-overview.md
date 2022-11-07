@@ -1,6 +1,6 @@
 # Kinesis Data Streams
 
-![](img/2022-04-27-07-34-56.png)
+![](2022-04-27-07-34-56.png)
 
 - Retention between 1 day to 365 days
 - Ability to reprocess (replay) data
@@ -33,4 +33,4 @@
 - VPC Endpoints available for Kinesis to access within VPC
 - Monitor API calls using CloudTrail
 
-![](img/2022-04-27-07-40-50.png)
+![](2022-04-27-07-40-50.png)

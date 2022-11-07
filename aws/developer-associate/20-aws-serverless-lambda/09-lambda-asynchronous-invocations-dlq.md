@@ -10,7 +10,7 @@
 - Can define a DLQ (dead letter queue) - SNS or SQS - for failed processing (need correct IAM permissions)
 - Asynchronous invocations allow you to speed up the processing if you don't need to wait for the result (ex: you need 1000 files processed)
 
-![](img/2022-05-12-07-33-25.png)
+![](2022-05-12-07-33-25.png)
 
 ## Services invocated asynchronously
 

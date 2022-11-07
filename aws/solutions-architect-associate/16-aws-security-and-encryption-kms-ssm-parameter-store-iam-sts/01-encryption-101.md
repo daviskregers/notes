@@ -8,7 +8,7 @@
 - SSL certificates help with encryption (HTTPS)
 - Encryption in fligh ensures no MITM (man in the middle attack) can happen
 
-![](images/2020-01-01-14-04-44.png)
+![](2020-01-01-14-04-44.png)
 
 ### Server side encryption at rest
 
@@ -17,7 +17,7 @@
 - It is stored into an encrypted form thanks to a key (usually a data key)
 - The encryption / decryption keys must be managed somewhere and the server must have access to it.
 
-![](images/2020-01-01-14-06-25.png)
+![](2020-01-01-14-06-25.png)
 
 ### Client side encryption
 
@@ -26,4 +26,4 @@
 - The server should not be able to decrypt the data
 - Could leverage Envelope Encryption
 
-![](images/2020-01-01-14-07-35.png)
+![](2020-01-01-14-07-35.png)

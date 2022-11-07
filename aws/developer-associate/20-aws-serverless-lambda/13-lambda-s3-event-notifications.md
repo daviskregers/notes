@@ -7,8 +7,8 @@
 - If two writes are made to a single non-versioned object at the same time, it is possible that only a single event notification will be sent
 - If you want to ensure that an event notification is sent for every successful write, you can enable versioning on your bucket.
 
-![](img/2022-05-12-07-50-02.png)
+![](2022-05-12-07-50-02.png)
 
 ## Simple Pattern - Metadata Sync
 
-![](img/2022-05-12-07-50-25.png)
+![](2022-05-12-07-50-25.png)

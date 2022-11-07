@@ -28,7 +28,7 @@
 - Docker is "sort of" a virtualization technology, but not exactly
 - Resources are shared with the host to many containers on one server
 
-![](img/2022-04-20-08-39-29.png)
+![](2022-04-20-08-39-29.png)
 
 ## Docker Containers Management on AWS
 

@@ -20,11 +20,11 @@
 - Master + up to 15 aurora read replica serve reads
 - Support for Cross Region Replication
 
-![](images/2019-12-30-09-16-14.png)
+![](2019-12-30-09-16-14.png)
 
 ## Aurora DB Cluster
 
-![](images/2019-12-30-09-17-11.png)
+![](2019-12-30-09-17-11.png)
 
 ## Features of Aurora
 

@@ -11,4 +11,4 @@
     - Length of time in seconds to evaluate the metric
     - High resolution custom metrics: can only choose 10 sec or 30 sec
 
-![](images/2020-01-01-13-55-37.png)
+![](2020-01-01-13-55-37.png)

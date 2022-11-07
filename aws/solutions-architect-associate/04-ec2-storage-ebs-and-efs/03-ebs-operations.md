@@ -14,21 +14,21 @@
 
 The snapshots can be created by right-clicking on the volume.
 
-![](images/2019-12-30-07-15-22.png)
+![](2019-12-30-07-15-22.png)
 
-![](images/2019-12-30-07-16-44.png)
+![](2019-12-30-07-16-44.png)
 
-![](images/2019-12-30-07-17-09.png)
+![](2019-12-30-07-17-09.png)
 
 When the snapshot is created we can do several operations with it:
 - Create a new volume from the snapshot
 - Create Image (AMI) from the snapshot
 
-![](images/2019-12-30-07-18-12.png)
+![](2019-12-30-07-18-12.png)
 
 We can also go to the `Lifecycle Manger` section and add a new snapshot policy, like we are going to make snapshots for all the volumes that have a tag `EBS Demo` every 12 hours and keep the last 7 copies.
 
-![](images/2019-12-30-07-21-32.png)
+![](2019-12-30-07-21-32.png)
 
 ## EBS Migration
 
@@ -38,9 +38,9 @@ We can also go to the `Lifecycle Manger` section and add a new snapshot policy, 
     - (optional) Copy the volume to a different region
     - Create a volume from the snapshot in the AZ of your choice
 
-![](images/2019-12-30-07-24-15.png)
-![](images/2019-12-30-07-24-36.png)
-![](images/2019-12-30-07-25-11.png)
+![](2019-12-30-07-24-15.png)
+![](2019-12-30-07-24-36.png)
+![](2019-12-30-07-25-11.png)
 
 ## Volume Encryption
 
@@ -61,12 +61,12 @@ We can also go to the `Lifecycle Manger` section and add a new snapshot policy, 
 - Create a new EBS volume from the snapshot (the volume will also be encrypted)
 Now you can attach the encrypted volume to the original instance.
 
-![](images/2019-12-30-07-29-28.png)
+![](2019-12-30-07-29-28.png)
 
-![](images/2019-12-30-07-30-20.png)
+![](2019-12-30-07-30-20.png)
 
-![](images/2019-12-30-07-31-10.png)
+![](2019-12-30-07-31-10.png)
 
-![](images/2019-12-30-07-32-00.png)
+![](2019-12-30-07-32-00.png)
 
-![](images/2019-12-30-07-32-22.png)
+![](2019-12-30-07-32-22.png)

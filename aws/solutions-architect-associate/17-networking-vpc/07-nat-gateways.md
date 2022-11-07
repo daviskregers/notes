@@ -10,14 +10,14 @@
 
 The difference between NAT Gateway and NAT instance can be found here [https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html)
 
-![](images/2020-01-01-16-59-01.png)
+![](2020-01-01-16-59-01.png)
 
 We are going to create a new NAT Gateway on `PublicSubnetA`
 
-![](images/2020-01-01-17-01-31.png)
+![](2020-01-01-17-01-31.png)
 
 Then we are going to edit the route table of the `PrivateRouteTable`
 
-![](images/2020-01-01-17-02-35.png)
+![](2020-01-01-17-02-35.png)
 
-![](images/2020-01-01-17-02-50.png)
+![](2020-01-01-17-02-50.png)

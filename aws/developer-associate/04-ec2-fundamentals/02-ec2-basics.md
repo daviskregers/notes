@@ -34,7 +34,7 @@ One thing to remember is that the EC2 data script runs with the root user.
 
 ## EC2 instance types: example
 
-![](img/2021-08-17-12-07-26.png)
+![](2021-08-17-12-07-26.png)
 
 The t2.micro is part of the AWS free tier (up to 750 hours per month).
 

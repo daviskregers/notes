@@ -14,7 +14,7 @@ Using ElastiCache involves heavy application code changes.
 - Helps relieve load in RDS
 - Cache must have an invalidation strategy to make sure only the most current data is used in there.
 
-![](img/2021-10-18-09-20-13.png)
+![](2021-10-18-09-20-13.png)
 
 ## ElastiCache Solution Architecture - User Session Store
 
@@ -23,7 +23,7 @@ Using ElastiCache involves heavy application code changes.
 - The user hits another instance of our application
 - The instance retrieves the data and the user is already logged in.
 
-![](img/2021-10-18-09-21-39.png)
+![](2021-10-18-09-21-39.png)
 
 ## ElastiCache - Redis vs Memcached
 

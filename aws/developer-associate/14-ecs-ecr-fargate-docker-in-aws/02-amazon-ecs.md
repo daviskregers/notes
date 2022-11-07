@@ -8,7 +8,7 @@
 - Each EC2 instance must run the ECS agent to register in the ECS cluster
 - AWS takes care of starting / stopping the containers
 
-![](img/2022-04-20-08-44-59.png)
+![](2022-04-20-08-44-59.png)
 
 ## Fargate Launch Type
 
@@ -18,7 +18,7 @@
 - You just creeate task definitions
 - AWS just runs ECS tasks for you based on the CPU/RAM you need
 
-![](img/2022-04-20-08-46-50.png)
+![](2022-04-20-08-46-50.png)
 
 ## IAM Roles for ECS
 
@@ -39,7 +39,7 @@
 - Network Load Balancer - recommended only for high throughput / high performance use cases, or to pair it with AWS Private Link
 - Elastic Load balancer - supported but not recommended (no advanced features - no Fargate).
 
-![](img/2022-04-20-08-50-12.png)
+![](2022-04-20-08-50-12.png)
 
 ## Data Volumes (EFS)
 

@@ -8,7 +8,7 @@
 - Must be defined at table creation time
 - Attribute Projections - can contain some or all the attributes of the base table (KEYS_ONLY, INCLUDE, ALL)
 
-![](img/2022-05-17-07-38-26.png)
+![](2022-05-17-07-38-26.png)
 
 ## Global Secondary Index (GSI)
 
@@ -19,7 +19,7 @@
 - Must provision RCUs & WCUs for the index
 - Can be added/modified after table creation.
 
-![](img/2022-05-17-07-40-10.png)
+![](2022-05-17-07-40-10.png)
 
 ## Throttling
 

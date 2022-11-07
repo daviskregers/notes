@@ -9,14 +9,14 @@
 - Long polling is preferable to Short Polling
 - Long polling can be enabled at the queue level or at the API level using `WaitTimeSeconds`.
 
-![](img/2022-04-27-07-00-46.png)
+![](2022-04-27-07-00-46.png)
 
 ## Extended Client
 
 - Message size is 256KB, how to send large messages, e.g. 1GB?
 - Using the SQS Extended Client (Java Library)
 
-![](img/2022-04-27-07-01-51.png)
+![](2022-04-27-07-01-51.png)
 
 ## Must know API
 

@@ -23,5 +23,5 @@ serverless config credentials --provider aws --key XXX --secret YYY --profile se
 
 For the access credentials we are going to create a new IAM user `serverless-admin`.
 
-![](img/2021-10-12-13-25-31.png)
-![](img/2021-10-12-13-26-13.png)
+![](2021-10-12-13-25-31.png)
+![](2021-10-12-13-26-13.png)

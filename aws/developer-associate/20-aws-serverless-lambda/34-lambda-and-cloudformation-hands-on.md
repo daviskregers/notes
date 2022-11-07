@@ -69,4 +69,4 @@ Now we can create a new s3 bucket, upload the function zip file to it. Then impo
 
 
 
-![](img/2022-05-12-09-42-21.png)
+![](2022-05-12-09-42-21.png)

@@ -6,11 +6,11 @@
 
 Current state:
 
-![](images/2020-01-01-12-32-11.png)
+![](2020-01-01-12-32-11.png)
 
 Easy fix:
 
-![](images/2020-01-01-12-32-43.png)
+![](2020-01-01-12-32-43.png)
 
 ## Why cloudfront?
 

@@ -8,7 +8,7 @@
     - CNAME: URL to URL
     - Alias: URL to AWS resource
 
-![](images/2019-12-30-09-56-33.png)
+![](2019-12-30-09-56-33.png)
 
 - Route53 can use:
     - public domain names you own (or buy)

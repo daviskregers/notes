@@ -20,9 +20,9 @@
     - Before CloudFront forwards the response to the viewer (viewer response)
     - You can also generate responses to viewers without ever sending the request to the origin.
 
-![](img/2022-05-12-07-28-52.png)
+![](2022-05-12-07-28-52.png)
 
-![](img/2022-05-12-07-29-15.png)
+![](2022-05-12-07-29-15.png)
 
 ## Use Cases
 

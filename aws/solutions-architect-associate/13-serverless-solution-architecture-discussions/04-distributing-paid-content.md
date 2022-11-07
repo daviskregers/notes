@@ -8,4 +8,4 @@
 - Our application is global
 - We want to be fully serverless
 
-![](images/2020-01-01-12-30-01.png)
+![](2020-01-01-12-30-01.png)

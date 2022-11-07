@@ -32,4 +32,4 @@
 
 You can create your own rules with the reservoir and rate.
 
-![](img/2022-04-26-17-41-54.png)
+![](2022-04-26-17-41-54.png)

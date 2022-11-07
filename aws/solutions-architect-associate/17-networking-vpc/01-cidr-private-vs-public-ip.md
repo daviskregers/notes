@@ -2,7 +2,7 @@
 
 - CIDR are used for Security Groups rules, or AWS networking in general
 
-![](images/2020-01-01-15-32-57.png)
+![](2020-01-01-15-32-57.png)
 
 - They help to define an IP address range
     - We've seen WW.XX.YY.ZZ/32 == one IP

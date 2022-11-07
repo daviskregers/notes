@@ -43,7 +43,7 @@
     - Set "ConsistendtRead" parameter to True in API calls (GetItem, BatchGetItem, Query, Scan)
     - Consumes twice the RCU
 
-![](img/2022-05-17-07-06-00.png)
+![](2022-05-17-07-06-00.png)
 
 ## DynamoDB - Read Capacity Units (RCU)
 
@@ -67,7 +67,7 @@
 
 - WCUs and RCUs are spread evenly across partitions.
 
-![](img/2022-05-17-07-12-47.png)
+![](2022-05-17-07-12-47.png)
 
 ## DynamoDB - Throttling
 

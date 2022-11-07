@@ -46,15 +46,15 @@ Resources:
                   ToPort: 22
 ```
 
-![](img/2022-04-21-10-47-44.png)
+![](2022-04-21-10-47-44.png)
 
 Now we'll get prompted to input a parameter.
 
-![](img/2022-04-21-10-48-15.png)
+![](2022-04-21-10-48-15.png)
 
 In the review we'll see that we'll add a bunch of stuff, but will modify the already existing instance.
 
-![](img/2022-04-21-10-48-56.png)
+![](2022-04-21-10-48-56.png)
 
 ---
 

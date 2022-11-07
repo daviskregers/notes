@@ -25,6 +25,6 @@
 - Dockerrun.aws.json is used to generate the ECS task definition
 - Your Docker images must be pre-built and stored in ECR for example
 
-![](img/2022-04-20-12-22-31.png)
+![](2022-04-20-12-22-31.png)
 
 We can find sample configurations at: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/tutorials.html

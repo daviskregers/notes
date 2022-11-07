@@ -121,8 +121,8 @@ Serverless: Successfully installed "serverless-python-requirements@latest"
 
 Now we can test it by uploading an image:
 
-![](img/2021-10-12-16-00-45.png)
+![](2021-10-12-16-00-45.png)
 
 After we refresh the bucket, the thumbnail is available:
 
-![](img/2021-10-12-16-08-23.png)
+![](2021-10-12-16-08-23.png)

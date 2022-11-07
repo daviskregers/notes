@@ -29,6 +29,6 @@
 - HTTPS is mandatory for SSE-C
 - Encryption in flight is also called SSL/TLS
 
-![](images/2019-12-30-11-59-39.png)
+![](2019-12-30-11-59-39.png)
 
-![](images/2019-12-30-12-00-13.png)
+![](2019-12-30-12-00-13.png)

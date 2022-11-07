@@ -12,7 +12,7 @@
 - A trail can be applied to All Regions (default) or a single Region
 - If a resource is deleted in AWS, investigate CloudTrail first!
 
-![](img/2022-04-26-18-05-14.png)
+![](2022-04-26-18-05-14.png)
 
 The CloudWatch logs and S3 bucket is for the logs we want to keep more than 90 days.
 
@@ -44,11 +44,11 @@ The CloudWatch logs and S3 bucket is for the logs we want to keep more than 90 d
     - Event is sent to Amazon S3
     - An EventBridge event is generated for (automation needs)
 
-![](img/2022-04-26-18-10-53.png)
+![](2022-04-26-18-10-53.png)
 
 ## Events Retention
 
 - Events are stored for 90 days in CloudTrail
 - To keep events beyond this period, log them to S3 and use Athena
 
-![](img/2022-04-26-18-11-39.png)
+![](2022-04-26-18-11-39.png)

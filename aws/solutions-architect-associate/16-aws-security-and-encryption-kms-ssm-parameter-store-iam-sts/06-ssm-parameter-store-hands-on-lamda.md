@@ -2,7 +2,7 @@
 
 Create a new lamda function
 
-![](images/2020-01-01-14-52-53.png)
+![](2020-01-01-14-52-53.png)
 
 Insert code:
 
@@ -27,11 +27,11 @@ An error occurred (AccessDeniedException) when calling the GetParameters operati
 
 We are going to open up the lamda role and `Add Inline Policy`:
 
-![](images/2020-01-01-14-59-28.png)
+![](2020-01-01-14-59-28.png)
 
-![](images/2020-01-01-15-01-30.png)
+![](2020-01-01-15-01-30.png)
 
-![](images/2020-01-01-15-02-00.png)
+![](2020-01-01-15-02-00.png)
 
 Now if we test, we get:
 
@@ -41,7 +41,7 @@ An error occurred (AccessDeniedException) when calling the GetParameters operati
 
 We are going to add one more inline policy:
 
-![](images/2020-01-01-15-07-14.png)
+![](2020-01-01-15-07-14.png)
 
 Now, when testing, we get
 

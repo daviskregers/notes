@@ -3,12 +3,12 @@
 We can open up the Athena in AWS Console and open up the query editor.
 If this is the first time using it, we need to set up an S3 bucket for results.
 
-![](img/2022-02-17-08-09-58.png)
-![](img/2022-02-17-08-11-00.png)
+![](2022-02-17-08-09-58.png)
+![](2022-02-17-08-11-00.png)
 
 On the left side of the query editor we can see data sources and databases we can use.
 
-![](img/2022-02-17-08-11-52.png)
+![](2022-02-17-08-11-52.png)
 
 In the s3_access_logs_db we can run following queries from https://aws.amazon.com/premiumsupport/knowledge-center/analyze-logs-athena/
 
@@ -56,4 +56,4 @@ Now we'll be able to see the table on the left side and preview it:
 SELECT * FROM "s3_access_logs_db"."demo-dave-s3-bucket-access" limit 10;
 ```
 
-![](img/2022-02-17-08-16-59.png)
+![](2022-02-17-08-16-59.png)

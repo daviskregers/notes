@@ -10,10 +10,10 @@ Once again, we are going to `RDS` service in AWS console and choosing `create da
 - Connectivity
 - Database authentication
 
-![](images/2019-12-30-09-28-28.png)
+![](2019-12-30-09-28-28.png)
 
 When done, it will create a master and a read replica. If needed, you can manually add more readers or create an auto scaling policy.
 
-![](images/2019-12-30-09-31-16.png)
+![](2019-12-30-09-31-16.png)
 
-![](images/2019-12-30-09-31-41.png)
+![](2019-12-30-09-31-41.png)

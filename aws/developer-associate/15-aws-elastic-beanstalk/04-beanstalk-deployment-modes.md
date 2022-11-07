@@ -21,7 +21,7 @@
 - Route 53 can be setup using weighted policies to redirect a little bit of traffic to the stage environment
 - Using Beanstalk, "swap URLs" when done with the environment test
 
-![](img/2022-04-20-11-54-39.png)
+![](2022-04-20-11-54-39.png)
 
 ## Canary testing
 
@@ -33,7 +33,7 @@
 - New instances are migrated from the temporary to the original ASG
 - Old application version is teminated
 
-![](img/2022-04-20-11-56-25.png)
+![](2022-04-20-11-56-25.png)
 
 ## Deployment Summary
 

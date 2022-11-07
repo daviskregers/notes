@@ -18,19 +18,19 @@
 - Flow logs example [https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html#flow-log-records](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html#flow-log-records)
 - Query VPC flow logs using Athena on S3 or CloudWatch Logs Insights
 
-![](images/2020-01-01-17-51-18.png)
+![](2020-01-01-17-51-18.png)
 
-![](images/2020-01-01-17-52-24.png)
+![](2020-01-01-17-52-24.png)
 
-![](images/2020-01-01-17-53-34.png)
+![](2020-01-01-17-53-34.png)
 
-![](images/2020-01-01-17-54-23.png)
+![](2020-01-01-17-54-23.png)
 
-![](images/2020-01-01-17-55-13.png)
+![](2020-01-01-17-55-13.png)
 
-![](images/2020-01-01-17-59-01.png)
+![](2020-01-01-17-59-01.png)
 
-![](images/2020-01-01-17-59-30.png)
+![](2020-01-01-17-59-30.png)
 
 Now we can use the documentation at [https://docs.aws.amazon.com/athena/latest/ug/vpc-flow-logs.html](https://docs.aws.amazon.com/athena/latest/ug/vpc-flow-logs.html) to analyze the flow logs with Athena.
 

@@ -58,11 +58,11 @@ but there are way more
 
 ## Example - thumbnail creation with serverless
 
-![](img/2022-05-12-06-42-47.png)
+![](2022-05-12-06-42-47.png)
 
 ## Example - serverless CRON job
 
-![](img/2022-05-12-06-43-19.png)
+![](2022-05-12-06-43-19.png)
 
 ## AWS Lambda Pricing: example
 

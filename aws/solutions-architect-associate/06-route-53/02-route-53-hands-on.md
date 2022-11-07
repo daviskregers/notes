@@ -5,7 +5,7 @@ There we can `Register domain` if you wish to buy a domain, we can also transfer
 
 When opening up hosted zone from a domain, we can setup it's DNS records.
 
-![](images/2019-12-30-10-05-25.png)
+![](2019-12-30-10-05-25.png)
 
 ## EC2 Setup
 
@@ -17,7 +17,7 @@ In order not to overload the DNS, we use TTL to cache the DNS response for the p
 
 The TTL can be set when creating records:
 
-![](images/2019-12-30-10-11-38.png)
+![](2019-12-30-10-11-38.png)
 
 ## CNAME vs ALIAS
 
@@ -32,7 +32,7 @@ AWS Resources (Load Balancer, CloudFront etc) expose an AWS URL (lb1-1234.us-eas
 
 So, for subdomains we can create both CNAME and ALIAS for our load balancer, but alias would be the recommended way to go. For root domain, we can only use ALIAS.
 
-![](images/2019-12-30-10-16-01.png)
+![](2019-12-30-10-16-01.png)
 
 ## Routing Policy - Simple
 
@@ -50,7 +50,7 @@ So, for subdomains we can create both CNAME and ALIAS for our load balancer, but
 
 We can create multiple records with the same name and attach different weights:
 
-![](images/2019-12-30-10-22-19.png)
+![](2019-12-30-10-22-19.png)
 
 ## Routing Policy - Latency
 
@@ -61,7 +61,7 @@ We can create multiple records with the same name and attach different weights:
 
 Same as the weighted policy, we can create multiple rules and attach different regions.
 
-![](images/2019-12-30-10-24-19.png)
+![](2019-12-30-10-24-19.png)
 
 ## Route 53 Health Checks
 
@@ -75,9 +75,9 @@ Same as the weighted policy, we can create multiple rules and attach different r
 
 - Health checks can be linked to Route53 DNS queries.
 
-![](images/2019-12-30-10-28-13.png)
+![](2019-12-30-10-28-13.png)
 
-![](images/2019-12-30-10-29-14.png)
+![](2019-12-30-10-29-14.png)
 
 ## Routing Policy - Failover
 
@@ -90,7 +90,7 @@ We can have 2 EC2 instances and route between them based on health checks. If th
 - Here we specify traffic from the UK should go to this specific IP
 - Should create a default policy (in case there's no match on location)
 
-![](images/2019-12-30-10-34-18.png)
+![](2019-12-30-10-34-18.png)
 
 ## Routing Policy - Multi Value
 

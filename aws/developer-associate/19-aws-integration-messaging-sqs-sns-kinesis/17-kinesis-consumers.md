@@ -30,4 +30,4 @@
     - If error occurs, Lambda retries until succeeds or data expired
     - Can process up to 10 batches per shard simultaneously
 
-![](img/2022-04-27-07-52-37.png)
+![](2022-04-27-07-52-37.png)

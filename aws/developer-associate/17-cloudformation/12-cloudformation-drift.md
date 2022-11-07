@@ -10,6 +10,6 @@
 
 In order to detect the drift, we can choose it under stack actions.
 
-![](img/2022-04-21-11-50-31.png)
+![](2022-04-21-11-50-31.png)
 
-![](img/2022-04-21-11-50-59.png)
+![](2022-04-21-11-50-59.png)

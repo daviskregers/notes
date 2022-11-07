@@ -4,7 +4,7 @@
 - You can use the Application Load Balancer (or an API Gateway)
 - The Lambda function must be registered in a target group
 
-![](img/2022-05-12-07-08-08.png)
+![](2022-05-12-07-08-08.png)
 
 The HTTPS payload will be provided to Lambda in JSON format
 

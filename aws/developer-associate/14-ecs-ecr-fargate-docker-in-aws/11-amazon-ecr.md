@@ -8,4 +8,4 @@
 - Access is controlled through IAM (if there are any permission errors, take a look into policies)
 - Supports image vulnerability scanning, versioning, image tags, image lifecycles,...
 
-![](img/2022-04-20-11-14-44.png)
+![](2022-04-20-11-14-44.png)

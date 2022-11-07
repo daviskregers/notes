@@ -8,7 +8,7 @@
 - Deploy often
 - Happier developers as they're unblocked
 
-![](images/2020-01-02-14-18-39.png)
+![](2020-01-02-14-18-39.png)
 
 ---
 
@@ -21,8 +21,8 @@
     - Spinnaker
     - Etc
 
-![](images/2020-01-02-14-20-17.png)
+![](2020-01-02-14-20-17.png)
 
 ## Technology Stack for CICD
 
-![](images/2020-01-02-14-21-04.png)
+![](2020-01-02-14-21-04.png)

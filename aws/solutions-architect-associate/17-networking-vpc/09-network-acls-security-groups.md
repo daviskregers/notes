@@ -17,22 +17,22 @@
 
 ## Incoming Request
 
-![](images/2020-01-01-17-20-39.png)
+![](2020-01-01-17-20-39.png)
 
 ## Outgoing Request
 
-![](images/2020-01-01-17-21-05.png)
+![](2020-01-01-17-21-05.png)
 
 ---
 
 If we look at our DemoVPC NACL, we can see that all the inbound traffic is allowed, as well as all outbound network.
 
-![](images/2020-01-01-17-22-49.png)
+![](2020-01-01-17-22-49.png)
 
-![](images/2020-01-01-17-22-59.png)
+![](2020-01-01-17-22-59.png)
 
 ## Network ACLs vs Security Groups
 
-![](images/2020-01-01-17-24-40.png)
+![](2020-01-01-17-24-40.png)
 
 [https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html#VPC_Security_Comparison](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html#VPC_Security_Comparison)

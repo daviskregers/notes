@@ -20,7 +20,7 @@ Everything else will be default except for security group.
 
 We are going to enable both ssh and http.
 
-![](img/2022-02-08-06-23-35.png)
+![](2022-02-08-06-23-35.png)
 
 We can do the same for 2 different regions as well.
 

@@ -2,7 +2,7 @@
 
 ## Traditional Architecture
 
-![](img/2022-05-17-06-25-49.png)
+![](2022-05-17-06-25-49.png)
 
 - Traditional applications leverage RDBMS databases
 - These databases have SQL query language
@@ -53,14 +53,14 @@
     - Partition key must be diverse so that the data is distributed
     - Example: user_id for a users table
 
-![](img/2022-05-17-06-32-48.png)
+![](2022-05-17-06-32-48.png)
 
 - Option 2: Partition Key + Sort Key (HASH + Range)
     - The combination must be unique for each item
     - Data is grouped by partition key
     - Example: users-games table, user_id for partition key and game_id for sort key.
 
-![](img/2022-05-17-06-34-16.png)
+![](2022-05-17-06-34-16.png)
 
 ## Partition Keys - Excercise
 

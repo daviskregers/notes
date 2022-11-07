@@ -1,4 +1,4 @@
-# Setting dev environment
+# Setting golang dev environment
 
 You can download go language and it's tools at [https://golang.org/dl](https://golang.org/dl).
 

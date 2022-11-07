@@ -6,4 +6,4 @@
 - Germany users may be directed to the US (if that's the lowest latency)
 - Can be associated with Health Checks (has a failover capability)
 
-![](img/2022-02-08-06-51-32.png)
+![](2022-02-08-06-51-32.png)

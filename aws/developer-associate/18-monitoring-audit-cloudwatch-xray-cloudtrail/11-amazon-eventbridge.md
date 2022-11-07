@@ -22,7 +22,7 @@
 - Example: allow/deny events from another AWS account or AWS region
 - Use case: aggregate all events from your AWS Organization in a single AWS account or AWS region
 
-![](img/2022-04-26-10-10-31.png)
+![](2022-04-26-10-10-31.png)
 
 ## Amazon EventBridge vs CloudWatch Events
 

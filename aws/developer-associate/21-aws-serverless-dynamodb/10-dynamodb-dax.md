@@ -9,8 +9,8 @@
 - Multi-AZ (3 nodes minimum recommended for production)
 - Secure (Encryption at rest with KMS, VPC, IAM, CloudTrail)
 
-![](img/2022-05-17-07-55-07.png)
+![](2022-05-17-07-55-07.png)
 
 ## DAX vs ElastiCache
 
-![](img/2022-05-17-07-55-38.png)
+![](2022-05-17-07-55-38.png)

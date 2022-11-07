@@ -2,21 +2,21 @@
 
 We are going to AWS console, EC2 panel and launch a new instance, every step will be the same as in the previous sections, but there is a step for storage, that we're interested in.
 
-![](images/2019-12-30-06-45-26.png)
+![](2019-12-30-06-45-26.png)
 
 Here we can change the size of the root partition as well as the volume type and IOPS.
 
-![](images/2019-12-30-06-46-42.png)
+![](2019-12-30-06-46-42.png)
 
 We are also going to add an extra volume on /dev/sdb. When chosing this option, we can also create the drive from a snapshot, but since we don't have one, we'll leave it empty. 
 
 We can also choose to use encryption, but it will not interest us this time.
 
-![](images/2019-12-30-06-48-02.png)
+![](2019-12-30-06-48-02.png)
 
 After instance creation, when we go to the Volume section, we can see that there are 2 volumes created:
 
-![](images/2019-12-30-06-53-05.png)
+![](2019-12-30-06-53-05.png)
 
 If we ssh into the ec2 instance, we can see that the volume has been attached.
 

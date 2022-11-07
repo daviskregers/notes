@@ -2,7 +2,7 @@
 
 We are going to create our first elastic beanstalk environment.
 
-![](img/2022-04-20-12-55-15.png)
+![](2022-04-20-12-55-15.png)
 
 The creation process will take a bit of time, but once it's ready. You can open it up and there will be following options:
 - Events

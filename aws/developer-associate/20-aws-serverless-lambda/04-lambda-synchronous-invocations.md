@@ -4,7 +4,7 @@
     - Results are returned right away
     - Error handling must happen client side (retries, expenential backoff, etc)
 
-![](img/2022-05-12-06-58-48.png)
+![](2022-05-12-06-58-48.png)
 
 - User Invoked
     - Elastic Load Balancing

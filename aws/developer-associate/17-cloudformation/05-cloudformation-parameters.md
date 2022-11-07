@@ -59,4 +59,4 @@ DbSubnet1:
 - AWS offers us pseudo parameters in any CloudFormation template
 - These can be used at any time and are enabled by default
 
-![](img/2022-04-21-11-09-00.png)
+![](2022-04-21-11-09-00.png)

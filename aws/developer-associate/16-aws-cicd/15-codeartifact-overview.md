@@ -7,4 +7,4 @@
 - Works with common dependency management tools such as Maven, Gradle, npm, yarn, twine, pip and NuGet
 - Developers and CodeBuild can then retrieve dependencies from CodeArtifact
 
-![](img/2022-04-21-09-56-31.png)
+![](2022-04-21-09-56-31.png)

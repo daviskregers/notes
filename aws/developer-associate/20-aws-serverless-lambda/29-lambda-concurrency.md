@@ -13,7 +13,7 @@
 - For throttling errors (429) and system errors (500-series), Lambda returns the event to the queue and attempts to run the function again for up to 6 hours.
 - The retry interval increases exponentially from 1 second after the first attempt to a maximum of 5 minutes.
 
-![](img/2022-05-12-09-12-33.png)
+![](2022-05-12-09-12-33.png)
 
 ## Cold Starts & Provisioned Concurrency
 
@@ -31,6 +31,6 @@
 
 ## Reserved and Provisioned Concurrency
 
-![](img/2022-05-12-09-15-58.png)
+![](2022-05-12-09-15-58.png)
 
 https://docs.aws.amazon.com/lambda/latest/dg/configuration-concurrency.html

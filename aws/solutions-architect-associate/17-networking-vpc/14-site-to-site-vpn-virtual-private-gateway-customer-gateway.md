@@ -1,6 +1,6 @@
 # Site to Site VPN, Virtual Private Gateway, Customer Gateway
 
-![](images/2020-01-01-18-04-30.png)
+![](2020-01-01-18-04-30.png)
 
 - Virtual Private Gateway:
     - VPN concentrator on the AWS side of the VPN connection

@@ -38,7 +38,7 @@
 - Deploy often
 - Happier developers, as they're unblocked
 
-![](img/2022-04-21-07-49-15.png)
+![](2022-04-21-07-49-15.png)
 
 
 ## Continous Deliver (CD)
@@ -48,8 +48,8 @@
 - Shift away from "one release every 3 months" to "5 releases a day"
 - That usually means automated deployment (e.g. CodeDeploy, Jenkins CD, Spinnaker, ...)
 
-![](img/2022-04-21-07-51-02.png)
+![](2022-04-21-07-51-02.png)
 
 ## Technology Stack for CICD
 
-![](img/2022-04-21-07-51-53.png)
+![](2022-04-21-07-51-53.png)

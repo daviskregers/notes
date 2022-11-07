@@ -63,13 +63,13 @@
 
 Visit `Kinesis` from AWS Console.
 
-![](images/2019-12-31-11-09-32.png)
+![](2019-12-31-11-09-32.png)
 
-![](images/2019-12-31-11-09-47.png)
+![](2019-12-31-11-09-47.png)
 
 Create a data stream.
 
-![](images/2019-12-31-11-14-14.png)
+![](2019-12-31-11-14-14.png)
 
 Then you can work with it using the CLI.
 

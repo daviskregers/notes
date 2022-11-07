@@ -46,9 +46,9 @@
         - Standard (3 to 5 hours) - $0.01 per GB and 0.05 per 1000 requests
         - Bulk (5 to 12 hours) - $0.0025 per GB and $0.025 per 1000 requests
 
-![](images/2019-12-31-08-41-44.png)
+![](2019-12-31-08-41-44.png)
 
-![](images/2019-12-31-08-43-53.png)
+![](2019-12-31-08-43-53.png)
 
 ## S3 Lifecycle Rules
 
@@ -60,8 +60,8 @@
     - Eg: Access log files can be set to delete after a specified period of time
 - Can be used to delete incomplete multi-part uploads
 
-![](images/2019-12-31-08-48-24.png)
+![](2019-12-31-08-48-24.png)
 
-![](images/2019-12-31-08-50-11.png)
+![](2019-12-31-08-50-11.png)
 
-![](images/2019-12-31-08-51-04.png)
+![](2019-12-31-08-51-04.png)

@@ -12,6 +12,6 @@
 - Full Trusted Advisor - Available for Business & Enterprise support plans
     - Ability to set CloudWatch alarm when reaching limits
 
-![](images/2020-01-02-15-48-40.png)
+![](2020-01-02-15-48-40.png)
 
-![](images/2020-01-02-15-49-27.png)
+![](2020-01-02-15-49-27.png)

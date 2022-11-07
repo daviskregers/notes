@@ -1,6 +1,6 @@
 # Amazon SQS Standard Queues Overview
 
-![](img/2022-04-27-06-22-11.png)
+![](2022-04-27-06-22-11.png)
 
 ## Amazon SQS - Standard Queue
 
@@ -35,7 +35,7 @@
 - Process the messages (example: insert the message into an RDS database)
 - Delete the messages using the DeleteMessage API
 
-![](img/2022-04-27-06-27-07.png)
+![](2022-04-27-06-27-07.png)
 
 ## Multiple EC2 Instances Consumers
 
@@ -45,15 +45,15 @@
 - Consumers delete messages after processing them
 - We can scale consumers horizontally to improve throughput of processing
 
-![](img/2022-04-27-06-28-15.png)
+![](2022-04-27-06-28-15.png)
 
 ## SQS with Auto Scaling Group
 
-![](img/2022-04-27-06-28-42.png)
+![](2022-04-27-06-28-42.png)
 
 ## Declouple between application tiers
 
-![](img/2022-04-27-06-29-14.png)
+![](2022-04-27-06-29-14.png)
 
 ## Security
 

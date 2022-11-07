@@ -4,7 +4,7 @@ You can obtain access key in your IAM account, under `Security Credentials -> Ac
 
 **Do not generate access credentials for your root account!** Only add them for your IAM accounts.
 
-![](img/2021-07-26-18-22-23.png)
+![](2021-07-26-18-22-23.png)
 
 ```
 ➜  /tmp aws --version

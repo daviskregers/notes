@@ -11,3 +11,5 @@ Sources: [Software Architecture: Meta and SOLID Principles in C#](https://www.ud
 - [x] ISP
 - [x] DIP
 - [x] Metaprinciples
+
+- [ ] index stuff here

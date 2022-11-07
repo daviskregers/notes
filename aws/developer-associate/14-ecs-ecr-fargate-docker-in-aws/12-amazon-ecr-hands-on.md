@@ -34,7 +34,7 @@ We can also have features like:
 - Automatic image scans for vulnerabilities
 - KMS encryption
 
-![](img/2022-04-20-11-19-43.png)
+![](2022-04-20-11-19-43.png)
 
 Once it's created we we can do the following things
 

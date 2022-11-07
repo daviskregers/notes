@@ -13,7 +13,7 @@
 - EC2 instances will run the deployment instructions in appspec.yml
 - CodeDeploy Agent will report of success/failure of the deployment
 
-![](img/2022-04-21-09-09-15.png)
+![](2022-04-21-09-09-15.png)
 
 ## Primary Components
 
@@ -70,7 +70,7 @@ hooks:
           runas: codedeployuser
 ```
 
-![](img/2022-04-21-09-18-00.png)
+![](2022-04-21-09-18-00.png)
 
 ## Deployment Configurations
 

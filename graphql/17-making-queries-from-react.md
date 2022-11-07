@@ -75,4 +75,4 @@ class BookList extends Component {
 export default graphql(getBooksQuery)(BookList);           
 ```
 
-![](images/2019-12-23-13-52-34.png)
+![](2019-12-23-13-52-34.png)

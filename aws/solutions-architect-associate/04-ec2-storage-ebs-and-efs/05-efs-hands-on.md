@@ -2,41 +2,41 @@
 
 Before we start using EFS, we have to go to `Security Groups` and create a new security group. All the inbound/outbound rules can be left at default.
 
-![](images/2019-12-30-07-49-44.png)
+![](2019-12-30-07-49-44.png)
 
 Next, we can go to `EFS Service`.
 
-![](images/2019-12-30-07-51-02.png)
+![](2019-12-30-07-51-02.png)
 
 And click on `Create file system`
 
-![](images/2019-12-30-07-51-22.png)
+![](2019-12-30-07-51-22.png)
 
 Change the default security group to the previously created one.
 
-![](images/2019-12-30-07-52-41.png)
+![](2019-12-30-07-52-41.png)
 
 When going through, we should see that the EFS is creating, it has a `File system ID` and it has 3 IPs on each specified AZs.
 
-![](images/2019-12-30-07-54-36.png)
+![](2019-12-30-07-54-36.png)
 
 When the EFS instances are done setup, we can go to EC2 and launch a new instance.
 
 When creating it, select an Availability Zone.
 
-![](images/2019-12-30-07-57-23.png)
+![](2019-12-30-07-57-23.png)
 
 When the instance has been created, right-click on it and select `Launch more like this`.
 
-![](images/2019-12-30-08-00-02.png)
+![](2019-12-30-08-00-02.png)
 
 Then click on `Edit Instance details` and select a different AZ.
 
-![](images/2019-12-30-08-00-55.png)
+![](2019-12-30-08-00-55.png)
 
 Once that's done, we can SSH into the instances and setup the EFS. The instructions for that are available at the EFS page.
 
-![](images/2019-12-30-08-02-01.png)
+![](2019-12-30-08-02-01.png)
 
 ```
 sudo yum install -y amazon-efs-utils
@@ -53,8 +53,8 @@ Failed to initialize TLS tunnel for fs-aff48164
 
 In order to fix this, we will need to change the settings to the Security Group by adding `inbound NFS` for the security group that the ec2 instances has.
 
-![](images/2019-12-30-08-10-24.png)
+![](2019-12-30-08-10-24.png)
 
 Now we can mount it and test it between the instances on different AZs:
 
-![](images/2019-12-30-08-13-35.png)
+![](2019-12-30-08-13-35.png)

@@ -5,7 +5,7 @@
 - Must not have overlapping CIDR (IP address ranges)
 - VPC Peering connection is not transitive (must be established for each VPC that need to communicate with one another)
 
-![](img/2022-02-08-07-57-29.png)
+![](2022-02-08-07-57-29.png)
 
 # VPC Endpoints
 
@@ -15,7 +15,7 @@
 - VPC endpoint interface: the rest
 - only used within your VPC
 
-![](img/2022-02-08-07-59-23.png)
+![](2022-02-08-07-59-23.png)
 
 ## Site to Site VPN
 
@@ -32,4 +32,4 @@
 
 Note: Site-to-Site VPN and Direct Connect cannot access VPC endpoints.
 
-![](img/2022-02-08-08-01-45.png)
+![](2022-02-08-08-01-45.png)

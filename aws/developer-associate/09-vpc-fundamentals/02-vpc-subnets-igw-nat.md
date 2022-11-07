@@ -8,7 +8,7 @@
 - A private subnet is a subnet that is not accessible from the internet
 - To define access to the internet and between subnets, we use Route Tables.
 
-![](img/2022-02-08-07-43-32.png)
+![](2022-02-08-07-43-32.png)
 
 ## Internet Gateway and NAT Gateways
 
@@ -19,4 +19,4 @@
 
 - NAT Gateways (AWS Managed) & NAT Instances (self-managed) allow your instances in your private subnets to access the internet while remaining private.
 
-![](img/2022-02-08-07-46-26.png)
+![](2022-02-08-07-46-26.png)

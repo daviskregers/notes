@@ -11,7 +11,7 @@
 
 ## Visual analysis of our applications
 
-![](img/2022-04-26-10-15-14.png)
+![](2022-04-26-10-15-14.png)
 
 ## X-Ray advantages
 
@@ -60,7 +60,7 @@
     - AWS Lambda / other AWS services alreeady run the X-Ray daemon for you
     - Each application must have the IAM rights to write data to X-Ray
 
-![](img/2022-04-26-10-21-14.png)
+![](2022-04-26-10-21-14.png)
 
 ## The X-Ray magic
 

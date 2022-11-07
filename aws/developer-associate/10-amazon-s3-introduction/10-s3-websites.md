@@ -32,19 +32,19 @@ And an error.html
 
 Now we can go to the properties and enable static website hosting:
 
-![](img/2022-02-10-07-28-38.png)
+![](2022-02-10-07-28-38.png)
 
 In the properties we will be able to view the endpoint now:
 
-![](img/2022-02-10-07-29-06.png)
+![](2022-02-10-07-29-06.png)
 
 If we open it up:
 
-![](img/2022-02-10-07-29-28.png)
+![](2022-02-10-07-29-28.png)
 
 This is due to the fact that the bucket is not public:
 
-![](img/2022-02-10-07-30-09.png)
+![](2022-02-10-07-30-09.png)
 
 ```json
 {
@@ -64,12 +64,12 @@ This is due to the fact that the bucket is not public:
 }
 ```
 
-![](img/2022-02-10-07-31-57.png)
+![](2022-02-10-07-31-57.png)
 
 Now, if we refresh the page:
 
-![](img/2022-02-10-07-32-16.png)
+![](2022-02-10-07-32-16.png)
 
 If we open up a path that doesn't exist:
 
-![](img/2022-02-10-07-33-00.png)
+![](2022-02-10-07-33-00.png)

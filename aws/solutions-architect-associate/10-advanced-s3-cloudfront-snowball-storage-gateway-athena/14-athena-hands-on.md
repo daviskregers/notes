@@ -2,15 +2,15 @@
 
 We can access `Athena` from AWS Console.
 
-![](images/2019-12-31-09-18-27.png)
+![](2019-12-31-09-18-27.png)
 
 When clicking on `Get Started` it redirects us to a Query Editor.
 
-![](images/2019-12-31-09-19-10.png)
+![](2019-12-31-09-19-10.png)
 
 Since it asked me to setup results path, I created a new S3 bucket.
 
-![](images/2019-12-31-09-22-34.png)
+![](2019-12-31-09-22-34.png)
 
 Then ran following queries:
 

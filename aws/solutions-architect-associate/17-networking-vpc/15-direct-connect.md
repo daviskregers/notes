@@ -10,7 +10,7 @@
     - Hybrid environments (on prem + cloud)
 - Supports both IPv4 and IPv6
 
-![](images/2020-01-01-18-10-38.png)
+![](2020-01-01-18-10-38.png)
 
 ## Direct Connect Gateway
 

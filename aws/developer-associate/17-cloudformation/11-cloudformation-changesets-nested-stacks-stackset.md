@@ -5,7 +5,7 @@
 - When you update a stack, you need to know what changes before it happens for greater condidence
 - ChangeSets won't say if the update will be successful
 
-![](img/2022-04-21-11-42-36.png)
+![](2022-04-21-11-42-36.png)
 
 ## Nested Stacks
 
@@ -24,14 +24,14 @@
     - Use Outputs Export and Fn::ImportValue
     - When you need to pass export values to many stacks (VPC Id, etc)
 
-![](img/2022-04-21-11-46-24.png)
+![](2022-04-21-11-46-24.png)
 
 - Nested Stacks
     - Helpful when components must be re-used
     - Ex: re-use how to properly configure an Application Load Balancer
     - The nested stack only is important to the higher level stack (it's not shared)
 
-![](img/2022-04-21-11-46-32.png)
+![](2022-04-21-11-46-32.png)
 
 ## StackSets
 
@@ -40,4 +40,4 @@
 - Trusted accounts to create, update, delete stack instances from StackSets
 - When you update a stack set, all associated stack instances are updated throughout all accounts and regions.
 
-![](img/2022-04-21-11-47-44.png)
+![](2022-04-21-11-47-44.png)

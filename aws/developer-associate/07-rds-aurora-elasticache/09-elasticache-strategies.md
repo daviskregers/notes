@@ -16,7 +16,7 @@
 
 ## Lazy Loading / Cache-Aside / Lazy Population
 
-![](img/2021-10-18-09-27-29.png)
+![](2021-10-18-09-27-29.png)
 
 - Pros
     - Only requested data is cached (the cache isn't filled up with unused data)
@@ -50,7 +50,7 @@ user = get_user(17)
     - Missing data until it is added / updated in the DB. mitigation is to implement lazy loading strategy as well.
     - Cache churn - a lot of the data will never be read
 
-![](img/2021-10-18-09-31-58.png)
+![](2021-10-18-09-31-58.png)
 
 ```python
 def save_user(user_id, values):

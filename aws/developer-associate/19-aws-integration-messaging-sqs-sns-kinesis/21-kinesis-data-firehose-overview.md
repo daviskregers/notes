@@ -1,6 +1,6 @@
 # Kinesis Data Firehose
 
-![](img/2022-04-27-08-17-36.png)
+![](2022-04-27-08-17-36.png)
 
 - Fully Managed Service, no administration, automatic scaling, serverless
     - AWS: Redshift / Amazon S3 / ElasticSearch

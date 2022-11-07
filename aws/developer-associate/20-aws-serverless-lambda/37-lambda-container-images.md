@@ -7,7 +7,7 @@
 - Test the containers locally using the Lambda Runtime Interface Emulator
 - Unified workflow to build apps
 
-![](img/2022-05-12-09-50-32.png)
+![](2022-05-12-09-50-32.png)
 
 Example: build from the base images provided by AWS
 

@@ -7,6 +7,6 @@
 - Any new users that subscribe should receive a welcome email
 - Any photo uploaded to the blog should have a thumbnail generated
 
-![](images/2020-01-01-12-19-57.png)
+![](2020-01-01-12-19-57.png)
 
-![](images/2020-01-01-12-20-31.png)
+![](2020-01-01-12-20-31.png)

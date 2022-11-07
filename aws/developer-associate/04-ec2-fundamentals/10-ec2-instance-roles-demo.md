@@ -22,21 +22,21 @@ The reason for that is that anyone with the access to the aws account can connec
 
 The other way to do this is to use IAM roles.
 
-In the [previous sections](../03-iam-and-aws-cli/11-iam-roles-hands-on.md) we created an IAM role with a read only access to IAM.
+In the [previous sections](11-iam-roles-hands-on.md) we created an IAM role with a read only access to IAM.
 
-![](img/2021-09-07-18-00-07.png)
+![](2021-09-07-18-00-07.png)
 
 We are going to attach it to the EC2 instance. That can be done by selecting an EC2 instance and clicking on `Actions -> Security -> Modify IAM role`.
 
-![](img/2021-09-07-18-02-18.png)
+![](2021-09-07-18-02-18.png)
 
 And there we are going to select the role:
 
-![](img/2021-09-07-18-02-55.png)
+![](2021-09-07-18-02-55.png)
 
 It should be visible under instance details now:
 
-![](img/2021-09-07-18-03-38.png)
+![](2021-09-07-18-03-38.png)
 
 If we try try the same command now, it will work:
 
@@ -51,7 +51,7 @@ If we try try the same command now, it will work:
 
 If we were to detach the permission now.
 
-![](img/2021-09-07-18-06-16.png)
+![](2021-09-07-18-06-16.png)
 
 ```
 [ec2-user@ip-172-31-16-73 ~]$ aws iam list-users

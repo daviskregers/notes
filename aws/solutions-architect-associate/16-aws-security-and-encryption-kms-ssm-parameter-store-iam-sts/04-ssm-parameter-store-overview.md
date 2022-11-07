@@ -8,7 +8,7 @@
 - Notifications with CloudWatch Events
 - Integration with CloudFormation
 
-![](images/2020-01-01-14-39-23.png)
+![](2020-01-01-14-39-23.png)
 
 ## AWS Parameter Store Hierarchy
 

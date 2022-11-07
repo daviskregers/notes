@@ -12,7 +12,7 @@
     - Cognito
 - Using federation, you don't need to create IAM users (user management is outside of AWS)
 
-![](images/2020-01-01-15-15-36.png)
+![](2020-01-01-15-15-36.png)
 
 ## SAML Federation (For enterprises)
 
@@ -20,14 +20,14 @@
 - Provides access to AWS Console or CLI (though temporary creds)
 - No need to create an IAM user for each of your employees
 
-![](images/2020-01-01-15-17-04.png)
+![](2020-01-01-15-17-04.png)
 
 ## Custom Identity Broker Application (For Enterprises)
 
 - Use only if identity provider is not compatible with SAML 2.0
 - The identity broker must determine the appropriate IAM policy
 
-![](images/2020-01-01-15-18-12.png)
+![](2020-01-01-15-18-12.png)
 
 ## AWS Cognito - Federate Identity Pools (For Public Applications)
 
@@ -42,5 +42,5 @@
 - Note
     - Web Identity Federation is an alternative to using Cognito but AWS recommends against it.
 
-![](images/2020-01-01-15-20-47.png)
+![](2020-01-01-15-20-47.png)
 

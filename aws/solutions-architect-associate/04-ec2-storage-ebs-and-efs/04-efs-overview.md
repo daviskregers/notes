@@ -18,4 +18,4 @@
 - Backup EFS-to-EFS (incremental - can choose frequency)
 - Encryption at rest using KMS
 
-![](images/2019-12-30-07-45-31.png)
+![](2019-12-30-07-45-31.png)

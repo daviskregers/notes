@@ -17,4 +17,4 @@ $ zip -r function.zip .
 $ aws lambda create-function --zip-file fileb://function.zip --function-name lambda-xray-with-dependencies --runtime nodejs14.x --handler index.handler --role arn:aws:iam::...:role/DemoLambdaWithDependencies
 ```
 
-![](img/2022-05-12-09-27-41.png)
+![](2022-05-12-09-27-41.png)

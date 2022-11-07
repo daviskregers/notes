@@ -8,4 +8,4 @@
     - Sharding using Random Suffix
     - Sharding using Calculated suffix
 
-![](img/2022-05-17-08-38-59.png)
+![](2022-05-17-08-38-59.png)

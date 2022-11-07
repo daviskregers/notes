@@ -5,7 +5,7 @@
 - That means the message has 30 seconds to be processed
 - After the message visibility timeout is over, the message is visible in SQS
 
-![](img/2022-04-27-06-49-08.png)
+![](2022-04-27-06-49-08.png)
 
 - If a message is not processed within the visibility timeout, it will be processed twice
 - A consumer call the ChangeMessageVisibility API to get more time

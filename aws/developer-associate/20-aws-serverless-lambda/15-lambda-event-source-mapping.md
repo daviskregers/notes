@@ -7,7 +7,7 @@
 - Common denominator: records need to be polled from the source
 - You Lambda function is invoked synchonously
 
-![](img/2022-05-12-07-55-32.png)
+![](2022-05-12-07-55-32.png)
 
 ## Streams & Lambda (Kinesis & DynamoDB)
 
@@ -19,7 +19,7 @@
     - Up to 10 batches per shard
     - in-order processing is still guaranteed for each partition key
 
-![](img/2022-05-12-07-57-40.png)
+![](2022-05-12-07-57-40.png)
 
 https://aws.amazon.com/blogs/compute/new-aws-lambda-scaling-controls-for-kinesis-and-dynamodb-event-sources/
 
@@ -43,7 +43,7 @@ https://aws.amazon.com/blogs/compute/new-aws-lambda-scaling-controls-for-kinesis
 - To use a DLQ
     - Set up the SQS queue, not Lambda (DLQ for Lambda is only for async invocations)
 
-![](img/2022-05-12-08-01-51.png)
+![](2022-05-12-08-01-51.png)
 
 ## Queues & Lambda
 

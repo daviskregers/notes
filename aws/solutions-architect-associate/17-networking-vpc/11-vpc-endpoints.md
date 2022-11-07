@@ -1,6 +1,6 @@
 # VPC endpoints
 
-![](images/2020-01-01-17-37-36.png)
+![](2020-01-01-17-37-36.png)
 
 - Endpoints allow you to connect to AWS Services using a private network instead of the public www network
 - They scale horizontally and are redundant
@@ -11,9 +11,9 @@
     - Check DNS Setting Resolution in your VPC
     - Check Route Tables
 
-![](images/2020-01-01-17-43-40.png)
-![](images/2020-01-01-17-43-58.png)
+![](2020-01-01-17-43-40.png)
+![](2020-01-01-17-43-58.png)
 
 Now the Private Subnet should have access to S3 without any internet access (if we remove that Gateway), provided the EC2 instance has the correct IAM permissions.
 
-![](images/2020-01-01-17-44-32.png)
+![](2020-01-01-17-44-32.png)

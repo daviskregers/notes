@@ -5,7 +5,7 @@ Then we can follow the AWS tutorial on how to create the layers: https://aws.ama
 
 In our lambda function at the bottom of the page we can add a new layer.
 
-![](img/2022-05-12-09-47-32.png)
+![](2022-05-12-09-47-32.png)
 
 So, this is a layer with Pyhon3.8 SciPy library already compiled available to us.
 

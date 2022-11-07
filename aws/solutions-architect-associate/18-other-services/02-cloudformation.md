@@ -79,6 +79,6 @@ When creating a new stack, you can choose between 3 options:
 - Use a sample template
 - Design your template in a GUI way
 
-![](images/2020-01-02-14-35-11.png)
+![](2020-01-02-14-35-11.png)
 
-![](images/2020-01-02-14-37-08.png)
+![](2020-01-02-14-37-08.png)

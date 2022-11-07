@@ -11,7 +11,7 @@
     - TransactWriteItems - one or more PutItem, UpdateItem and DeleteItem operations
 - Use cases: financial transactions, managing orders, multiplayer games.
 
-![](img/2022-05-17-08-32-54.png)
+![](2022-05-17-08-32-54.png)
 
 ## Capacity Computations
 

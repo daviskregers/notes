@@ -24,10 +24,10 @@ Note: s3 bucket websites dont support https
 
 This can be configured under behaviour.
 
-![](img/2022-02-17-08-52-08.png)
+![](2022-02-17-08-52-08.png)
 
 --- 
 
 For the geographic restrictions we can choose the `Geographic restrictions` tab.
 
-![](img/2022-02-17-08-52-57.png)
+![](2022-02-17-08-52-57.png)

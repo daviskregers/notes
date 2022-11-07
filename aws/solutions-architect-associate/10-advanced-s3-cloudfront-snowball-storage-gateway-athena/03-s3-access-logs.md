@@ -7,4 +7,4 @@
 
 - The log format is at https://docs.aws.amazon.com/AmazonS3/latest/dev/LogFormat.html
 
-![](images/2019-12-30-13-12-40.png)
+![](2019-12-30-13-12-40.png)

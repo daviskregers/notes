@@ -7,7 +7,7 @@
 - Make sure IAM permissions are correct
 - The CloudWatch log agent can be setup on-premises too
 
-![](img/2022-04-26-09-52-24.png)
+![](2022-04-26-09-52-24.png)
 
 ## CloudWatch Logs Agent & Unified Agent
 

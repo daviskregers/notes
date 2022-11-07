@@ -7,7 +7,7 @@
 - The reports created using the queries should be in S3
 - We want to load that data into a warehouse and create dashboards
 
-![](images/2020-01-01-12-36-11.png)
+![](2020-01-01-12-36-11.png)
 
 - IoT core allows you to harvest data from IoT devices
 - Kinesis is great for real-time data collection

@@ -2,7 +2,7 @@
 
 Previously we tested the Lambda using the test button, which was a syncronous invocation meaning that we waited for the lambda to be finished.
 
-![](img/2022-05-12-07-01-45.png)
+![](2022-05-12-07-01-45.png)
 
 We can also invoke it via shell
 

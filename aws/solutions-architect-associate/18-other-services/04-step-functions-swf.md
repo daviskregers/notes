@@ -14,7 +14,7 @@
     - Web applications
     - Any workflow
 
-![](images/2020-01-02-14-52-55.png)
+![](2020-01-02-14-52-55.png)
 
 ## AWS SWF - Simple Workflow Service
 

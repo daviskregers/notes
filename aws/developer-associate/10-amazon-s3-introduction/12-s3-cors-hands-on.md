@@ -30,7 +30,7 @@ And add an extra-page.html:
 
 If we view the index, we can see that it works:
 
-![](img/2022-02-10-07-37-05.png)
+![](2022-02-10-07-37-05.png)
 
 This works because we have the same origin, but if we create a new bucket now and store the extra-page there:
 
@@ -54,7 +54,7 @@ This works because we have the same origin, but if we create a new bucket now an
 </html>
 ```
 
-![](img/2022-02-10-07-42-27.png)
+![](2022-02-10-07-42-27.png)
 
 We can go to permissions and set the CORS settings for the second bucket:
 
@@ -72,8 +72,8 @@ We can go to permissions and set the CORS settings for the second bucket:
 ]
 ```
 
-![](img/2022-02-10-07-46-30.png)
+![](2022-02-10-07-46-30.png)
 
 And now it works:
 
-![](img/2022-02-10-07-47-13.png)
+![](2022-02-10-07-47-13.png)

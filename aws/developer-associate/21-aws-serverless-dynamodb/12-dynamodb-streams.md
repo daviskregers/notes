@@ -15,7 +15,7 @@
 
 ---
 
-![](img/2022-05-17-08-07-19.png)
+![](2022-05-17-08-07-19.png)
 
 - Ability to choose the information that will be written to the stream:
     - KEYS_ONLY - only the key attributes of the modified item
@@ -33,4 +33,4 @@
 - You need to ensure the Lambda function has the appropriate permissions
 - You Lambda function is invoked syncronously
 
-![](img/2022-05-17-08-11-21.png)
+![](2022-05-17-08-11-21.png)

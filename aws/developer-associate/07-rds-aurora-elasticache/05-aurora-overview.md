@@ -20,7 +20,7 @@
 - Master + up to 15 aurora read replicas serve reads
 - Support for cross region replication
 
-![](img/2021-10-18-09-12-22.png)
+![](2021-10-18-09-12-22.png)
 
 ## Features of Aurora
 

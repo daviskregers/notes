@@ -10,7 +10,7 @@
 - Version = code + configuration (nothing can be changed - immutable)
 - Each version of the lambda function can be accessed
 
-![](img/2022-05-12-09-53-30.png)
+![](2022-05-12-09-53-30.png)
 
 ## Aliases
 
@@ -22,4 +22,4 @@
 - Aliases have their own ARNs
 - Aliases cannot reference aliases
 
-![](img/2022-05-12-09-54-52.png)
+![](2022-05-12-09-54-52.png)

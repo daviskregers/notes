@@ -4,11 +4,11 @@ We can use [mLab](https://mlab.com/) to use as a mongodb service, which is a fre
 
 We are going to sign up for the service and create a free tier cluster.
 
-![](images/2019-12-23-11-53-32.png)
+![](2019-12-23-11-53-32.png)
 
 Once it's done deploying, we are going to click on `Connect` and create a new user:
 
-![](images/2019-12-23-11-55-13.png)
+![](2019-12-23-11-55-13.png)
 
 Now we are going to install mongoose.
 

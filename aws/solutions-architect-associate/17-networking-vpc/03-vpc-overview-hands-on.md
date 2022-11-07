@@ -16,14 +16,14 @@
 
 We are going to create an empty VPC, without any wizard. To do this, we are going to navigate to `VPC -> Your VPCs` in Amazon Console.
 
-![](images/2020-01-01-16-01-37.png)
+![](2020-01-01-16-01-37.png)
 
 In the tenancy option we are going to select default, this means that when that we launch EC2 instances, we are going to want shared hardware, not dedicated one that will cost us a lot more money.
 
 When created, we can see that it also has a Main Route table and Main Network ACL created for us as well.
 
-![](images/2020-01-01-16-03-43.png)
+![](2020-01-01-16-03-43.png)
 
 Also, we are not limited to only one CIDR Block, we can edit it and put multiple in it (up to 5 blocks).
 
-![](images/2020-01-01-16-05-32.png)
+![](2020-01-01-16-05-32.png)

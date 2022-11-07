@@ -16,7 +16,7 @@
 - The ALB finds the right port on your EC2 instances.
 - You must allow on the EC2 instance's Security group any port from the ALB's Security Group
 
-![](img/2022-04-20-10-47-53.png)
+![](2022-04-20-10-47-53.png)
 
 ## Load Balancing (Fargate)
 
@@ -28,13 +28,13 @@
     - ALB Security Group
         - Allow port 80/443 from web
 
-![](img/2022-04-20-10-49-37.png)
+![](2022-04-20-10-49-37.png)
 
 ## One IAM Role per Task Definition
 
 IAM roles are assigned per task definition. Each ECS task will asume the provided role.
 
-![](img/2022-04-20-10-50-40.png)
+![](2022-04-20-10-50-40.png)
 
 ## Environment Variables
 
@@ -44,7 +44,7 @@ IAM roles are assigned per task definition. Each ECS task will asume the provide
     - Secrets Manager - sensitive variables (e.g. DB passwords)
 - Environment Files (bulk) - Amazon S3
 
-![](img/2022-04-20-10-53-02.png)
+![](2022-04-20-10-53-02.png)
 
 ## Data Volumes (Bind Mounts)
 
@@ -60,4 +60,4 @@ IAM roles are assigned per task definition. Each ECS task will asume the provide
     - Share ephemeral data between multiple containers
     - "Sidecar" container pattern, where the "sidecar" container used to send metrics/logs to other destinations (seperation of concerns)
 
-![](img/2022-04-20-10-55-30.png)
+![](2022-04-20-10-55-30.png)

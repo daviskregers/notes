@@ -9,4 +9,4 @@
     - 3 dashboards (up to 50 metrics) for free
     - $3/dashboard/month afterwards
 
-![](images/2020-01-01-13-58-09.png)
+![](2020-01-01-13-58-09.png)

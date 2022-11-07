@@ -2,15 +2,15 @@
 
 If we want to create an EC2 instance in the subnet with a public IP address, we need to modify the public subnet to auto-assign IPs.
 
-![](images/2020-01-01-16-21-21.png)
+![](2020-01-01-16-21-21.png)
 
-![](images/2020-01-01-16-21-37.png)
+![](2020-01-01-16-21-37.png)
 
-![](images/2020-01-01-16-22-39.png)
+![](2020-01-01-16-22-39.png)
 
 When created, we can see that we have a private IP of `10.0.0.250` and a public IP of `54.246.162.86`.
 
-![](images/2020-01-01-16-26-33.png)
+![](2020-01-01-16-26-33.png)
 
 Now, even though our security group allows this, if we were to try to connect to it via ssh, the connection would time out.
 
@@ -28,17 +28,17 @@ This is because the subnet does not have an internet gateway.
 
 ## Creating an Internet Gateway
 
-![](images/2020-01-01-16-29-41.png)
+![](2020-01-01-16-29-41.png)
 
 It will show as detached
 
-![](images/2020-01-01-16-30-12.png)
+![](2020-01-01-16-30-12.png)
 
-![](images/2020-01-01-16-30-24.png)
+![](2020-01-01-16-30-24.png)
 
-![](images/2020-01-01-16-30-43.png)
+![](2020-01-01-16-30-43.png)
 
-![](images/2020-01-01-16-31-08.png)
+![](2020-01-01-16-31-08.png)
 
 Now if we would try to ssh, it still wouldn't work, because we have to edit the Route Table.
 
@@ -46,20 +46,20 @@ Now if we would try to ssh, it still wouldn't work, because we have to edit the 
 
 We are going to create a public route table for public subnets.
 
-![](images/2020-01-01-16-32-23.png)
+![](2020-01-01-16-32-23.png)
 
 And a private Route Table For private subnets.
 
-![](images/2020-01-01-16-33-07.png)
+![](2020-01-01-16-33-07.png)
 
 Then, we want to edit the associations and add public subnets to the public route table, private to private.
 
-![](images/2020-01-01-16-35-32.png)
+![](2020-01-01-16-35-32.png)
 
 Then we are going to edit the routes of the public route table and add IGW.
 
-![](images/2020-01-01-16-36-49.png)
+![](2020-01-01-16-36-49.png)
 
-![](images/2020-01-01-16-37-04.png)
+![](2020-01-01-16-37-04.png)
 
 Now, we can connect to the SSH.

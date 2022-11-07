@@ -1,6 +1,6 @@
 # X-Ray and ECS
 
-![](img/2022-04-26-17-57-13.png)
+![](2022-04-26-17-57-13.png)
 
 ## Example task definition
 

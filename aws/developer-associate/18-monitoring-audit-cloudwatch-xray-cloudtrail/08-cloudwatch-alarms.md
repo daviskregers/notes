@@ -23,13 +23,13 @@
     - System status = check the underlying hardware
 - Recovery: Same private, public, elastic IP, metadata, placement group
 
-![](img/2022-04-26-10-01-51.png)
+![](2022-04-26-10-01-51.png)
 
 ## Good to Know
 
 - Alarms can be created based on CloudWatch Logs Metrics Filters
 
-![](img/2022-04-26-10-03-12.png)
+![](2022-04-26-10-03-12.png)
 
 - To test alarms and notifications, set the alarm state to Alarm using CLI
 

@@ -33,4 +33,4 @@
     - IAM user and roles
     - Enabling encryption
 
-![](images/2020-01-01-15-25-57.png)
+![](2020-01-01-15-25-57.png)

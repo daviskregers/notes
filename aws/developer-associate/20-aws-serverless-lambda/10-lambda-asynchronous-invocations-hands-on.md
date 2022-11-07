@@ -15,10 +15,10 @@ For us to know the result of the invocation we will need to look at the logs.
 
 We can also configure the asynchronous invocation by opening up the lambda `Configuration - Asynchronous invocation`. There we can configure maximum age of the event, retry attempts and a DLQ.
 
-![](img/2022-05-12-07-40-39.png)
+![](2022-05-12-07-40-39.png)
 
 When configuring a DLQ you might see a message about insufficient permissions.
 
-![](img/2022-05-12-07-41-19.png)
+![](2022-05-12-07-41-19.png)
 
 To fix that, we navigate to `Configuration - Permissions`. Then click on the Execution Role and attach a policy to it related to Amazon SQS.

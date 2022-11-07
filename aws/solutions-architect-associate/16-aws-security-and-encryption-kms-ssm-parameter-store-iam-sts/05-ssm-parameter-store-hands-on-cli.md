@@ -4,11 +4,11 @@ We can search for `Systems Manager` in AWS Console and then navigate to `Paramet
 
 And add params:
 
-![](images/2020-01-01-14-45-31.png)
+![](2020-01-01-14-45-31.png)
 
-![](images/2020-01-01-14-46-19.png)
+![](2020-01-01-14-46-19.png)
 
-![](images/2020-01-01-14-47-58.png)
+![](2020-01-01-14-47-58.png)
 
 Then query via CLI
 

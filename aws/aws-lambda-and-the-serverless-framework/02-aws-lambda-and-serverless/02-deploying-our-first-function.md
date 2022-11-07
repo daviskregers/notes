@@ -12,7 +12,7 @@ Serverless: Successfully generated boilerplate for template: "aws-python"
 
 The command created a directory `hello-world-python` with 3 files - `.gitignore`, `handler.py` and `serverless.yaml`.
 
-![](img/2021-10-12-13-33-35.png)
+![](2021-10-12-13-33-35.png)
 
 We are going to replace all the contents of the `handler.py` with:
 
@@ -106,8 +106,8 @@ Toggle on monitoring with the Serverless Dashboard: run "serverless"
 
 Now if we go to our Lambda console, we'll see the created function.
 
-![](img/2021-10-12-13-47-14.png)
+![](2021-10-12-13-47-14.png)
 
 And if we test it, it will print the `Hi!`, return `hello-world`.
 
-![](img/2021-10-12-13-48-17.png)
+![](2021-10-12-13-48-17.png)

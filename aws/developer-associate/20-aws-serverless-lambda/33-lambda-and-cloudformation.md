@@ -53,4 +53,4 @@ Resources:
 
 ## Through S3 multiple accounts
 
-![](img/2022-05-12-09-33-18.png)
+![](2022-05-12-09-33-18.png)

@@ -13,7 +13,7 @@
 - PutRecord API
 - Use batching with PutRecords API to reduce costs & increase throughput
 
-![](img/2022-04-27-07-44-12.png)
+![](2022-04-27-07-44-12.png)
 
 ## ProvisionedThroughputExceeded
 
@@ -21,4 +21,4 @@
 - Retries with exponential backoff
 - Increase shards (scaling)
 
-![](img/2022-04-27-07-45-53.png)
+![](2022-04-27-07-45-53.png)

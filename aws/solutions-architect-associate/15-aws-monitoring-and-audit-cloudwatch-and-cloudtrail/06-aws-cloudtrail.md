@@ -10,5 +10,5 @@
 - Can put logs from CloudTrail into CloudWatch Logs
 - If a resource is deleted in AWS, look into CloudTrail first
 
-![](images/2020-01-01-13-53-38.png)
-![](images/2020-01-01-13-59-27.png)
+![](2020-01-01-13-53-38.png)
+![](2020-01-01-13-59-27.png)

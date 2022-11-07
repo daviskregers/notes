@@ -37,8 +37,8 @@
 
 ## Logs Subscriptions
 
-![](img/2022-04-26-09-49-56.png)
+![](2022-04-26-09-49-56.png)
 
 ## Logs Aggregation Multi-Account & Multi Region
 
-![](img/2022-04-26-09-50-24.png)
+![](2022-04-26-09-50-24.png)

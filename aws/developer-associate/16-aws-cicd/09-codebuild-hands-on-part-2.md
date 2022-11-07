@@ -25,8 +25,8 @@ phases:
 
 Once added, the build should succeed.
 
-![](img/2022-04-21-09-01-31.png)
+![](2022-04-21-09-01-31.png)
 
 Then, we can add it to our CodePipeline:
 
-![](img/2022-04-21-09-02-53.png)
+![](2022-04-21-09-02-53.png)

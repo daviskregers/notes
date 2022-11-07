@@ -12,4 +12,4 @@
     - Option 3: Scan + PutItem or BatchWriteItem
         - Write your own code
 
-![](img/2022-05-17-08-46-08.png)
+![](2022-05-17-08-46-08.png)

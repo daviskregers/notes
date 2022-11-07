@@ -9,4 +9,4 @@
 - AllAtOnce: immediate
 - Can create Pre & Post Traffic hooks to check the health of the Lambda functions
 
-![](img/2022-05-12-10-01-21.png)
+![](2022-05-12-10-01-21.png)

@@ -10,4 +10,4 @@
     - Lower latency access
     - Replication across accounts
 
-![](images/2019-12-30-13-14-45.png)
+![](2019-12-30-13-14-45.png)

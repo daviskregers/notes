@@ -2,24 +2,24 @@
 
 In the lambda, under `Monitor - Metrics` we can see the CloudWatch Metrics for our lambda.
 
-![](img/2022-05-12-08-44-37.png)
+![](2022-05-12-08-44-37.png)
 
 We can also see the CloudWatch Logs for the lambda invocations.
 
-![](img/2022-05-12-08-45-18.png)
+![](2022-05-12-08-45-18.png)
 
 We can go to `Configuration - Monitoring and operations tools` 
 
-![](img/2022-05-12-08-45-58.png)
+![](2022-05-12-08-45-58.png)
 
 We can enable AWS X-Ray there.
 
-![](img/2022-05-12-08-46-26.png)
+![](2022-05-12-08-46-26.png)
 
 This will also create the necessary permissions:
 
-![](img/2022-05-12-08-47-06.png)
+![](2022-05-12-08-47-06.png)
 
 Then, we can trigger the function and after some time we will see an xray service map.
 
-![](img/2022-05-12-08-48-15.png)
+![](2022-05-12-08-48-15.png)

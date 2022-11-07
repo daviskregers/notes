@@ -73,7 +73,7 @@
 
 We can see this if we were to launch an instance like `m5ad.2xlarge` that has a 300 GB SSD.
 
-![](images/2019-12-30-07-36-16.png)
+![](2019-12-30-07-36-16.png)
 
 ## EBS RAID Options
 

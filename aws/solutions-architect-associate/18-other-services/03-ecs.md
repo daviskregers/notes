@@ -41,7 +41,7 @@
 - ECS tasks + definition: containers running to create the application
 - ECS IAM roles: roles assigned to tasks to interact with AWS
 
-![](images/2020-01-02-14-45-42.png)
+![](2020-01-02-14-45-42.png)
 
 ## AWS ECS - ALB Integration
 
@@ -52,7 +52,7 @@
     - Maximize utilization of CPU / cores
     - Ability to perform rolling upgrades without impacting application uptime
 
-![](images/2020-01-02-14-47-29.png)
+![](2020-01-02-14-47-29.png)
 
 ## AWS ECS - ECS Setup & Config file
 
@@ -74,4 +74,4 @@ ECS_ENABLE_TASK_IAM_ROLE=true # Enable IAM roles for ECS tasks
 - Fully integrated with IAM & ECS
 - Sent over HTTPS (encryption in flight) and encrypted at rest
 
-![](images/2020-01-02-14-50-35.png)
+![](2020-01-02-14-50-35.png)

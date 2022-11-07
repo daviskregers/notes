@@ -30,7 +30,7 @@
 - Replication is ASYNC, so reads are eventually consistent.
 - Applications must update the connection string to leverage read replicas
 
-![](images/2019-12-30-08-26-23.png)
+![](2019-12-30-08-26-23.png)
 
 ## RDS Multi AZ (Disaster Recovery)
 
@@ -41,7 +41,7 @@
 - No manual intervention in apps
 - Not used for scaling
 
-![](images/2019-12-30-08-27-54.png)
+![](2019-12-30-08-27-54.png)
 
 ## RDS Backups
 

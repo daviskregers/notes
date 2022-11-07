@@ -10,4 +10,4 @@
 - Assign a weight of 0 to a record to stop sending traffic to that resource
 - If all records have weight of 0 then all records will be returned equally
 
-![](img/2022-02-08-06-48-20.png)
+![](2022-02-08-06-48-20.png)

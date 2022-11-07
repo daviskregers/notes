@@ -45,32 +45,32 @@
 - SQS allows for retries of work
 - May have many workers on one queue and one worker on the othere queue
 
-![](images/2019-12-31-10-29-31.png)
+![](2019-12-31-10-29-31.png)
 
 ## Hands on
 
 You can type `SNS` or `Simple Notification Service` in AWS Console.
 
-![](images/2019-12-31-10-31-17.png)
+![](2019-12-31-10-31-17.png)
 
 Then create `MyFirstTopic`.
 
-![](images/2019-12-31-10-32-30.png)
+![](2019-12-31-10-32-30.png)
 
-![](images/2019-12-31-10-32-53.png)
+![](2019-12-31-10-32-53.png)
 
 Now create a subscription.
 
-![](images/2019-12-31-10-34-05.png)
+![](2019-12-31-10-34-05.png)
 
 Confirm subscription
 
-![](images/2019-12-31-10-34-48.png)
+![](2019-12-31-10-34-48.png)
 
-![](images/2019-12-31-10-35-17.png)
+![](2019-12-31-10-35-17.png)
 
 Now publish a message.
 
-![](images/2019-12-31-10-36-10.png)
+![](2019-12-31-10-36-10.png)
 
-![](images/2019-12-31-10-36-38.png)
+![](2019-12-31-10-36-38.png)
