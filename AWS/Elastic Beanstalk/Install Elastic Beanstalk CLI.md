@@ -7,6 +7,7 @@ Tags: [development/aws/elastic-beanstalk]
 ---
 
 # Install Elastic Beanstalk CLI
+
 Install
 
 ```

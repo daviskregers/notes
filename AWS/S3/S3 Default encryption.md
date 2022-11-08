@@ -11,6 +11,6 @@ sr-ease: 250
 
 # S3 Default encryption
 
-- The old way to enable default encryption was to use a bucket policy and refuse any HTTP command without the proper headers.
-- The new way is to use the "default encryption" option in S3
-- Note: Bucket policies are evaluated before "default ecnryption"
+- The old way to enable default encryption was to use a bucket policy and refuse any [[HTTP]] command without the proper headers.
+- The new way is to use the "[[S3 default encryption]]" option in [[AWS S3]]
+- Note: [[bucket policy| Bucket Policies]] are evaluated before "[[Programming/AWS/S3/S3 Default encryption]]"

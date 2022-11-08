@@ -9,7 +9,7 @@ sr-interval: 3
 sr-ease: 250
 ---
 
-# AWS CLI Setup on MacOS
+# [[AWS CLI]] Setup on MacOS
 
 The Windows version of AWS CLI can be downloaded from [https://docs.aws.amazon.com/cli/latest/userguide/install-macos.html](https://docs.aws.amazon.com/cli/latest/userguide/install-macos.html) and will list all of the steps to install it.
 

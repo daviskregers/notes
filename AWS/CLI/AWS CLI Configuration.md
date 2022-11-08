@@ -9,7 +9,7 @@ sr-interval: 3
 sr-ease: 250
 ---
 
-# AWS CLI Configuration
+# [[AWS CLI]] Configuration
 
 In order to configure AWS CLI we need to get access credentials from `AWS IAM`. It will be located under `Users -> {user} -> Security Credentials -> Access Keys`.
 

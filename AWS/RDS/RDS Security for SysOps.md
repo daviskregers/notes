@@ -11,7 +11,7 @@ sr-ease: 250
 
 # RDS Security for SysOps
 
-- Encryption at rest
+- [[Encryption at rest]]
     - Is done only when you first create the DB Instance
     - or create snapshot from the database, copy snapshot as encrypted, create DB from snapshot
 - Your responsibility

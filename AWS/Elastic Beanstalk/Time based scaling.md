@@ -6,8 +6,6 @@ Source:
 Tags: [development/aws/elastic-beanstalk]
 ---
 
-- [ ] Add flashcards / review
-
 # Time based scaling
 
 It is available to add time events to change the default scaling configuration in the `ELB Configuration -> Capacity`.

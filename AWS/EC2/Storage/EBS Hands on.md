@@ -15,7 +15,7 @@ We are going to AWS console, EC2 panel and launch a new instance, every step wil
 
 ![](2019-12-30-06-45-26.png)
 
-Here we can change the size of the root partition as well as the volume type and IOPS.
+Here we can change the size of the root partition as well as the volume type and [[IOPS]].
 
 ![](2019-12-30-06-46-42.png)
 

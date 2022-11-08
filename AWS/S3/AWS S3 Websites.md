@@ -13,7 +13,7 @@ sr-ease: 250
 
 - S3 can host static websites and have them accessible on the www
 - The website URL will be `<bucket-name>.s3-website-<aws-region>.amazonaws.com` OR `<bucket-name>.s3-website.<aws-region>.amazonaws.com`
-- If you get a 403 (forbidden) error, make sure the bucket policy allows public reads.
+- If you get a 403 (forbidden) error, make sure the [[bucket policy]] allows public reads.
 
 ![](2019-12-30-12-11-32.png)
 

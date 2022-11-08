@@ -11,11 +11,11 @@ sr-ease: 250
 
 # S3 Cross region replication
 
-- Must enable versioning (source and destination)
+- Must enable [[S3 versioning]] (source and destination)
 - Buckets must be in different AWS regions
 - Can be in different accounts
 - Copying is asynchronous
-- Must give proper IAM permissions to S3
+- Must give proper [[IAM permission]] to [[AWS S3]]
 - Use cases
     - Compliance
     - Lower latency access

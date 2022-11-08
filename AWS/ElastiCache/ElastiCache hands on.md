@@ -15,6 +15,6 @@ We can navigate to `ElastiCache` from the AWS console and click on `Get Started 
 
 ![](2019-12-30-09-42-10.png)
 
-Ther we can choose either to use Redis or Memcached. Then we can set configuration, AZs, failover, encryption, backups and maintenance windows.
+Ther we can choose either to use [[Redis]] or [[Memcached]]. Then we can set configuration, [[Availability Zone]]s, [[High Availability failover]], [[Encryption]], [[Backup]]s and [[maintenance window]]s.
 
 ![](2019-12-30-09-45-41.png)

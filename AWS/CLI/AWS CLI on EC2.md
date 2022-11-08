@@ -9,7 +9,7 @@ sr-interval: 3
 sr-ease: 250
 ---
 
-# AWS CLI on EC2
+# AWS CLI on [[AWS EC2]]
 
 ## AWS CLI ON EC2 - The bad way
 
@@ -21,14 +21,14 @@ sr-ease: 250
 - If the EC2 is compromised, so is your personal account
 - If the EC2 is shared, other people may perform AWS actions while impersonating you
 
-- For EC2, there's a better way. It's called AWS IAM Roles
+- For EC2, there's a better way. It's called [[IAM Role]]
 
 ## The right way
 
-- IAM Roles can be attached to EC2 Instances
+- [[IAM Role]] can be attached to [[AWS EC2]] Instances
 - IAM Roles can come with a policy authorizing exactly what the ec2 instance should be able to do
 - EC2 Instances can then use these profiles automatically without any additional confurations
-- This is the best practice on AWS and you should 100% do this.
+- *This is the best practice on AWS and you should 100% do this.*
 
 In order to do this, we go to `IAM` service and create a new role, attach it to an EC2 service, attach policies that we need.
 
