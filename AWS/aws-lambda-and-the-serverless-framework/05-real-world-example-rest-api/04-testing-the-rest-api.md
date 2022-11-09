@@ -44,4 +44,4 @@ We can use cUrl to test them:
 
 We can also see the items in our DynamoDB table.
 
-![](2021-10-12-17-09-07.png)
+![](Programming/AWS/aws-lambda-and-the-serverless-framework/05-real-world-example-rest-api/img/2021-10-12-17-09-07.png)

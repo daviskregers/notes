@@ -19,7 +19,7 @@ sr-ease: 250
 
 - [[Kinesis Streams]]: low latency streaming ingest at scale
 - [[Kinesis Analytics]]: perform real-time analytics on streams using SQL
-- [[Kinesis Firehose]]: load streams into [[S3]], [[Redshift]], [[ElasticSearch]]...
+- [[Kinesis Firehose]]: load streams into [[S3]], [[~ Inbox/Redshift]], [[ElasticSearch]]...
 
 ## Kinesis overview
 

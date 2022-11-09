@@ -3,7 +3,7 @@ Created: 2022-11-08 08:36:20
 Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
-Tags: [development/aws/rds/aurora, development/aws/solutions-architect, review]
+Tags: [development/aws/rds/aurora, database, development/aws/solutions-architect, review]
 sr-due: 2022-11-10
 sr-interval: 3
 sr-ease: 250
@@ -16,29 +16,31 @@ sr-ease: 250
 - Aurora is "AWS cloud optimized" and claims 5x performance improvement over MySQL on RDS, over 3x the performance of PostgreSQL on RDS.
 - Aurora storage automatically grows in increments of 10GB, up to 64TB.
 - Aurora can have 15 replicas while MySQL has 5, and the replication process is faster (sub 10 ms replica lag)
-- Failover in Aurora is instantaneous. It's [[High Availability]] native.
+- Failover in Aurora is instantaneous. It's [[Programming/AWS/Fundamentals/High Availability]] native.
 - Aurora costs more than RDS (20% more) - but is more efficient.
 
-## Aurora [[High Availibility]] and [[Read Scaling]]
+- Auto healing capability
+-[[ Multi AZ]], Auto Scaling [[Read Replica]]s
+- [[Read Replica]]s can be Global
+- Aurora database can be Global for [[Disaster Recovery]] or [[latency]] purposes
+- Auto scaling of storage from 10GB to 64 TB
+- Define [[AWS EC2]] instance type for aurora instances
+- Same security / monitoring / maintenance features as [[RDS Security]]
+- [[Aurora Serverless]] option
 
-- 6 copies of your data across 3 [[Availability Zone]]
-    - 4 copies out of 6 needed for writes
-    - 3 copies out of 6 needed for reads
-    - Self healing with peer-to-peer replication
-    - Storage is striped across 100s of volumes
-- One aurora instance takes writes (master)
-- Automated failover for master in less than 30 seconds
-- Master + up to 15 aurora read replica serve reads
-- Support for [[Cross Region Replication]]
+---
 
-![](2019-12-30-09-16-14.png)
+Use case: same as [[AWS RDS]], but with less maintenance / more flexibility / more performance
+
+![[Aurora For Solutions Architects]]
 
 ![[ Aurora DB Cluster]]
-
-![[ Aurora Features ]]
 
 ![[Aurora Security]]
 
 ![[ Aurora Serverless]]
 
 ![[ Aurora For Solutions Architects ]]
+
+
+![[Aurora High Availability and Read Scaling]]

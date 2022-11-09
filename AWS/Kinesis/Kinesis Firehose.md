@@ -13,7 +13,7 @@ sr-ease: 250
 
 - Fully managed service, no administration
 - Near Real Time (60 seconds latency)
-- Load data into [[Redshift]] / [[AWS S3]] / [[ElasticSearch]] / [[Splunk]]
+- Load data into [[~ Inbox/Redshift]] / [[AWS S3]] / [[ElasticSearch]] / [[Splunk]]
 - Automatic Scaling
 - Support many data formats (pay for conversion)
 - Pay for the amount of data going through Firehose 

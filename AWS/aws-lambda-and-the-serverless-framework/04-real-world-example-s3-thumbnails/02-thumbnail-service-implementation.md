@@ -121,8 +121,8 @@ Serverless: Successfully installed "serverless-python-requirements@latest"
 
 Now we can test it by uploading an image:
 
-![](2021-10-12-16-00-45.png)
+![](Programming/AWS/aws-lambda-and-the-serverless-framework/04-real-world-example-s3-thumbnails/img/2021-10-12-16-00-45.png)
 
 After we refresh the bucket, the thumbnail is available:
 
-![](2021-10-12-16-08-23.png)
+![](Programming/AWS/aws-lambda-and-the-serverless-framework/04-real-world-example-s3-thumbnails/img/2021-10-12-16-08-23.png)

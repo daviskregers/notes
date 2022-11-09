@@ -15,11 +15,11 @@ sr-ease: 250
 - There are two kinds of scalability:
     - [[Vertical scalability]]
     - [[Horizontal scalability]]
-- Scalability is linked but different to [[High Availability]]
+- Scalability is linked but different to [[Programming/AWS/Fundamentals/High Availability]]
 
 ![[Vertical scalability]]
 
 
 ![[Horizontal scalability]]
 
-![[High Availability]]
+![[Programming/AWS/Fundamentals/High Availability]]

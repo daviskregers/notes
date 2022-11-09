@@ -3,7 +3,7 @@ Created: 2022-11-08 08:36:20
 Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
-Tags: [development/aws/elasticache, review]
+Tags: [development/aws/elasticache, database, review]
 sr-due: 2022-11-10
 sr-interval: 3
 sr-ease: 250
@@ -20,6 +20,20 @@ sr-ease: 250
 - Read Scaling using [[Read Replica]]s
 - Multi AZ with Failover Capability
 - AWS takes care of [[OS maintenance]] / [[patching]], optimizations, setup, configuration, monitoring, [[failure recovery]] and [[backups]]
+
+- In-memory data store, sub-millisecond latency
+- Must provision an [[AWS EC2]] instance type
+- Support for [[Clustering]] ([[Redis]]) and [[Multi AZ]], [[Read Replica]]s ([[sharding]])
+- Security though [[IAM]], [[Security Group]]s, [[AWS KMS (Key Management Service)]], [[Redis Auth]]
+- [[Backup]] / [[Snapshot]] / [[Point in time restore]] feature
+- Managed and Scheduled maintenance
+- Monitoring though [[CloudWatch]]
+
+---
+
+- Use case: key/value store, frequent reads, less writes, [[cache]] results for DB queries, store session data for websites, cannot use SQL.
+
+![[ElastiCache for Solutions Architect]]
 
 ![[Redis]]
 

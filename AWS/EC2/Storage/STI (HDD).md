@@ -12,7 +12,7 @@ sr-ease: 250
 STI (HDD): Low cost HDD volume designed for frequently accessed, throughput intensive workloads
 
 - Streaming workloads requiring consistent, fast throughput at low price.
-- [[Big data]], [[Data warehouses]], [[Log processing]]
+- [[Big data]], [[Data warehouse]], [[Log processing]]
 - [[Apache Kafka]]
 - Cannot be a boot volume
 - 500GiB - 16TiB
