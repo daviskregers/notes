@@ -12,6 +12,6 @@ sr-ease: 250
 ## AWS Kinesis API - Consumers
 
 - Can use a normal consumer (CLI, [[AWS SDK]], etc)
-- Can use Kinesis Client library (in Java, Node, Python, Ruby, .Net)
+- Can use Kinesis Client library (in [[Java]], [[Node]], [[Python]], [[Ruby]], [[.Net]])
     - KCL uses [[Programming/AWS/solutions-architect-associate/14-databases-in-aws/DynamoDB]] to checkpoint offsets
     - KCL uses [[Programming/AWS/solutions-architect-associate/14-databases-in-aws/DynamoDB]] to track other workers and share the work amongst shards

@@ -11,10 +11,10 @@ sr-ease: 250
 
 ## Objects
 
-- Objects (files) have a Key. The key is the full path.
+- [[AWS S3 Objects]] (files) have a Key. The key is the full path.
     - <my_bucket>/my_file.txt
     - <my_bucket>/my_folder1/another/my_file.txt
-- There's no concept of "directories" within buckets (although the UI will trick you to think otherwise).
+- There's no concept of "directories" within [[AWS S3 Bucket]] (although the UI will trick you to think otherwise).
 - Just keys with very long names that contain slashes ("/")
 - Object values are the content of the body:
     - Max Size is 5TB

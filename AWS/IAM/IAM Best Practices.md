@@ -11,8 +11,8 @@ sr-ease: 250
 
 Best practices
 
-- One IAM User per physical person
-- One IAM Role per application
+- One [[IAM]] User per physical person
+- One [[IAM Role]] per application
 - IAM credentials should never be shared
 - Never write IAM credentials in code
 - Never use the root account except for initial setup

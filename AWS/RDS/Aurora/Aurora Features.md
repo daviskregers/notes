@@ -14,7 +14,7 @@ sr-ease: 250
 - Automatic fail-over
 - Backup and recovery
 - Isolation and security
-- Industry compliance
+-[[ Industry compliance]]
 - Push-button scaling
 - Automated Patching with Zero Downtime
 - Advanced Monitoring

@@ -20,7 +20,7 @@ When opening up hosted zone from a domain, we can setup it's DNS records.
 
 ## EC2 Setup
 
-We can create an EC2 instances in multiple AZs, create an [[Application Load Balancer (v2)]] for them, then create an alias in the Route 53 to the Load Balancer.
+We can create an [[AWS EC2]] instances in multiple [[Availability Zone]], create an [[Application Load Balancer (v2)]] for them, then create an alias in the [[AWS Route 53]] to the [[Load Balancer]].
 
 ![[TTL]]
 

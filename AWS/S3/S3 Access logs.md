@@ -11,7 +11,7 @@ sr-ease: 250
 
 # S3 Access logs
 
-- For audit purposes, you may want to log all access to S3 buckets
+- For audit purposes, you may want to log all access to [[AWS S3 Bucket]]
 - Any request made to S3, from any account, authorized or denied, will be logged into another [[AWS S3 Bucket]]
 - That data can be analyzed using data analysis tools
 - Or [[AWS Athena]]

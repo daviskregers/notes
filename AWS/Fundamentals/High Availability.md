@@ -12,7 +12,7 @@ sr-ease: 250
 # High Availability
 
 - High Availability usually goes hand in hand with [[Horizontal scalability]]
-- High availability means running your application / system in at least 2 data centers ([[Availability Zone]])
-- The goal of high availability is to survive a data center loss
+- High availability means running your application / system in at least 2 datacenters ([[Availability Zone]])
+- The goal of high availability is to survive a datacenter loss
 - The high availability can be passive (for [[AWS RDS]] Multi AZ for example)
 - The high availability can be active (for [[Horizontal scalability]])

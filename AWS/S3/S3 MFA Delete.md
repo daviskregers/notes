@@ -11,13 +11,13 @@ sr-ease: 250
 
 # S3 MFA Delete
 
-- MFA (Multi factor authentication) forces user to generate a code on a device (usually mobile phone or hardware) before doing important operations on S3
-- To use MFA-Delete, enable Versioning on the S3 bucket
-- You will need MFA to
-    - Permanently delete an object version
+- [[Multi factor authentication]] forces user to generate a code on a device (usually mobile phone or hardware) before doing important operations on S3
+- To use MFA-Delete, enable [[S3 Versioning]] on the [[AWS S3 Bucket]]
+- You will need [[Multi factor authentication]] to
+    - Permanently delete an [[S3 Object Version]]
     - Suspend version on the bucket
-- YOu won't need MFA for
-    - Enabling versioning
+- You won't need [[Multi factor authentication]] for
+    - Enabling [[S3 Versioning]]
     - Listing deleted versions
 
 - Only the bucket owner (root acount) can enable/disable MFA-delete

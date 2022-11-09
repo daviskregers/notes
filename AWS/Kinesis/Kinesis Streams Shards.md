@@ -12,7 +12,7 @@ sr-ease: 250
 ## Kinesis Streams Shards
 
 - One steam is made of many different shards
-- 1MB/s or 1000 messages/s at write PER SHARD
+- 1MB/s or 1000 messages/s at write PER [[SHARD]]
 - 2MB/s at read PER SHARD
 - Billing is per shard provisioned, can have as many shards as you want
 - Batching available or per message calls

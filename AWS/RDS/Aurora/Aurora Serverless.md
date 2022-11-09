@@ -12,7 +12,7 @@ sr-ease: 250
 ## Aurora Serverless
 
 - No need to choose an instance size
-- Only supports MySQL 5.6 (as of Jan 2019) & PostgreSQL (beta)
+- Only supports [[MySQL]] 5.6 (as of Jan 2019) & [[MySQL]] (beta)
 - Helpful when you can't predict workload
 - DB cluster starts, shutdown and scales automatically based on CPU / connections
 - Can migrate from [[Aurora DB Cluster]] to [[AWS Aurora]] serverless and vice versa

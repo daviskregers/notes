@@ -11,7 +11,7 @@ sr-ease: 250
 
 # AWS S3 Overview - Buckets
 
-- Amazon S3 allows people to store objects (files) in "buckets" (directories)
+- [[AWS S3]] allows people to store [[AWS S3 Objects]] (files) in "[[AWS S3 Bucket]]" (directories)
 - Buckets have a globally unique name
 - Buckets are defined at the region level
 - Naming convention

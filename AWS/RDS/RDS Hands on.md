@@ -20,12 +20,12 @@ Then we need:
 - Choose instance type
 - Specify storage
 - Choose whether to use Multi-AZ deployment
-- Choose the VPC to deploy to, security groups, publicly accessable?
+- Choose the VPC to deploy to, security groups, publicly accessible?
 - Setup additional configuration
-    - Backups
-    - Monitoring
-    - Logging
-    - Maintenance
+    - [[Backups]]
+    - [[Monitoring]]
+    - [[Logging]]
+    - [[Maintenance]]
     - Deletion prevention
 
 Normally we wouldn't want for the Database to be publicly accessible, but we are going to select it for testing purposes.

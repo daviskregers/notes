@@ -11,9 +11,9 @@ sr-ease: 250
 
 ## Route53 as a Registrar
 
-A domain name registrar is an organization that manages the reservation of internet domain names like GoDaddy, Google Domains and also Route 53.
+A domain name registrar is an organisation that manages the reservation of internet domain names like GoDaddy, Google Domains and also [[AWS Route 53]].
 
-But, if you buy a domain from a 3rd party, you can still use Route 53.
+But, if you buy a domain from a 3rd party, you can still use [[AWS Route 53]].
 
-- Create A Hosted Zone in Route 53.
-- Update NS Records on 3rd party to use Route 53 name servers.
+- Create A [[Hosted Zone]] in [[AWS Route 53]].
+- Update [[NS Record]]s on 3rd party to use Route 53 [[name server]]s.

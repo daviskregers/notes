@@ -11,9 +11,9 @@ sr-ease: 250
 
 ## Aurora Security
 
-- Encryption at rest using KMS
+- Encryption at rest using [[AWS KMS (Key Management Service)]]
 - Automated backups, snapshots and replicas are also encrypted
-- Encryption in flight using SSL (same process as MySQL or Postgres)
-- Authentication using IAM
+- Encryption in flight using [[SSL]] (same process as [[MySQL]] or [[PostgreSQL]])
+- Authentication using [[IAM]]
 - You are responsible for protecting the instance with security groups
 - You can't SSH

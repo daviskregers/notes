@@ -11,7 +11,7 @@ sr-ease: 250
 
 ## Kinesis Data Analytics
 
-- Perform real-time analytics on Kinesis Streams using SQL
+- Perform real-time analytics on [[Kinesis Streams]] using [[SQL]]
 - Kinesis Data Analytics
     - Auto Scaling
     - Managed: no servers to provision

@@ -11,7 +11,7 @@ sr-ease: 250
 
 ## TTL
 
-In order not to overload the DNS, we use TTL to cache the DNS response for the provided duration. If the IP address of the server would change not all of the clients would see the change before the TTL expires.
+In order not to overload the [[DNS]], we use [[TTL]] to cache the [[DNS]] response for the provided duration. If the [[IP address]] of the server would change not all of the clients would see the change before the [[TTL]] expires.
 
 The TTL can be set when creating records:
 

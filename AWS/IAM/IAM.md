@@ -24,7 +24,7 @@ sr-ease: 250
 ![](../../../images/2019-11-22-10-04-04.png)
 
 - IAM has a **global** view
-- [[MFA (Multi Factor Authentication)]] can be setup
+- [[Multi factor authentication]] can be setup
 - IAM has predefined "managed policies"
 - It's best to give users the minimal amount of permissions they need to perform their job ([[least privilege principle]])
 

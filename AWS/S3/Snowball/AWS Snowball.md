@@ -13,21 +13,21 @@ sr-ease: 250
 
 - Physical data transport solution that helps moving TBs or PBs of data in or out of AWS
 - Alternative to moving data over the network (and paying network fees)
-- Secure, tamper resistant, uses KMS 256 bit encryption
-- Tracking using SNS and text messages. E-ink shipping label.
+- Secure, tamper resistant, uses [[AWS KMS (Key Management Service)]] 256 bit encryption
+- Tracking using [[AWS SNS]] and text messages. E-ink shipping label.
 - Pay per data transfer job
-- Use cases: large data cloud migrations, DC decommission, disaster recovery
+- Use cases: large data cloud migrations, DC decommission, [[Disaster Recovery]]
 - If it takes more than a week to transfer over the network, use Snowball devices!
 
 ## Snowball Process
 
 - Request snowball devices from the AWS console for delivery
-- Install the snowball client on your servers
+- Install the snowball client on your [[server]]s
 - Connect the snowball to your servers and copy files using the client
 - Ship back the device when you're done (goes to the right AWS facility)
-- Data will be loaded into an S3 bucket
+- Data will be loaded into an [[AWS S3 Bucket]]
 - Snowball is completely wiped
-- Tracking is done using SNS, text messages and the AWS console
+- Tracking is done using [[AWS SNS]], text messages and the [[AWS Console]]
 
 ## Snowball Edge
 
@@ -46,3 +46,5 @@ sr-ease: 250
 - Transfer exabytes of data
 - Each Snowmobile has 100 PB of capacity (use multiple in parallel)
 - Better than Snowball if you transfer more than 10 PB
+
+[[Snowball Hands On]]

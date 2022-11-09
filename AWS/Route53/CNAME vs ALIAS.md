@@ -11,7 +11,7 @@ sr-ease: 250
 
 ## CNAME vs ALIAS
 
-AWS Resources (Load Balancer, CloudFront etc) expose an AWS URL (lb1-1234.us-east-2.elb.amazonaws.com) and you want it to be myapp.mydomain.com
+AWS Resources ([[Load Balancer]], [[Programming/AWS/CloudFront/AWS CloudFront]] etc) expose an [[AWS URL]] (lb1-1234.us-east-2.elb.amazonaws.com) and you want it to be myapp.mydomain.com
 - CNAME:
     - Points a URL to any other URL. (app.mydomain.com => xyz.anything.com)
 - Alias

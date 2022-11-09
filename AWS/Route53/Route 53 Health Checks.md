@@ -17,7 +17,7 @@ sr-ease: 250
 - About 15 health checkers will check the endpoint health
 - One request every 2 seconds on average
 - Can have HTTP, TCP and HTTPS health checks (no SSL verification)
-- Possibility of integrating the health check with CloudWatch
+- Possibility of integrating the health check with [[CloudWatch]]
 
 - Health checks can be linked to Route53 DNS queries.
 
