@@ -5,6 +5,9 @@ Type: blog
 Source: https://til.hashrocket.com/posts/63dvv2huk4-enable-gzip-for-all-phoenix-responses
 Tags: [development/elixir/phoenix, review]
 Review: Hard
+sr-due: 2022-11-13
+sr-interval: 4
+sr-ease: 270
 ---
 
 - [ ] Add flashcards / review

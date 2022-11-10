@@ -5,9 +5,9 @@ Type: youtube
 Source: https://www.youtube.com/watch?v=58jGpV2Cg50
 Tags: [conspect, review, flashcards/cleancode/tdd]
 Review: Hard
-sr-due: 2022-11-05
-sr-interval: 4
-sr-ease: 270
+sr-due: 2022-12-09
+sr-interval: 30
+sr-ease: 290
 ---
 
 -   **There are several layers of tests**
