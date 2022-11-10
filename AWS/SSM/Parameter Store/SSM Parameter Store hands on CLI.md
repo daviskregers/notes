@@ -1,6 +1,17 @@
+---
+Created: 2022-11-08 08:36:20
+Modified: Monday 7th November 2022 07:09:16
+Type: course
+Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
+Tags: [development/aws/ssm/parameter-store, review]
+sr-due: 2022-11-10
+sr-interval: 3
+sr-ease: 250
+---
+
 # SSM Parameter Store hands on CLI
 
-We can search for `Systems Manager` in AWS Console and then navigate to `Parameter Store` section.
+We can search for [[Systems Manager]] in [[AWS Console]] and then navigate to [[SSM Parameter Store]] section.
 
 And add params:
 
@@ -10,7 +21,7 @@ And add params:
 
 ![](2020-01-01-14-47-58.png)
 
-Then query via CLI
+Then query via [[AWS CLI]]
 
 ```json
 ➜  ~ aws ssm get-parameters --names /my-app/dev/db-url /my-app/dev/db-password

@@ -1,6 +1,17 @@
+---
+Created: 2022-11-08 08:36:20
+Modified: Monday 7th November 2022 07:09:16
+Type: course
+Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
+Tags: [development/aws/ssm/parameter-store, review]
+sr-due: 2022-11-10
+sr-interval: 3
+sr-ease: 250
+---
+
 # SSM Parameter Store Hands On Lamda
 
-Create a new lamda function
+Create a new [[AWS Lambda]] function
 
 ![](2020-01-01-14-52-53.png)
 
@@ -25,7 +36,7 @@ When testing, we are going to get an error:
 An error occurred (AccessDeniedException) when calling the GetParameters operation: User: arn:aws:sts::539690530154:assumed-role/hello-world-ssm-role-ta2hmdtc/hello-world-ssm is not authorized to perform: ssm:GetParameters on resource: arn:aws:ssm:eu-west-1:539690530154:parameter/my-app/dev/db-url
 ```
 
-We are going to open up the lamda role and `Add Inline Policy`:
+We are going to open up the [[AWS Lambda]] role and `Add Inline Policy`:
 
 ![](2020-01-01-14-59-28.png)
 

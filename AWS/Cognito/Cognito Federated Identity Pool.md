@@ -21,3 +21,19 @@ sr-ease: 250
 	- These credentials come with a pre-defined [[IAM Policy]] stating their permissions
 - Example
 	- provide (temporary) access to write to [[AWS S3 Bucket]] using Facebook Login
+
+## For Public Applications
+
+- Goal:
+    - Provide direct access to AWS Resources from the Client Side
+- How:
+    - Log in to federated [[identity provider]] - or remain anonymous
+    - Get temporary AWS credentials back from the Federated Identity Pool
+    - These credentials come with a pre-defined [[IAM policy]] stating their permissions
+- Example
+    - provide (temporary) access to write to S3 bucket using Facbook Login
+- Note
+    - Web Identity Federation is an alternative to using [[Programming/AWS/Cognito/AWS Cognito]] but AWS recommends against it.
+
+![](2020-01-01-15-20-47.png)
+

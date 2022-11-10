@@ -16,7 +16,7 @@ sr-ease: 250
 - [[Programming/AWS/solutions-architect-associate/14-databases-in-aws/DynamoDB]]
 - [[S3]]
 - [[AWS IoT]]
-- [[CloudWatch Events]]
+- [[CloudWatch Event]]s
 - [[CloudWatch Logs]]
 - [[AWS SNS]]
 - [[Programming/AWS/AWS Serverless APIs/05-authenticating-users-with-cognito-and-api-gateway/AWS Cognito]]
