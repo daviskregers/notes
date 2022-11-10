@@ -25,6 +25,6 @@ sr-ease: 250
 
 ![[Lambda Limits]]
 
-![[Lamda@Edge]]
+![[Lambda@Edge]]
 
 ![[Lambda usecases]]
