@@ -28,7 +28,7 @@ Easy fix:
 - No changes in architecture
 - Will [[cache]] software update files at the [[edge]]
 - Software update files are not dynamic, they're static (never changing)
-- Our [[AWS EC2]] instances aren't [[serverless]]
+- Our [[AWS EC2]] instances aren't [[Serverless]]
 - But [[Programming/AWS/CloudFront/AWS CloudFront]] is, and will scale for us
 - Our [[Auto Scaling Group (ASG)]] will not scale as much, and we'll save tremendously in [[AWS EC2]]
 - We'll also save in availability, network bandwith cost etc

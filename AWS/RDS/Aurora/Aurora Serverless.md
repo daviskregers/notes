@@ -18,6 +18,6 @@ sr-ease: 250
 - Can migrate from [[Aurora DB Cluster]] to [[AWS Aurora]] serverless and vice versa
 - Aurora serverless usage is measured in ACU (Aurora Capacity Units)
 - Billed in 5 minutes increment of ACU
-- Note: Some features of aurora aren't supported in [[serverless]] mode, be sure to check the documentation if you plan on using it.
+- Note: Some features of aurora aren't supported in [[Serverless]] mode, be sure to check the documentation if you plan on using it.
 
 NOTE: aurora serverless v2 supports MySQL 8 now

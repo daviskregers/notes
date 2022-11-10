@@ -12,6 +12,6 @@ sr-ease: 250
 Volume Gateway
 
 - Block storage using [[iSCSI]] protocol backed by [[AWS S3]]
-- Backed by [[EBS snapshot]]s which can help restore [[on-premise volume]]s
+- Backed by [[EBS Snapshot]]s which can help restore [[on-premise volume]]s
 - [[Cached volume]]s: low latency access to most recent data
 - [[Stored volume]]s: entire dataset is on premise, scheduled backups to [[AWS S3]]

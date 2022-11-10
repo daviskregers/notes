@@ -11,7 +11,7 @@ sr-ease: 250
 
 ## DynamoDB for Solutions Architect
 
-- **Operations**: no operations needed, [[auto scaling]] capability, [[serverless]]
+- **Operations**: no operations needed, [[auto scaling]] capability, [[Serverless]]
 - **Security**: full security though [[IAM Policy]], [[AWS KMS (Key Management Service)]] encryption, [[SSL]] in flight
 - **Reliability**: [[Multi AZ]], [[Backups]]
 - **Performance**: Single digit millisecond performance, [[DAX (DynamoDB Accelerator)]] for caching reads, performance doesn't degrade if your application scales

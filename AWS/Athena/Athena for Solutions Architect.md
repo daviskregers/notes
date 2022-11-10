@@ -11,8 +11,8 @@ sr-ease: 250
 
 ## Athena for Solutions Architect
 
-- **Operations**: no operations needed, [[serverless]]
+- **Operations**: no operations needed, [[Serverless]]
 - **Security**: [[IAM]] + [[S3 Security]]
 - **Reliability**: managed service, uses [[Presto]] engine, [[~ Inbox/High Availability]]
 - **Performance**: queries scale based on data size
-- **Cost**: pay per query / per TB of data scanned, [[serverless]]
+- **Cost**: pay per query / per TB of data scanned, [[Serverless]]

@@ -11,7 +11,7 @@ sr-ease: 250
 
 # Big Data Ingestion Pipeline
 
-- We want the ingestion pipeline to be fully [[serverless]]
+- We want the ingestion pipeline to be fully [[Serverless]]
 - We want to collect data in real time
 - We want to transform the data
 - We want to query the transformed data using [[SQL]]
@@ -26,6 +26,6 @@ sr-ease: 250
 - Lambda can help [[Kinesis Firehose]] with [[data transformations]]
 - [[AWS S3]] can trigger notifications to [[AWS SQS]]
 - [[AWS Lambda]] can subscribe to [[AWS SQS]] (we could have connected [[AWS S3]] to [[AWS Lambda]])
-- [[AWS Athena]] is a [[serverless]] [[SQL]] service and results are stored in [[AWS S3]]
+- [[AWS Athena]] is a [[Serverless]] [[SQL]] service and results are stored in [[AWS S3]]
 - The reporting [[AWS S3 Bucket]] contains analysed data and can be used by reporting tool such as [[AWS QuickSight]], [[~ Inbox/Redshift]] etc.
 

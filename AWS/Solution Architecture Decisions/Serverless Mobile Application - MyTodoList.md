@@ -15,7 +15,7 @@ sr-ease: 250
     - Expose as [[REST API]] with [[HTTPS]]
     - [[Serverless architecture]]
     - Users should be able to directly interact with their own folder in [[AWS S3]]
-    - Users should authenticate through a managed [[serverless]] service
+    - Users should authenticate through a managed [[Serverless]] service
     - The users can write and read to-dos, but they mostly read them
     - The database should scale, and have some high read throughput
 

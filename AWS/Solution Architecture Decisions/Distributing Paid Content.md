@@ -17,6 +17,6 @@ sr-ease: 250
 - We have a database of premium users
 - Links we send to premium users should be short lived
 - Our application is global
-- We want to be fully [[serverless]]
+- We want to be fully [[Serverless]]
 
 ![](2020-01-01-12-30-01.png)
