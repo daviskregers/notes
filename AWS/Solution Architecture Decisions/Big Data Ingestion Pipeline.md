@@ -4,9 +4,9 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/architecture, review]
-sr-due: 2022-11-10
-sr-interval: 3
-sr-ease: 250
+sr-due: 2022-11-24
+sr-interval: 2
+sr-ease: 210
 ---
 
 # Big Data Ingestion Pipeline
@@ -27,5 +27,5 @@ sr-ease: 250
 - [[AWS S3]] can trigger notifications to [[AWS SQS]]
 - [[AWS Lambda]] can subscribe to [[AWS SQS]] (we could have connected [[AWS S3]] to [[AWS Lambda]])
 - [[AWS Athena]] is a [[Serverless]] [[SQL]] service and results are stored in [[AWS S3]]
-- The reporting [[AWS S3 Bucket]] contains analysed data and can be used by reporting tool such as [[AWS QuickSight]], [[~ Inbox/Redshift]] etc.
+- The reporting [[AWS S3 Bucket]] contains analysed data and can be used by reporting tool such as [[AWS QuickSight]], [[Redshift]] etc.
 

@@ -5,9 +5,9 @@ Type: youtube
 Source: https://youtu.be/Qjywrq2gM8o
 Tags: [conspect, review]
 Review: Hard
-sr-due: 2022-11-04
-sr-interval: 3
-sr-ease: 250
+sr-due: 2023-01-11
+sr-interval: 55
+sr-ease: 270
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Qjywrq2gM8o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

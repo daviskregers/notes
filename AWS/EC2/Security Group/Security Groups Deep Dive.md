@@ -4,14 +4,14 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2/security-group, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-14
+sr-interval: 23
 sr-ease: 250
 ---
 
 # Security Groups Deep Dive
 
-- Security Groups are acting as a `firewall` on EC2 instances.
+- [[Security Group]]s are acting as a `firewall` on EC2 instances.
 - They regulate
     - Access to Ports
     - Authorised IP ranges - IPv4 and IPv6
@@ -23,13 +23,13 @@ sr-ease: 250
     ![](../../../images/2019-11-22-11-39-26.png)
 
 - Can be attached to multiple instances
-- Locked down to a region / VPC combination
-- Does live "outside" the EC2 - if traffic is blocked the EC2 instance won't see it.
-- It's a good to maintain one separate security group for ssh access
-- If your application is not accessable (timeout) then it's a security group issue
-- If your application gives a "connection refused"'error, then it's an application error or it's not launched
-- All inbound traffic is blocked by default
-- All outbound is authorised by default
+- Locked down to a [[AWS Region]] / [[VPC]] combination
+- Does live "outside" the [[AWS EC2]] - if traffic is blocked the EC2 instance won't see it.
+- It's a good to maintain one separate [[security group]] for ssh access
+- If your application is not accessible (timeout) then it's a security group issue
+- If your application gives a "[[connection refused]]"'error, then it's an application error or it's not launched
+- All [[inbound traffic]] is blocked by default
+- All [[outbound traffic]] is authorised by default
 
 ## Referencing other security groups
 

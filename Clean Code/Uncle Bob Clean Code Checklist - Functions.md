@@ -5,8 +5,8 @@ Type: book | article | blog | etc
 Source: source
 Tags: [conspect, review, flashcards/cleancode/functions]
 Review: Hard
-sr-due: 2022-11-04
-sr-interval: 3
+sr-due: 2022-12-12
+sr-interval: 25
 sr-ease: 259
 ---
 
@@ -21,15 +21,15 @@ sr-ease: 259
     -   Shouldn't have more than 3 arguments
     -   Shouldn't have bool input arguments
     -   Shouldn't have input arguments that are used as outputs
-    -   Shouldn't contain switch/if-else statements (prefer polymorphism, Open-Closed Principle, NullObject)
-    -   Shouldn't have side-effects (file.open without close etc)
-    -   Should have command/query separation. (Queries shouldn't modify the state, commands shouldn't return data).
+    -   Shouldn't contain switch/if-else statements (prefer [[polymorphism]], [[Open-Closed Principle]], [[NullObject]])
+    -   Shouldn't have [[side-effects]] (file.open without close etc)
+    -   Should have command/query separation. ([[Queries]] shouldn't modify the state[[,]] commands shouldn't return data).
 
 Basically split your functions into more functions until you can't. Then probably you'll see hidden classes that you need to move these functions to. (Timestamp 1:00:23)
 
 -   **Exceptions**
-    -   Always prefer exceptions over error codes
-    -   Function body should only contain try&catch block if there is one.
+    -   Always prefer [[exceptions]] over [[error codes]]
+    -   [[Function body]] should only contain [[try&catch block]] if there is one.
     -   Don't use nested try&catch blocks
 
 ---

@@ -4,9 +4,9 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/architecture, review]
-sr-due: 2022-11-10
+sr-due: 2022-11-25
 sr-interval: 3
-sr-ease: 250
+sr-ease: 230
 ---
 
 # Stateless Web App: WhatIsTheTime.com
@@ -24,7 +24,7 @@ sr-ease: 250
 ## Scaling vertically 
 
 - When we have more traffic for the t2.micro instance to handle, we scale it vertically to something like m5.large.
-- Downtime while upgrading to new instance.
+- [[Downtime]] while upgrading to new instance.
 
 ## Scaling horizontally
 

@@ -23,5 +23,3 @@ Sources:
 - [x] HTTPS with kubernetes
 
 Code is available at: [https://github.com/daviskregers/docker](https://github.com/daviskregers/docker)
-
-- [ ] index stuff here

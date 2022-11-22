@@ -4,12 +4,12 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ssm/parameter-store, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-16
+sr-interval: 24
 sr-ease: 250
 ---
 
-# SSM Parameter Store Hands On Lamda
+# SSM Parameter Store Hands On Lambda
 
 Create a new [[AWS Lambda]] function
 
@@ -50,7 +50,7 @@ Now if we test, we get:
 An error occurred (AccessDeniedException) when calling the GetParameters operation: The ciphertext refers to a customer master key that does not exist, does not exist in this region, or you are not allowed to access. (Service: AWSKMS; Status Code: 400; Error Code: AccessDeniedException; Request ID: 59647aab-d88f-4bf5-8ac7-b358b03f4722)
 ```
 
-We are going to add one more inline policy:
+We are going to add one more [[inline policy]]:
 
 ![](2020-01-01-15-07-14.png)
 

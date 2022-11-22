@@ -5,15 +5,15 @@ Type: youtube
 Source: https://www.youtube.com/watch?v=sn0aFEMVTpA
 Tags: [conspect, review, flashcards/cleancode/architecture]
 Review: Hard
-sr-due: 2022-11-04
-sr-interval: 3
+sr-due: 2022-12-13
+sr-interval: 26
 sr-ease: 251
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/sn0aFEMVTpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 -   **Architecture**
-    -   What is design and architecture?
+    -   What is [[design]] and [[architecture]]?
         -   Roughly the same thing
     -   Goal: Minimize the human resources to build and maintain code.
     -   Quality can be measured in amount of effort to build something.
@@ -27,20 +27,20 @@ What is the goal of an architecture?::To minimize the human resources to build a
 -   Slow & steady wins the race.
 -   Over confidence that we will be able to clean up the mess later - that never happens.
 -   Key to speed - not to slow down, in a steady, consistent and clean way.
--   TDD is always faster.
+-   [[TDD]] is always faster.
 -   Solution: just be as clean as possible.
 
 Software
 
--   Software must be changeable, changes must be cheap.
--   Software(does not work, changeable) > Software(works, not changeable)
+-   Software must be [[changeable]], changes must be cheap.
+-   Software (does not work, changeable) > Software(works, not changeable)
 
 ![[ Clean architecture ]]
 
-Change isolation:
+[[Change isolation]]:
 
 -   Plugin to business rules
--   Plugin architecture
+-   [[Plugin architecture]]
 
 Frameworks:
 

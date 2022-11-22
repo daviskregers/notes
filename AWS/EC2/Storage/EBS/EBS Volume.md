@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2/storage/ebs, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-16
+sr-interval: 24
 sr-ease: 250
 ---
 
@@ -21,10 +21,10 @@ sr-ease: 250
 
 - It's a network drive (i.e. not a physical drive)
     - It uses the network to communicate the instance, which means there might be a bit of latency
-    - It can be detached from an ec2 instance and attached to another one quickly as long as their in the same AZ
-- It's locked to an AZ (Availability Zone)
+    - It can be detached from an [[AWS EC2]] instance and attached to another one quickly as long as their in the same AZ
+- It's locked to an [[Availability Zone]]
     - An EBS Volume in us-east-1a cannot be attached to us-east-1b
-    - To move a volume accross, you first need to snapshot it
+    - To move a volume across, you first need to snapshot it
 - Have a provisioned capacity (size in GBs and IOPS)
     - You get billed for all the provisioned capacity
     - You can increase the capacity of the drive over time

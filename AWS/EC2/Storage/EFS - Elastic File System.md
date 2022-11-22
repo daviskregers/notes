@@ -4,16 +4,16 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2/storage/efs, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-13
+sr-interval: 21
 sr-ease: 250
 ---
 
 # EFS - Elastic File System
 
-- Managed NFS (network file system) that can be mounted on many EC2
+- Managed [[NFS (network file system)]] that can be mounted on many [[AWS EC2]]
 - EFS works with EC2 instances in multi-AZ
-- Highly available, scalable, expensive (3x gp2), pay per use
+- Highly available, scalable, expensive (3x[[GP2 (SSD)]]), pay per use
 - Use cases:
     - Content management
     - Web serving
@@ -27,6 +27,6 @@ sr-ease: 250
     - MAX I/O  - used when thousands of [[AWS EC2]] are using the [[Elastic File System (EFS)]]
 - EFS file sync to sync from on-premise file system to EFS
 - Backup EFS-to-EFS (incremental - can choose frequency)
-- Encryption at rest using [[AWS KMS (Key Management Service)]]
+- [[Server side encryption at rest]] using [[AWS KMS (Key Management Service)]]
 
 ![](2019-12-30-07-45-31.png)

@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/api-gateway, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-15
+sr-interval: 23
 sr-ease: 250
 ---
 
@@ -31,7 +31,7 @@ sr-ease: 250
     - Get temporary AWS credentials back from the Federated Identity Pool
     - These credentials come with a pre-defined [[IAM policy]] stating their permissions
 - Example
-    - provide (temporary) access to write to S3 bucket using Facbook Login
+    - provide (temporary) access to write to S3 bucket using Facebook Login
 - Note
     - Web Identity Federation is an alternative to using [[Programming/AWS/Cognito/AWS Cognito]] but AWS recommends against it.
 

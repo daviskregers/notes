@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/sqs, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-14
+sr-interval: 22
 sr-ease: 250
 ---
 
@@ -16,4 +16,4 @@ sr-ease: 250
     - If you set too high (15 minutes) and consumer fails to process the message, you must wait a long time before processing the message again.
     - If you set too low (30 seconds) and consumer needs time to process the message (2 minutes), another consumer will receive the message will be processed more than once.
 - ChangeMessageVisibility API to change the visibility while processing a message.
-- DeleteMessage API to tell SQS the message was successfully procesed.
+- DeleteMessage API to tell SQS the message was successfully processed.

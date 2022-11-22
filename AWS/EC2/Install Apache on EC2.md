@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-14
+sr-interval: 22
 sr-ease: 250
 ---
 
@@ -41,14 +41,14 @@ Created symlink from /etc/systemd/system/multi-user.target.wants/httpd.service t
 
 ```
 
-If we grab the Public IP and visit it from browser, it will time out, since we haven't configured the security group. We are listening only to ssh connections.
+If we grab the [[Public IP]] and visit it from browser, it will time out, since we haven't configured the [[security group]]. We are listening only to [[ssh connection]]s.
 
 ![](../../../images/2019-11-22-12-05-34.png)
 
-We can go to the security group and edit it, add an HTTP inbound rule.
+We can go to the [[security group]] and edit it, add an [[HTTP]] [[inbound rule]].
 
 ![](../../../images/2019-11-22-12-06-33.png)
 
-Now we can visit the public IP and it will be accessible.
+Now we can visit the [[public IP]] and it will be accessible.
 
 ![](../../../images/2019-11-22-12-07-24.png)

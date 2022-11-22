@@ -4,12 +4,12 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/s3/encryption, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-12
+sr-interval: 20
 sr-ease: 250
 ---
 
-Client Side Encryption
+## Client Side Encryption
 
 - Client library such as [[Amazon S3 Encryption Client]]
 - Clients must [[encrypt]] data themselves before sending to [[AWS S3]]

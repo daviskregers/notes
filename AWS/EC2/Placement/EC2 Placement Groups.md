@@ -4,19 +4,19 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2/placement, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-17
+sr-interval: 25
 sr-ease: 250
 ---
 
 # EC2 Placement Groups
 
-- Sometimes you want control over the EC2 Instance placement strategy
+- Sometimes you want control over the [[AWS EC2]] Instance placement strategy
 - That strategy can be defined using placement groups
 - When you create a placement group, you specify one of the following strategies for the group
-    - Cluster - clusters instances into a low-latency group in a single availability zone
-    - Spread - spreads instances across underlying hardware (max 7 instances per group per AZ) - critical applications
-    - Partition - spreads instances across many different partitions (which rely on sets of racks) within an AZ. Scales to 100s of EC2 instances per group (Hadoop, Cassandra, Kafka)
+    - Cluster - clusters instances into a low-latency group in a single [[Availability Zone]]
+    - Spread - spreads instances across underlying hardware (max 7 instances per group per [[Availability Zone]]) - critical applications
+    - Partition - spreads instances across many different partitions (which rely on sets of racks) within an [[Availability Zone]]. Scales to 100s of [[AWS EC2]] instances per group ([[Hadoop]], [[Cassandra]], [[Kafka]])
 
 ![[EC2 Cluster Placement Strategy]]
 

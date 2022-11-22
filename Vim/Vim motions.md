@@ -16,5 +16,3 @@ A - append to the end of the line:w
 -   marks m1 m2 '1 '2
 -   alt + j/k (vim mapping in config)
 - jumplist
-
-- [ ] do the thing 📅 2022-11-13

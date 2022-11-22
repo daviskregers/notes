@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/elasticsearch, development/aws/solutions-architect, database, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-13
+sr-interval: 21
 sr-ease: 250
 ---
 
@@ -19,4 +19,4 @@ sr-ease: 250
 
 ---
 
-Remember: ElasticSearch = Search / Indexing
+Remember: [[ElasticSearch]] = [[Search]] / [[Indexing]]

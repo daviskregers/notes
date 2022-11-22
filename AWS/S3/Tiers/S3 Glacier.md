@@ -4,12 +4,12 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/s3/tiers, review]
-sr-due: 2022-11-10
-sr-interval: 3
-sr-ease: 250
+sr-due: 2023-01-15
+sr-interval: 54
+sr-ease: 270
 ---
 
-Amazon Glacier
+# Amazon Glacier
 
 - Low cost object storage meant for [[archiving]] / [[backup]]s
 - Data is retained for the longer term (10s of years)

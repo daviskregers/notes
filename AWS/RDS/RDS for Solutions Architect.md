@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/rds, development/aws/solutions-architect, database, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-15
+sr-interval: 23
 sr-ease: 250
 ---
 
@@ -24,7 +24,7 @@ sr-ease: 250
 
 
 - **Operations**: small [[downtime]] when [[failover]] happens, when maintenance happens, scaling in [[Read Replica]]s / [[AWS EC2]] instance / restore EBS implies manual intervention, application changes
-- **Security**: AWS responsible for [[OS security]], we are responsible for setting up [[AWS KMS (Key Management Service)]], [[Security Group]]s, [[IAM Policy]], authorizing users in DB, using [[SSL]]
+- **Security**: AWS responsible for [[OS security]], we are responsible for setting up [[AWS KMS (Key Management Service)]], [[Security Group]]s, [[IAM Policy]], authorising users in DB, using [[SSL]]
 - **Reliability**: [[Multi AZ]] feature, [[failover]] in case of failures
 - **Performance**: depends on [[EC2 instance type]], [[EBS Volume]], ability to add [[Read Replica]]s. Doesn't auto-scale
 - **Cost**: Pay per hour based on provisioned [[AWS EC2]] and [[EBS Volume]]

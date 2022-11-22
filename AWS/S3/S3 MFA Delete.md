@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/s3, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-18
+sr-interval: 26
 sr-ease: 250
 ---
 
@@ -20,11 +20,11 @@ sr-ease: 250
     - Enabling [[S3 Versioning]]
     - Listing deleted versions
 
-- Only the bucket owner (root acount) can enable/disable MFA-delete
+- Only the bucket owner ([[AWS Root Account]]) can enable/disable MFA-delete
 - MFA-Delete currently can only be enabled using the CLI
 
 ```
 aws s3api put-bucket-versioning --bucket mfa-demo --versioning-configuration Status=Enabled,MFADelete=Enabled --mfa "arn-of-mfa-device mfa-code" --profile root-datacumulus
 ```
 
-The code can be gotten from `IAM` when multifactor auth is set up.
+The code can be gotten from `IAM` when [[Multi factor authentication]] is set up.

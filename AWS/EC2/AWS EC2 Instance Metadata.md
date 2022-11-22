@@ -4,19 +4,19 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-16
+sr-interval: 24
 sr-ease: 250
 ---
 
 # AWS EC2 Instance Metadata
 
-- AWS EC2 Instance Metadata is powerful but one of the least known features to developers
-- It allows AWS EC2 instances to "learn about themselves" without using an IAM Role for that purpose
+- [[AWS EC2]] Instance Metadata is powerful but one of the least known features to developers
+- It allows [[AWS EC2]] instances to "learn about themselves" without using an [[IAM Role]] for that purpose
 - The URL is http://169.254.169.254/latest/meta-data
-- You can retrieve the IAM Role name from the metadata, but you cannot retrieve the IAM Policy
+- You can retrieve the [[IAM Role]] name from the metadata, but you cannot retrieve the [[IAM Policy]]
 - Metadata - info about the EC2 instance
-- Userdata - launch script of the EC2
+- [[EC2 User Data]] - launch script of the EC2
 
 This meta data will only work when running from an EC2 instance, will not work on your local computer.
 

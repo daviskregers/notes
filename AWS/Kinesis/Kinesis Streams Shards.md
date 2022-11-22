@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/kinesis, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-15
+sr-interval: 23
 sr-ease: 250
 ---
 
@@ -16,5 +16,5 @@ sr-ease: 250
 - 2MB/s at read PER SHARD
 - Billing is per shard provisioned, can have as many shards as you want
 - Batching available or per message calls
-- The number of shards can evolve over time (reshard / merge)
+- The number of shards can evolve over time ([[reshard]] / [[merge]])
 - Records are ordered per shard

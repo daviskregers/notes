@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/rds/aurora, development/aws/solutions-architect, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-14
+sr-interval: 22
 sr-ease: 250
 ---
 
@@ -14,7 +14,7 @@ sr-ease: 250
 - 6 copies of your data across 3 [[Availability Zone]]
     - 4 copies out of 6 needed for writes
     - 3 copies out of 6 needed for reads
-    - Self healing with peer-to-peer [[replication]]
+    - [[Self healing]] with [[peer-to-peer replication]]
     - Storage is [[striped]] across 100s of volumes
 - One [[AWS Aurora]] instance takes writes (master)
 - Automated [[failover]] for master in less than 30 seconds

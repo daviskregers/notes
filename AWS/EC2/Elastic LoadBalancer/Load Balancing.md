@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2/elastic-loadbalancer, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-17
+sr-interval: 25
 sr-ease: 250
 ---
 
@@ -16,18 +16,18 @@ Load balancers are servers that forward internet traffic to multiple servers (EC
 ![](../../../images/2019-11-22-14-01-25.png)
 
 ## Why use a [[load balancer]]?
-- Spread load accross multiple downstream instances
+- Spread load across multiple downstream instances
 - Expose a single point of access (DNS) to your application
 - Seamlessly handle failures of downstream instances
 - Do regular health checks to your instances
-- Provide SSL termintaion (HTTPS) for your websites
-- Enforce stickiness with cookies
-- High availability accross zones
-- Separate public traffic from private traffic
+- Provide [[SSL termination]] ([[HTTPS]]) for your websites
+- Enforce [[stickiness]] with [[cookies]]
+- [[High Availability]] across zones
+- Separate [[public traffic]] from [[private traffic]]
 
 ## Why use an EC2 Load Balancer?
 
-- An ELB (EC2 Load Balancer) is a manged load balancer
+- An ELB (EC2 Load Balancer) is a managed load balancer
     - AWS guarantees that it will be working
     - AWS takes care of upgrades, maintenance, high availability
     - AWS provides only a few configuration knobs

@@ -4,15 +4,15 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/kinesis, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-17
+sr-interval: 25
 sr-ease: 250
 ---
 
 # Kinesis
 
 - Kinesis is a managed alternative to [[Apache Kafka]]
-- Great for allication logs, metrics, IoT, clickstreams
+- Great for allocation logs, metrics, IoT, clickstreams
 - Great for "real-time" [[big data]]
 - Great for streaming processing frameworks ([[Spark]], [[NiFi]], etc...)
 - Data is automatically replicated to 3 [[Availability Zone]]s

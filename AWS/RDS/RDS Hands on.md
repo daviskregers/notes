@@ -4,29 +4,29 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/rds, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-17
+sr-interval: 25
 sr-ease: 250
 ---
 
 # RDS Hands on
 
-We can go to the `RDS section` in AWS. And click on `create a database`. We are going to use `Standard Create` and `MySQL` because the aurora does not provide free tier.
+We can go to the [[AWS RDS]] in AWS. And click on `create a database`. We are going to use `Standard Create` and `MySQL` because the aurora does not provide free tier.
 
 Then we need:
-- Set a template (production, dev/test/free tier)
+- Set a template ([[production]], dev/test/free tier)
 - Specify identifier
 - Specify admin credentials
 - Choose instance type
-- Specify storage
+- Specify [[storage]]
 - Choose whether to use Multi-AZ deployment
-- Choose the VPC to deploy to, security groups, publicly accessible?
+- Choose the [[VPC]] to deploy to, [[security group]]s, [[publicly accessible]]?
 - Setup additional configuration
     - [[Backups]]
     - [[Monitoring]]
     - [[Logging]]
     - [[Maintenance]]
-    - Deletion prevention
+    - [[Deletion prevention]]
 
 Normally we wouldn't want for the Database to be publicly accessible, but we are going to select it for testing purposes.
 

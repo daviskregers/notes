@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/cloudwatch, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-14
+sr-interval: 22
 sr-ease: 250
 ---
 
@@ -16,7 +16,7 @@ sr-ease: 250
     - Instance.id
     - Environment.name
 - Metric resolution
-    - Stanard: 1 minute
+    - Standard: 1 minute
     - High Resolution: up to 1 second (storageResolution API parameter) - higher cost
 - Use API call PutMetricData
 - Use exponential back off in case of throttle errors

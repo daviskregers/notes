@@ -5,9 +5,9 @@ Type: youtube
 Source: https://www.youtube.com/watch?v=sn0aFEMVTpA
 Tags: [conspect, review, flashcards/cleancode/architecture]
 Review: Hard
-sr-due: 2022-11-04
-sr-interval: 3
-sr-ease: 250
+sr-due: 2023-01-12
+sr-interval: 56
+sr-ease: 270
 ---
 
 -   The web is a delivery mechanism.

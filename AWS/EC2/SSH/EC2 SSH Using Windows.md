@@ -4,16 +4,16 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2/ssh, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-18
+sr-interval: 26
 sr-ease: 250
 ---
 
-## SSH Using Windows
+## [[SSH]] Using [[Windows]]
 
 Download [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and install it.
 
-We can open up `Putty Key Generator` to convert the keypair we downloaded previously from `.pem` to `.ppk`.
+We can open up `Putty Key Generator` to convert the [[keypair]] we downloaded previously from `.pem` to `.ppk`.
 
 Click on `Load private key`, open up the keypair. Load it and click on `Save private key`.
 

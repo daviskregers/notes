@@ -4,16 +4,16 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/lambda, review]
-sr-due: 2022-11-10
+sr-due: 2022-11-25
 sr-interval: 3
-sr-ease: 250
+sr-ease: 230
 ---
 
 # KMS And Lambda practice
 
 ## [[AWS KMS (Key Management Service)]]
 
-In [[AWS KMS (Key Management Service)]] we have a [[AWS Managed keys]] section available that stores keys for aws managed services that we have had enabled encryption.
+In [[AWS KMS (Key Management Service)]] we have a [[AWS Managed keys]] section available that stores keys for aws [[managed service]]s that we have had enabled encryption.
 
 
 ![](2020-01-01-14-17-26.png)

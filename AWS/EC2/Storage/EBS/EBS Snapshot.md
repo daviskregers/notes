@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2/storage/ebs, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-17
+sr-interval: 25
 sr-ease: 250
 ---
 
@@ -31,7 +31,7 @@ The snapshots can be created by right-clicking on the volume.
 
 When the snapshot is created we can do several operations with it:
 - Create a new volume from the snapshot
-- Create Image (AMI) from the snapshot
+- Create Image ([[EC2 AMIs]]) from the snapshot
 
 ![](2019-12-30-07-18-12.png)
 

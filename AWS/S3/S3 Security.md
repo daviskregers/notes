@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/s3, development/aws/security, development/security, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-14
+sr-interval: 22
 sr-ease: 250
 ---
 
@@ -28,12 +28,12 @@ sr-ease: 250
     - Grant access to another account (cross account)
 
 - Other:
-    - Networking
-        - Supports VPC endpoints (For instances in VPC without www internet)
-    - Logging and Audit
+    - [[Networking]]
+        - Supports [[VPC endpoints]] (For instances in VPC without www internet)
+    - [[Logging]] and [[Audit]]
         - [[S3 access logs]] can be stored in other S3 buckets
         - [[API]] calls can be logged in [[AWS CloudTrail]]
-    - User Security
+    - [[User Security]]
         - [[Multi factor authentication]] can be required in [[S3 Versioning|versioned]] [[AWS S3 Bucket]] to delete [[AWS S3 Objects]]
         - [[S3 Pre-signed URLs]]: [[URL]]s that are valid only for a limited time (ex premium video service for logged in users)
 

@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/api-gateway, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-16
+sr-interval: 24
 sr-ease: 250
 ---
 
@@ -37,7 +37,7 @@ sr-ease: 250
 - Backup and Restore feature available
     - Point in time restore like [[AWS RDS]]
     - No performance impact
-- Global Tables
+- [[Global Tables]]
     - [[Multi region]], fully replication, high performance
 - [[Amazon DMS]] can be used to migrate to DynamoDB (from [[MongoDB]], [[Oracle]], [[MySQL]], [[S3]] etc ...)
 - You can launch a [[local DynamoDB]] on your computer for development purposes

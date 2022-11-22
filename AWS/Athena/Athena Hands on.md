@@ -4,22 +4,22 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/athena, review]
-sr-due: 2022-11-10
+sr-due: 2022-11-25
 sr-interval: 3
-sr-ease: 250
+sr-ease: 230
 ---
 
 # Athena Hands on
 
-We can access `Athena` from AWS Console.
+We can access [[AWS Athena]] from [[AWS Console]].
 
 ![](2019-12-31-09-18-27.png)
 
-When clicking on `Get Started` it redirects us to a Query Editor.
+When clicking on `Get Started` it redirects us to a [[Query Editor]].
 
 ![](2019-12-31-09-19-10.png)
 
-Since it asked me to setup results path, I created a new S3 bucket.
+Since it asked me to setup results path, I created a new [[AWS S3 Bucket]].
 
 ![](2019-12-31-09-22-34.png)
 

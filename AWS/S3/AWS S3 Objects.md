@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/s3, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-03
+sr-interval: 16
 sr-ease: 250
 ---
 
@@ -20,7 +20,7 @@ sr-ease: 250
     - Max Size is 5TB
     - If uploading more than 5GB, must use "multi-part upload"
 - Metadata (list of text /key pairs - system or user metadata)
-- Tags (unicode key/value pair - up to 10) - useful for security / lifecycle.
+- Tags ([[unicode]] key/value pair - up to 10) - useful for [[security]] / [[lifecycle]].
 - Version ID - if versioning enabled
 
 The creation process is fairly easy:

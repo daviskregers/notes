@@ -5,8 +5,8 @@ Type: book | article | blog | etc
 Source: source
 Tags: [conspect, review, flashcards/cleancode/comments]
 Review: Hard
-sr-due: 2022-11-04
-sr-interval: 3
+sr-due: 2022-12-11
+sr-interval: 24
 sr-ease: 253
 ---
 
@@ -15,17 +15,17 @@ sr-ease: 253
 - [x] Add flashcards / review ✅ 2022-11-01
 
 -   **Comments**
-    -   Most of the time comments are code smell
+    -   Most of the time [[comments]] are code smell
         -   They tend to compensate for bad code
         -   They deteriorate over time and can lie
         -   Most of the time are useless
     -   There really should be following comments:
         -   Legal / copyright comments
         -   Comments when you cannot use a more descriptive name due to a design pattern
-        -   Hard to understand lines like regex query
+        -   Hard to understand lines like [[regex]] query
     -   When writing comments
         -   Should reveal intent
-        -   Are applied to local scope only
+        -   Are applied to local [[scope]] only
 -   **Naming names**
     -   Should reveal intent
     -   Variable name length should be proportional to the scope that contains it.

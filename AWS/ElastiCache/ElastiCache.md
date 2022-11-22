@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/elasticache, database, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-18
+sr-interval: 26
 sr-ease: 250
 ---
 
@@ -19,7 +19,7 @@ sr-ease: 250
 - Write Scaling using [[sharding]]
 - Read Scaling using [[Read Replica]]s
 - Multi AZ with Failover Capability
-- AWS takes care of [[OS maintenance]] / [[patching]], optimizations, setup, configuration, monitoring, [[failure recovery]] and [[backups]]
+- AWS takes care of [[OS maintenance]] / [[patching]], optimisations, setup, configuration, monitoring, [[failure recovery]] and [[backups]]
 
 - In-memory data store, sub-millisecond latency
 - Must provision an [[AWS EC2]] instance type

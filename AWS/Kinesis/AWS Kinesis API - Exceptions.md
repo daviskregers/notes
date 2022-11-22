@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/kinesis, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-12
+sr-interval: 20
 sr-ease: 250
 ---
 
@@ -13,7 +13,7 @@ sr-ease: 250
 
 - ProvisionedThroughputExceeded Exceptions
     - Happens when sending more data (exceeding MB/s or TPS for any shard)
-    - Make sure you don't have a hot shard (such as your partition key is bad and too much data goes to that partition)
+    - Make sure you don't have a [[hot shard]] (such as your partition key is bad and too much data goes to that partition)
 - Solution:
     - Retries with backoff
     - Increase shards (scaling)

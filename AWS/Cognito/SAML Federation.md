@@ -4,14 +4,14 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/cognito, saml, identity-federation, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-17
+sr-interval: 25
 sr-ease: 250
 ---
 
 ## SAML Federation (For enterprises)
 
-- To integrate [[Active Directory]] / [[ADFS]] with AWS (or any SAML 2.0)
+- To integrate [[Active Directory]] / [[ADFS]] with AWS (or any [[SAML]] 2.0)
 - Provides access to [[AWS Console]] or [[AWS CLI]] (though [[temporary credentials]])
 - No need to create an [[IAM]] user for each of your employees
 

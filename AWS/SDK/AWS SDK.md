@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/sdk, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-10
+sr-interval: 19
 sr-ease: 250
 ---
 
@@ -22,7 +22,7 @@ sr-ease: 250
     - [[Go]]
     - [[Ruby]]
     - [[C++]]
-- We have to use the AWS SDK when coding against AWS Services such as [[Programming/AWS/solutions-architect-associate/14-databases-in-aws/DynamoDB]]
+- We have to use the AWS SDK when coding against AWS Services such as [[DynamoDB]]
 - The [[AWS CLI]]I uses the Python SDK (boto3)
 - Good to know: if you don't specify or configure a default [[AWS Region]], then us-east-1 will be chosen by default.
 

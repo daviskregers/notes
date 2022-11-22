@@ -4,16 +4,16 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2/storage/ebs, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-18
+sr-interval: 26
 sr-ease: 250
 ---
 
 ## EBS vs [[EC2 Instance Store]]
 
-- Some instances do not come with Root EBS volumes
-- Instead, they come with "[[EC2 Instance Store]]" (= ephemeral storage)
-- Instance store is physically attached to the machine (EBS is a network drive)
+- Some instances do not come with Root [[EBS Volume]]s
+- Instead, they come with "[[EC2 Instance Store]]" (= [[ephemeral storage]])
+- Instance store is physically attached to the machine ([[EBS Volume]] is a [[network drive]])
 - Pros:
     - Better [[I/O performance]]
     - Good for [[buffer]] / [[cache]] / [[scratch data]] / [[temporary content]]

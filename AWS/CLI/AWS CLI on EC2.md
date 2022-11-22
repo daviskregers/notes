@@ -4,14 +4,14 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/cli, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-18
+sr-interval: 26
 sr-ease: 250
 ---
 
 # AWS CLI on [[AWS EC2]]
 
-## AWS CLI ON EC2 - The bad way
+## AWS CLI ON [[AWS EC2]] - The bad way
 
 - We could run `aws configure` on EC2 just like we did (and it will work)
 - But it's insecure
@@ -26,8 +26,8 @@ sr-ease: 250
 ## The right way
 
 - [[IAM Role]] can be attached to [[AWS EC2]] Instances
-- IAM Roles can come with a policy authorizing exactly what the ec2 instance should be able to do
-- EC2 Instances can then use these profiles automatically without any additional confurations
+- IAM Roles can come with a policy authorising exactly what the [[AWS EC2]] instance should be able to do
+- [[AWS EC2]] Instances can then use these profiles automatically without any additional configuration
 - *This is the best practice on AWS and you should 100% do this.*
 
 In order to do this, we go to `IAM` service and create a new role, attach it to an EC2 service, attach policies that we need.

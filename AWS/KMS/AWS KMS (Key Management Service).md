@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/kms, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-02
+sr-interval: 15
 sr-ease: 250
 ---
 
@@ -13,10 +13,10 @@ sr-ease: 250
 
 - Anytime you hear "[[encryption]]" for an AWS service, it's most likely KMS
 - Easy way to [[control access]] to your data, AWS manages keys for us
-- Fully integrated with [[IAM]] for authorization
+- Fully integrated with [[IAM]] for authorisation
 - Seamlessly integrated into:
     - [[EBS Volume]]: encrypt volumes
-    - [[AWS S£]]: Server side encryption of objects
+    - [[AWS S3]]: Server side encryption of objects
     - [[Redshift]]: encryption of data
     - [[AWS RDS]]: encryption of data
     - [[SSM Parameter Store]]: Parameter store

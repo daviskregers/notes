@@ -4,8 +4,8 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/api-gateway, database, serverless, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-15
+sr-interval: 24
 sr-ease: 250
 ---
 
@@ -16,7 +16,7 @@ sr-ease: 250
 - Scales to massive workloads, [[distributed database]]
 - Millions of requests per seconds, trillions of rows, 100s of TB of storage
 - Fast and consistent in performance (low latency of retrieval)
-- Integrated with [[IAM]] for security, authorization and administration
+- Integrated with [[IAM]] for [[security]], [[authorisation]] and [[administration]]
 - Enables event driven programming with [[DynamoDB Streams]]
 - Low cost and autoscaling capabilities
 
@@ -25,7 +25,7 @@ sr-ease: 250
 - Can replace [[ElastiCache]] as a [[key-value store]] (storing session data for example)
 - [[Highly Available]], [[Multi AZ]] by default, [[Read and Writes are decoupled]], [[DAX (DynamoDB Accelerator)]] for read [[cache]]
 - Reads can be [[eventually consistent]] or [[strongly consistent]]
-- Security, authentication and authorization is done though [[IAM]]
+- Security, authentication and authorisation is done though [[IAM]]
 - [[DynamoDB Streams]] to integrate with [[AWS Lambda]]
 - Backup / Restore feature, Global Table feature
 - [[Monitoring]] though [[CloudWatch]]

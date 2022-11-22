@@ -4,18 +4,18 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2/ssh, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-12
+sr-interval: 20
 sr-ease: 250
 ---
 
-## SSH from Linux or Mac
+## [[SSH]] from [[Linux]] or [[Mac]]
 
-Get the Public IP of the intance you want to connect to:
+Get the [[Public IP]] of the [[AWS EC2]] instance you want to connect to:
 
 ![](../../../images/2019-11-22-11-12-48.png)
 
-Open up a terminal on your OS. Move your key pair file you downloaded when creating the instance.
+Open up a [[terminal]] on your OS. Move your key pair file you downloaded when creating the instance.
 
 ```bash
 ➜  notes git:(master) ✗ sudo chmod 0400 ~/Downloads/EC2Tutorial.pem

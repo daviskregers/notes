@@ -4,14 +4,14 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ec2/types, review]
-sr-due: 2022-11-10
-sr-interval: 3
+sr-due: 2022-12-13
+sr-interval: 21
 sr-ease: 250
 ---
 
 ## Hands on
 
-When viewing EC2 instances on the left sidebar, we have a list of these types available.
+When viewing [[AWS EC2]] instances on the left sidebar, we have a list of these types available.
 
 ![](../../../images/2019-11-22-12-35-14.png)
 
