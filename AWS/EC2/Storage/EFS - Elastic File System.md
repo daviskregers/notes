@@ -27,6 +27,6 @@ sr-ease: 250
     - MAX I/O  - used when thousands of [[AWS EC2]] are using the [[Elastic File System (EFS)]]
 - EFS file sync to sync from on-premise file system to EFS
 - Backup EFS-to-EFS (incremental - can choose frequency)
-- [[Server side encryption at rest]] using [[AWS KMS (Key Management Service)]]
+- [[Encryption at rest]] using [[AWS KMS (Key Management Service)]]
 
 ![](2019-12-30-07-45-31.png)

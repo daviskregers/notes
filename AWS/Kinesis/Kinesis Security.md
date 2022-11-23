@@ -15,4 +15,4 @@ sr-ease: 250
 - [[Encryption in flight]] using [[HTTP]] endpoints
 - [[Encryption at rest]] using [[AWS KMS (Key Management Service)]]
 - Possibility to encrypt / decrypt data client side (harder)
-- [[VPC endpoints]] available for kinesis to access within [[VPC]]
+- [[VPC endpoint]] available for kinesis to access within [[VPC Summary]]

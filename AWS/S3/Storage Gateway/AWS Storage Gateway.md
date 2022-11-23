@@ -15,7 +15,7 @@ sr-ease: 250
 ## AWS Storage Gateway
 
 - Bridge between on-premise data and cloud data in [[AWS S3]]
-- Use cases: [[disaster recovery]], backup & restore, [[Tiered storage]]
+- Use cases: [[Disaster Recovery]], backup & restore, [[Tiered storage]]
 - 3 types of Storage Gateway
 
 ![[File Gateway]]

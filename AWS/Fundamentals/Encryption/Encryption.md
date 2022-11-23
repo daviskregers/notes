@@ -13,6 +13,6 @@ sr-ease: 250
 
 ![[Encryption in flight]]
 
-![[Server side encryption at rest]]
+![[Encryption at rest]]
 
 ![[Client Side Encryption]]

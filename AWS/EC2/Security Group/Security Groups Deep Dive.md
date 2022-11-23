@@ -23,7 +23,7 @@ sr-ease: 250
     ![](../../../images/2019-11-22-11-39-26.png)
 
 - Can be attached to multiple instances
-- Locked down to a [[AWS Region]] / [[VPC]] combination
+- Locked down to a [[AWS Region]] / [[VPC Summary]] combination
 - Does live "outside" the [[AWS EC2]] - if traffic is blocked the EC2 instance won't see it.
 - It's a good to maintain one separate [[security group]] for ssh access
 - If your application is not accessible (timeout) then it's a security group issue

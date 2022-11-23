@@ -12,7 +12,7 @@ sr-ease: 250
 ## Neptune for Solutions Architect
 
 - **Operations**: Similar to [[RDS for Solutions Architect]]
-- **Security**: [[IAM]], [[VPC]], [[AWS KMS (Key Management Service)]], [[SSL]] (similar to RDS) + [[IAM Authentication]]
+- **Security**: [[IAM]], [[VPC Summary]], [[AWS KMS (Key Management Service)]], [[SSL]] (similar to RDS) + [[IAM Authentication]]
 - **Reliability**: [[Multi AZ]], [[clustering]]
 - **Performance**: best suited for [[graphs]], clustering to improve performance
 - **Cost**: pay per node provisioned (similar to RDS)

@@ -16,7 +16,7 @@ sr-ease: 250
 - [[DynamoDB]]
 - [[S3]]
 - [[AWS IoT]]
-- [[CloudWatch Event]]s
+- [[CloudWatch Events]]s
 - [[CloudWatch Logs]]
 - [[AWS SNS]]
 - [[Programming/AWS/Cognito/AWS Cognito]]

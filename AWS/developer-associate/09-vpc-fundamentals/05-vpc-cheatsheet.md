@@ -4,7 +4,7 @@
 - Subnets: Tied to an AZ, network parition of the VPC
 - Internet Gateway / Instances: Give you internet access to private subnets
 - NAT Gateway / Instances: give internet access to private subnets
-- NACL: Sateless, subnet rules for inbount and outbound
+- [[Network ACL]]: Sateless, subnet rules for inbount and outbound
 - Security Groups: Stateful, operate at the EC2 instance level or ENI
 - VPC Peering: Connect two VPC with non overlapping IP ranges, non transitive
 - VPC Endpoints: Provide private access to AWS Services within VPC

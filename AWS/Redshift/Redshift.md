@@ -24,7 +24,7 @@ sr-ease: 250
 - Leader node: for [[query planning]], [[results aggregation]]
 - Compute node: for performing the queries, send results to leader
 - [[Redshift Spectrum]]: perform queries directly against [[AWS S3]] (no need to load)
-- Backup & Restore, Security [[VPC]] / [[IAM]] / [[AWS KMS (Key Management Service)]], [[Monitoring]]
-- [[Redshift Enhanced VPC Routing]]: COPY / UNLOAD goes through [[VPC]]
+- Backup & Restore, Security [[VPC Summary]] / [[IAM]] / [[AWS KMS (Key Management Service)]], [[Monitoring]]
+- [[Redshift Enhanced VPC Routing]]: COPY / UNLOAD goes through [[VPC Summary]]
 
 ![[Redshift for Solutions Architect]]

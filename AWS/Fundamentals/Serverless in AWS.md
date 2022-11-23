@@ -13,7 +13,7 @@ sr-ease: 270
 
 ## Serverless in AWS
 
-- [[AWS Lambda]] & [[04-step-functions-swf]]
+- [[AWS Lambda]] & [[Step functions & Simple Workflow Service]]
 - [[Programming/AWS/DynamoDB/DynamoDB]]
 - [[Programming/AWS/Cognito/AWS Cognito]]
 - [[AWS API Gateway]]

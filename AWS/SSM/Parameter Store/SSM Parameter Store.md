@@ -16,7 +16,7 @@ sr-ease: 250
 - [[Serverless]], [[scalable]], [[durable]], easy SDK, free
 - Version tracking of configurations / secrets
 -[[ Configuration management ]]using path & [[IAM]]
-- Notifications with [[CloudWatch Event]]s
+- Notifications with [[CloudWatch Events]]s
 - Integration with [[CloudFormation]]
 
 ![](2020-01-01-14-39-23.png)

@@ -14,5 +14,5 @@ sr-ease: 270
 - [[Timeout]]: default 3 seconds, max 15 minutes
 - [[Environment variables]]
 - Allocated [[memory]] (127MB to 3GB)
-- Ability to deploy within a [[VPC]] + assign [[Security Group]]s
+- Ability to deploy within a [[VPC Summary]] + assign [[Security Group]]s
 - [[IAM execution role]] must be attached to the [[AWS Lambda]] function

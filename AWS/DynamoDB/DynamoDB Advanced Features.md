@@ -30,7 +30,7 @@ sr-ease: 250
     - 2.5x more expensive than provisioned capacity (use with care)
     - Helpful when spikes are un-predictable or the application has very low throughput
 - Security
-    - [[VPC endpoints]] available to access DynamoDB without internet
+    - [[VPC endpoint]] available to access DynamoDB without internet
     - Access fully controlled by [[IAM]]
     - Encryption at rest using [[AWS KMS (Key Management Service)]]
     - Encryption in transit using [[SSL]] / [[TLS]]

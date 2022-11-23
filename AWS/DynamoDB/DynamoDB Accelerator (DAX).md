@@ -16,4 +16,4 @@ sr-ease: 250
 - 5 minutes [[TTL]] for cache by default
 - Up to 10 nodes in the cluster
 - [[Multi AZ]] (3 nodes minimum recommended for production)
-- Secure (Encryption at rest with [[AWS KMS (Key Management Service)]], [[VPC]], [[IAM]], [[CloudTrail]])
+- Secure (Encryption at rest with [[AWS KMS (Key Management Service)]], [[VPC Summary]], [[IAM]], [[CloudTrail]])

@@ -20,7 +20,7 @@ Then we need:
 - Choose instance type
 - Specify [[storage]]
 - Choose whether to use Multi-AZ deployment
-- Choose the [[VPC]] to deploy to, [[security group]]s, [[publicly accessible]]?
+- Choose the [[VPC Summary]] to deploy to, [[security group]]s, [[publicly accessible]]?
 - Setup additional configuration
     - [[Backups]]
     - [[Monitoring]]

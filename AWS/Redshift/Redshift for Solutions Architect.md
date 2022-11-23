@@ -12,7 +12,7 @@ sr-ease: 250
 ## Redshift for Solutions Architect
 
 - **Operations**: similar to [[RDS for Solutions Architect]]
-- **Security**: [[IAM]], [[VPC]], [[AWS KMS (Key Management Service)]], [[SSL]] (similar to [[RDS for Solutions Architect]])
+- **Security**: [[IAM]], [[VPC Summary]], [[AWS KMS (Key Management Service)]], [[SSL]] (similar to [[RDS for Solutions Architect]])
 - **Reliability**: [[Highly available]], [[auto healing]] features
 - **Performance**: 10x performance vs other data warehousing, [[compression]]
 - **Cost**: pay per node provisioned, 1/10th of the cost vs [[data warehouse]]s

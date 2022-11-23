@@ -16,7 +16,7 @@ sr-ease: 250
 - Has a [[JDBC]] / [[ODBC]] driver
 - Charged per query and amount of data scanned
 - Supports [[CSV]], [[JSON]], [[ORC]], [[Avro]] and [[Parquet]] (built on [[Presto]])
-- Use cases: [[Business intelligence]] / analytics / reporting, analyze & query [[12-vpc-flow-logs-athena]], [[ Load Balancer Logs ]], [[CloudTrail]] trails etc
+- Use cases: [[Business intelligence]] / analytics / reporting, analyze & query [[VPC Flow Logs + Athena]], [[ Load Balancer Logs ]], [[CloudTrail]] trails etc
 
 - Fully [[Serverless]] database with [[SQL]] capabilities
 - Used to query data in [[AWS S3]]

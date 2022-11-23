@@ -17,7 +17,7 @@ sr-ease: 250
 - ElasticSearch also has some usage for [[Big Data]] applications
 - You can provision a [[cluster]] of instances
 - Built-in integrations: [[Kinesis Firehose]], [[AWS IoT]], and [[CloudWatch Logs]] for data ingestion
-- Security though [[Programming/AWS/Cognito/AWS Cognito]] & [[IAM]], [[AWS KMS (Key Management Service)]] encryption, [[SSL]] & [[VPC]]
+- Security though [[Programming/AWS/Cognito/AWS Cognito]] & [[IAM]], [[AWS KMS (Key Management Service)]] encryption, [[SSL]] & [[VPC Summary]]
 - Comes with [[Kibana]] (visualization) & [[Logstash]] (log ingestion)- [[ELK stack]]
 
 

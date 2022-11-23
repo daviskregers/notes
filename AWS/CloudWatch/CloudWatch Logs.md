@@ -16,7 +16,7 @@ sr-ease: 250
     - [[Elastic Beanstalk]]: collection of logs from application
     - [[ECS]]: collection from containers
     - [[AWS Lambda]]: collection from function logs
-    - [[VPC Flow logs]]: VPC specific logs
+    - [[VPC Flow Logs]]: VPC specific logs
     - [[AWS API Gateway]]
     - [[AWS CloudTrail]] based on filter
     - [[CloudWatch log agent]]s: for example on EC2 machines

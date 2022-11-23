@@ -11,12 +11,12 @@ sr-ease: 250
 
 ## API Gateway integrations
 
-- Outside of [[VPC]]:
+- Outside of [[VPC Summary]]:
     - [[AWS Lambda]] (most popular / powerful)
     - Endpoints on [[AWS EC2]]
     - [[Programming/AWS/EC2/Elastic LoadBalancer/Load Balancing]]
     - Any AWS Service
     - External and publicly accessible HTTP endpoints
 - Inside of VPC
-    - [[AWS Lambda]] in your [[VPC]]
-    - [[AWS EC2 Endpoints]] in your [[VPC]]
+    - [[AWS Lambda]] in your [[VPC Summary]]
+    - [[AWS EC2 Endpoints]] in your [[VPC Summary]]

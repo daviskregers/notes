@@ -29,7 +29,7 @@ sr-ease: 250
 
 - Other:
     - [[Networking]]
-        - Supports [[VPC endpoints]] (For instances in VPC without www internet)
+        - Supports [[VPC endpoint]] (For instances in VPC without www internet)
     - [[Logging]] and [[Audit]]
         - [[S3 access logs]] can be stored in other S3 buckets
         - [[API]] calls can be logged in [[AWS CloudTrail]]

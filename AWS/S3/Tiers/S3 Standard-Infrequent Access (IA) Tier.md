@@ -15,4 +15,4 @@ Amazon S3 Standard-Infrequent Access (IA)
 - 99.99% [[availability]]
 - Low cost compared to [[S3 Standard Tier (General Purpose)]]
 - Sustain 2 concurrent facility failures
-- Use cases: AS a data store for [[disaster recovery]], backups
+- Use cases: AS a data store for [[Disaster Recovery]], backups

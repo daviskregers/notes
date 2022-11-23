@@ -12,7 +12,7 @@ sr-ease: 250
 ## ElasticSearch for Solutions Architect
 
 - **Operations**: Similar to [[RDS for Solutions Architect]]
-- **Security**: [[Programming/AWS/Cognito/AWS Cognito]], [[IAM]], [[VPC]], [[AWS KMS (Key Management Service)]], [[SSL]]
+- **Security**: [[Programming/AWS/Cognito/AWS Cognito]], [[IAM]], [[VPC Summary]], [[AWS KMS (Key Management Service)]], [[SSL]]
 - **Reliability**: [[Multi AZ]], [[Clustering]]
 - **Performance**: based on [[ElasticSearch]] project (open source), petabyte scale
 - **Cost**: pay per node provisioned (similar to [[RDS for Solutions Architect]])
