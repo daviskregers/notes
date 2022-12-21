@@ -11,26 +11,33 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v2
-
-      - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.18
-
-      - name: Update theme
-        # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
-        run: git submodule update --init --recursive
 
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
+        
+      - name: initialize hugo
+        run: hugo new site hugo_site
+        
+      - name: Debug
+        run: ls -lah
+        
+#       - name: Git checkout
+#         uses: actions/checkout@v2
 
-      - name: Build
-        # remove --minify tag if you do not need it
-        # docs: https://gohugo.io/hugo-pipes/minification/
-        run: hugo --minify
+#       - name: Build Link Index
+#         uses: jackyzha0/hugo-obsidian@v2.18
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: .compiled
-        #   cname: example.com
+#       - name: Update theme
+#         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
+#         run: git submodule update --init --recursive
+
+#       - name: Build
+#         # remove --minify tag if you do not need it
+#         # docs: https://gohugo.io/hugo-pipes/minification/
+#         run: hugo --minify
+
+#       - name: Deploy
+#         uses: peaceiris/actions-gh-pages@v3
+#         with:
+#           publish_dir: .compiled
+#         #   cname: example.com
