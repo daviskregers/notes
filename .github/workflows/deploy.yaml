@@ -23,10 +23,10 @@ jobs:
         
       - name: Debug Config
         run: |
-          echo "baseURL = 'https://notes.deiveris.lv/' \
-          languageCode = 'en-us' \
-          title = 'notes' \
-          theme = 'ananke'" > config.toml
+          echo "baseURL = 'https://notes.deiveris.lv/' > config.toml
+          echo "languageCode = 'en-us'" >> config.toml
+          echo "title = 'notes'" >> config.toml
+          echo "theme = 'ananke'" >> config.toml
           cat config.toml
         
       - name: Git checkout
