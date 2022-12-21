@@ -21,6 +21,9 @@ jobs:
       - name: pick hugo theme
         run: git init && git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke && echo "theme = 'ananke'" >> config.toml
         
+      - name: Debug Config
+        run: config.toml
+        
       - name: Git checkout
         uses: actions/checkout@v3
         with:
