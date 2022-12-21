@@ -16,7 +16,7 @@ sr-ease: 250
     - Continuous backups and restore to specific timestamp ([[Point in Time Restore]])
     - Monitoring dashboards
     - Read replicas for improved read performance
-    - [[Multi-AZ]] setup for [[Disaster Recovery]]
+    - [[Multi AZ]] setup for [[Disaster Recovery]]
     - Maintenance windows for for upgrades
     - Scaling capability ([[Vertical scalability]] and [[Horizontal scalability]])
     - But you can't [[EC2 SSH]] into your instances

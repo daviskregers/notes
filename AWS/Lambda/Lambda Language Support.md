@@ -14,6 +14,6 @@ sr-ease: 270
 - [[Node.js]]
 - [[Python]]
 - [[Java]]
-- [[C#]] / [[.NET Core]]
+- [[C Language#]] / [[.NET Core]]
 - [[Golang]]
-- [[C#]] / [[Powershell]]
+- [[C Language#]] / [[Powershell]]

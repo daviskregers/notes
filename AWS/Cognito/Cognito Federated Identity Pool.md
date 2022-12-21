@@ -29,7 +29,7 @@ sr-ease: 250
 - How:
     - Log in to federated [[identity provider]] - or remain anonymous
     - Get temporary AWS credentials back from the Federated Identity Pool
-    - These credentials come with a pre-defined [[IAM policy]] stating their permissions
+    - These credentials come with a pre-defined [[IAM Policy]] stating their permissions
 - Example
     - provide (temporary) access to write to S3 bucket using Facebook Login
 - Note

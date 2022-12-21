@@ -3,7 +3,7 @@ Created: 2022-11-02 08:05:37
 Modified: Tuesday 1st November 2022 08:05:27
 Type: youtube
 Source: https://www.youtube.com/watch?v=sn0aFEMVTpA
-Tags: [conspect, review, flashcards/cleancode/architecture]
+Tags: [development/clean-code, conspect, review, flashcards/cleancode/architecture]
 Review: Hard
 sr-due: 2022-12-13
 sr-interval: 26
@@ -20,7 +20,7 @@ sr-ease: 251
         -   If the effort increases - the design is bad.
 
 What is the goal of an architecture?::To minimize the human resources to build and maintain code.
-<!--SR:!2022-11-05,4,270-->
+<!--SR:!2022-11-27,4,250-->
 
 > Most startups fail because they can't maintain.
 

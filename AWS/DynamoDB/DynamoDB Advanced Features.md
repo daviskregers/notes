@@ -39,5 +39,5 @@ sr-ease: 250
     - No performance impact
 - [[Global Tables]]
     - [[Multi region]], fully replication, high performance
-- [[Amazon DMS]] can be used to migrate to DynamoDB (from [[MongoDB]], [[Oracle]], [[MySQL]], [[S3]] etc ...)
+- [[Amazon DMS]] can be used to migrate to DynamoDB (from [[MongoDB]], [[Oracle]], [[MySQL]], [[AWS S3]] etc ...)
 - You can launch a [[local DynamoDB]] on your computer for development purposes

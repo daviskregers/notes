@@ -23,7 +23,7 @@ Tags: [development/aws/fundamentals]
 - [[RDBMS]] (= [[SQL]]/[[OLTP]]): [[AWS RDS]], [[AWS Aurora]] - great for joins
 - [[NoSQL]] database: [[Programming/AWS/DynamoDB/DynamoDB]] (~[[JSON]]), [[ElastiCache]] (key/value pairs), [[~ Inbox/Neptune]] ([[graphs]]) - no joins, no SQL
 - [[Object Store]]: [[AWS S3]] (for big objects) / [[S3 Glacier]] (for backups / archives)
-- [[Data Warehouse]] (= [[SQL Analytics]] / [[BI]]): [[~ Inbox/Redshift]] ([[OLAP]]), [[AWS Athena]]
+- [[Data Warehouse]] (= [[SQL Analytics]] / [[BI]]): [[Redshift]] ([[OLAP]]), [[AWS Athena]]
 - [[Search]]: [[ElasticSearch]] ([[JSON]]) - [[free text]], [[unstructured searches]]
-- [[Graphs]]: [[~ Inbox/Neptune]] - display relationships between data
+- [[Graphs]]: [[Neptune]] - display relationships between data
 

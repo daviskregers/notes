@@ -10,8 +10,6 @@ sr-interval: 21
 sr-ease: 270
 ---
 
-- [ ] Add flashcards / review 🛫 2022-11-24 ⏳ 2022-11-24 📅 2022-11-24
-
 In `lib/myapp_web/endpoint.ex` change [[GZIP]] from `false` to `true`:
 
 ```elixir

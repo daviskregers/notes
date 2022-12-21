@@ -14,7 +14,7 @@ sr-ease: 230
 - [[Content Delivery Network (CDN)]]
 - Improves read performance, content is cached at [[edge]]
 - 136 points of presence globally ([[edge locations]])
-- Popular with [[S3]] but works with [[AWS EC2]], [[Programming/AWS/EC2/Elastic LoadBalancer 2/Load Balancing]]
+- Popular with [[AWS S3]] but works with [[AWS EC2]], [[Programming/AWS/EC2/Elastic LoadBalancer 2/Load Balancing]]
 - Can help to protect against [[network attacks]]
 - Can provide [[SSL encryption]] ([[HTTPS]]) at the edge using ACM
 - [[Programming/AWS/CloudFront/AWS CloudFront]] can use SSL encryption (HTTPS) to talk to your applications
@@ -22,8 +22,8 @@ sr-ease: 230
 
 ## CloudFront Signed URL / Signed Cookies
 
-- Say you wanted to distribute paid shared content to premium users over the world, the content lives int [[S3]].
-- If S3 can only be accessed through CloudFront, we cannot use self-signed S3 URLS
+- Say you wanted to distribute paid shared content to premium users over the world, the content lives int [[AWS S3]].
+- If [[AWS S3]] can only be accessed through CloudFront, we cannot use self-signed S3 URLS
 - We can use CloudFront signed URLs. We attach a policy with:
     - Included URL expiration
     - Include IP ranges to access data from

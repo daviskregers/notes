@@ -30,6 +30,6 @@ sr-ease: 250
 
 ![[IAM Federation]]
 
-![[IAM Best Practices]]
+![[Programming/AWS/IAM/IAM Best Practices]]
 
 [[ IAM Hands On]]

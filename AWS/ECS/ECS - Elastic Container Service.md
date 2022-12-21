@@ -25,7 +25,7 @@ sr-ease: 130
 
 - Run [[micro-service]]s
     - Ability to run multiple [[docker container]]s on the same machine
-    - Ease [[service discovery]] features to enhance communication
+    - Ease [[Service Discovery]] features to enhance communication
     - Direct integration with [[Application Load Balancer (v2)]]
     - [[Auto scaling]] capability
 - Run [[batch processing]] / [[scheduled task]]s

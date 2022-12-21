@@ -19,4 +19,4 @@ sr-ease: 250
     - External and publicly accessible HTTP endpoints
 - Inside of VPC
     - [[AWS Lambda]] in your [[VPC Summary]]
-    - [[AWS EC2 Endpoints]] in your [[VPC Summary]]
+    - [[AWS EC2  Endpoint]]s in your [[VPC Summary]]

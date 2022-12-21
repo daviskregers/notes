@@ -1,6 +1,6 @@
 # Download Unity and Visual Studio
 
-You can go to [https://unity3d.com/get-unity/download](https://unity3d.com/get-unity/download) and download the unity. Choose the `Unity Hub` version.
+You can go to [https://unity3d.com/get-unity/download](https://unity3d.com/get-unity/download) and download the [[Unity]]. Choose the `Unity Hub` version.
 
 Once downloaded and installed, it will prompt for a license.
 

@@ -11,7 +11,7 @@ sr-ease: 210
 
 # Third Pillar - Reliability
 
-- Ability of a system to recover from [[infrastructure]] or [[service]] [[disruption]]s, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues
+- Ability of a system to recover from [[infrastructure]] or [[Service]] [[disruption]]s, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues
 - Design principles
     - **Test [[recovery procedure]]s** - Use automation to simulate different failures or to **recreate scenarios that led to failures before**
     - **Automatically recover from failure** - Anticipate and remediate failures before they occur

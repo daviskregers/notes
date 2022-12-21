@@ -11,7 +11,7 @@ sr-ease: 230
 
 # AWS CloudFront Hands On
 
-## We'll create an [[S3 Bucket]]
+## We'll create an [[AWS S3 Bucket]]
 
 ![](2019-12-31-07-53-56.png)
 

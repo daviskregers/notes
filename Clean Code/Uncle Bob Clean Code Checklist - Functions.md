@@ -3,7 +3,7 @@ Created: 2022-11-02 07:21:17
 Modified: Tuesday 1st November 2022 07:18:05
 Type: book | article | blog | etc
 Source: source
-Tags: [conspect, review, flashcards/cleancode/functions]
+Tags: [development/clean-code, conspect, review, flashcards/cleancode/functions]
 Review: Hard
 sr-due: 2022-12-12
 sr-interval: 25
@@ -37,36 +37,39 @@ Flashcards
 
 - Has same level of ==abstractions (high level abstractions and primitive structures together)== together
 <!--SR:!2022-11-04,3,250-->
+
 - How big should an average function be::small (usually 2-6 lines)
-<!--SR:!2022-11-05,4,270-->
+<!--SR:!2022-12-25,32,270-->
+
 - What should a function do?::It should do only 1 thing. You cannot extract another function from it.
-<!--SR:!2022-11-05,4,272-->
+<!--SR:!2023-02-15,84,292-->
+
 - How many indents shouldn't the function exceed?::It shouldn't exceed 1-2 indents
-<!--SR:!2022-11-05,4,282-->
+<!--SR:!2022-12-26,33,282-->
 
 - How many arguments should a function have::A functions shouldn't have move than 3 arguments
-<!--SR:!2022-11-05,4,275-->
+<!--SR:!2023-02-14,83,295-->
 
 - A function shouldn't have ==boolean== input arguments
-<!--SR:!2022-11-05,4,275-->
+<!--SR:!2023-02-12,81,295-->
 
 - A function shouldn't ==input== arguments that are used as ==outputs==.
-<!--SR:!2022-11-05,4,282!2022-11-05,4,282-->
+<!--SR:!2022-12-29,36,282!2022-12-30,37,282-->
 
 - A function shouldn't contain ==switch/if-else== statements. Prefer ==polymorphism, open-closed principle, null-object==.
-<!--SR:!2022-11-05,4,275!2022-11-05,4,282-->
+<!--SR:!2022-12-31,38,275!2022-11-27,4,262-->
 
 - A functions shouldn't have ==side==-effects like ==opening file without closing it==.
-<!--SR:!2022-11-05,4,282-->
+<!--SR:!2023-02-18,87,302!2022-11-26,3,264-->
 
 - Functions should follow the ==command/query== seperation. ==Queries shouldn't modify the state, commands shouldn't return data==.
-<!--SR:!2022-11-05,4,282-->
+<!--SR:!2022-12-30,37,282!2022-11-26,3,264-->
 
 - Always prefer ==exceptions== over error codes.
-<!--SR:!2022-11-05,4,275-->
+<!--SR:!2023-02-13,82,295-->
 
 - Function body should only contain ==try&catch== block if there is one.
-<!--SR:!2022-11-05,4,282-->
+<!--SR:!2023-02-17,86,302-->
 
 - Don't use nested ==try&catch== blocks.
-<!--SR:!2022-11-05,4,281-->
+<!--SR:!2023-02-16,85,301-->

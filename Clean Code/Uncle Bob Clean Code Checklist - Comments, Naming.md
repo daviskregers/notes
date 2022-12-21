@@ -3,7 +3,7 @@ Created: 2022-11-02 07:35:57
 Modified: Tuesday 1st November 2022 07:35:47
 Type: book | article | blog | etc
 Source: source
-Tags: [conspect, review, flashcards/cleancode/comments]
+Tags: [development/clean-code, conspect, review, flashcards/cleancode/comments]
 Review: Hard
 sr-due: 2022-12-11
 sr-interval: 24
@@ -44,29 +44,29 @@ Why are comments considered a code smell?
 - They tend to compensate for bad code
 - They deteriorate over time and can lie
 - Most of the time are useless
-<!--SR:!2022-11-04,3,250-->
+<!--SR:!2022-12-24,31,250-->
 
 These are the comments that should be allowed:
 ?
 - Legal / Copyright comments
 - Comments when you cannot use a more descriptive name due to a design pattern
 - Hard to understand lines like regex query
-<!--SR:!2022-11-04,3,250-->
+<!--SR:!2022-11-27,4,230-->
 
 When writing comments you should:
 ?
 - Reveal intent
 - Apply them to the local scope only
-<!--SR:!2022-11-04,3,250-->
+<!--SR:!2022-11-27,4,230-->
 
 Variable names should reveal ==intent==.
-<!--SR:!2022-11-05,4,272-->
+<!--SR:!2022-12-27,34,272-->
 
 Variable name length should be ==proportional to the scope that contains it==.
-<!--SR:!2022-11-05,4,272-->
+<!--SR:!2022-12-29,36,272-->
 
 Function and class name length should be ==inverse proportional to the scope. The larger scope - the shorter it should be, more abstract==.
-<!--SR:!2022-11-05,4,272-->
+<!--SR:!2022-11-27,4,252-->
 
 Avoid using names with::"data", "info"
-<!--SR:!2022-11-05,4,270-->
+<!--SR:!2022-12-28,35,270-->

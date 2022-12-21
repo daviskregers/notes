@@ -3,7 +3,7 @@ Created: 2022-11-08 08:36:20
 Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
-Tags: [development/aws/cicd, networking, review]
+Tags: [development/aws/cicd, review]
 sr-due: 2022-11-24
 sr-interval: 1
 sr-ease: 130
@@ -11,8 +11,8 @@ sr-ease: 130
 
 # Continuous Integration
 
-- Developers push the code to a [[code repository]] often ([[Github]] / [[CodeCommit]] / [[Bitbucket]] / etc)
-- A testing / build server checks the code as soon as it's pushed ([[CodeBuild]] / [[Jenkins CI]] / etc)
+- Developers push the code to a [[code repository]] often ([[Github]] / [[AWS CodeCommit]] / [[Bitbucket]] / etc)
+- A testing / build server checks the code as soon as it's pushed ([[AWS CodeBuild]] / [[Jenkins CI]] / etc)
 - The developer gets feedback about the tests and checks that have passed / failed
 - [[Find bugs]] early, [[fix bugs]]
 - [[Deliver]] faster as the code is tested
@@ -27,7 +27,7 @@ sr-ease: 130
 - Ensures deployments happen often and are quick
 - Shift away from "on release every 3 months" to "5 releases a day"
 - That usually means automated deployment
-    - [[CodeDeploy]]
+    - [[AWS CodeDeploy]]
     - [[Jekins CD]]
     - [[Spinnaker]]
     - Etc

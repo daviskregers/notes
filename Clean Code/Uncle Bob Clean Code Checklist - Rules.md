@@ -3,7 +3,7 @@ Created: 2022-11-02 07:51:41
 Modified: Tuesday 1st November 2022 07:50:51
 Type: youtube
 Source: https://youtu.be/Qjywrq2gM8o
-Tags: [conspect, review]
+Tags: [development/clean-code, conspect, review]
 Review: Hard
 sr-due: 2023-01-11
 sr-interval: 55

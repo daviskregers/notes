@@ -1,6 +1,6 @@
 # AWS EC2 Instance Metadata
 
-- AWS EC2 Instance Metadata is a powerfull but on of the least known features to developers
+- AWS EC2 Instance Metadata is a powerful but on of the least known features to developers
 - It allows AWS EC2 instances to learn about themselves without using an IAM Role for that purpose.
 - The url is http://169.254.169.254/latest/meta-data
 - You can retrieve the IAM Role name from the metadata, but you CANNOT retrieve the IAM Policy

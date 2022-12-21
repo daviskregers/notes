@@ -13,7 +13,10 @@ sr-ease: 290
 -   **There are several layers of tests**
 
     -   Unit tests ==(test a single unit of code)==.
+<!--SR:!2022-11-26,3,290-->
 
     -   Integration tests ==(tests the data flow between units)(Should be written by architect)==.
+<!--SR:!2022-11-24,1,270-->
 
     -   Acceptance tests ==(tests the end product)(Should be written by QA)==.
+<!--SR:!2022-11-26,3,290-->

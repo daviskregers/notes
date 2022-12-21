@@ -11,7 +11,7 @@ sr-ease: 130
 
 # AWS AppSync
 
-- Store and [[sync data]] across mobile and web apps in real-time
+- Store and [[sync]] data across mobile and web apps in real-time
 - Makes use of [[GraphQL]] (mobile technology from Facebook)
 - [[Client Code]] can be generated automatically
 - Integrations  with [[DynamoDB]]/ [[AWS Lambda]]

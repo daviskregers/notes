@@ -3,14 +3,14 @@ Created: 2022-11-08 08:36:20
 Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
-Tags: [development/aws/dynamodb, cache, review]
+Tags: [development/aws/dynamodb, development/cache, review]
 sr-due: 2022-12-15
 sr-interval: 23
 sr-ease: 250
 ---
 
 - Seamless cache for [[DynamoDB]], no application re-write
-- Writes go though [[DAX (DynamoDB Accelerator)]] to [[DynamoDB]]
+- Writes go though [[DynamoDB Accelerator (DAX)]] to [[DynamoDB]]
 - Micro second latency for cached reads & queries
 - Solves the [[Hot Key problem]] (too many reads)
 - 5 minutes [[TTL]] for cache by default

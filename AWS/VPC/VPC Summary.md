@@ -3,14 +3,14 @@ Created: 2022-11-08 08:36:20
 Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
-Tags: [development/aws/vpc, networking, review]
+Tags: [development/aws/vpc, development/networking, review]
 sr-due: 2022-11-30
 sr-interval: 7
 sr-ease: 230
 ---
 
 - [[CIDR]] - [[IP Range]]
-- [[VPC Summary]] - [[Virtual Private Cloud]] => We define a list of [[IPv4]] & [[IPv6]] [[CIDR]]
+- [[VPC Summary]] - [[VPC]] => We define a list of [[IPv4]] & [[IPv6]] [[CIDR]]
 - [[Subnet]]s - tied to an [[Availability Zone]], we define a [[CIDR]]
 - [[Internet Gateway & Route tables]] - at the [[VPC Summary]] level provide [[IPv4]] & [[IPv6]] internet access
 - [[Route Table]]s - must be edited to add routes from [[Subnet]]s to the [[Internet Gateway & Route tables]]s, [[VPC peering connection]]s, [[VPC endpoint]]s etc
@@ -26,4 +26,4 @@ sr-ease: 230
 - [[Site to Site VPN]]: Setup a [[Customer Gateway]] on DC, a [[Virtual Private Gateway]] on [[VPC]], and site-to-site VPN over [[public internet]]
 - [[Direct Connect]]: Setup a [[Virtual Private Gateway]] on [[VPC]], and establish a [[direct private connection]] to an [[AWS Direct Connect Location]]
 - [[Direct Connect Gateway]]: setup a [[Direct Connect]] to many [[VPC]] in different [[AWS Region]]
-- [[Internet Gateway Egress]]: like a [[NAT Gateway]], but for [[IPv6]]
+- [[Egress Only Internet Gateway]]: like a [[NAT Gateway]], but for [[IPv6]]

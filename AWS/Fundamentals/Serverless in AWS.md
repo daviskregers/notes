@@ -17,7 +17,7 @@ sr-ease: 270
 - [[Programming/AWS/DynamoDB/DynamoDB]]
 - [[Programming/AWS/Cognito/AWS Cognito]]
 - [[AWS API Gateway]]
-- [[S3]]
+- [[AWS S3]]
 - [[AWS SNS]] & [[AWS SQS]]
 - [[Kinesis]]
 - [[AWS Aurora]] [[Serverless]]

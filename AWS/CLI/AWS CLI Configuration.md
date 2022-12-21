@@ -13,8 +13,6 @@ sr-ease: 250
 
 In order to configure [[AWS CLI]] we need to get access credentials from [[IAM]]. It will be located under `Users -> {user} -> Security Credentials -> Access Keys`.
 
-- [ ] TODO: LINK EC2 Best practices
-
 Then we are going to run
 
 ```
@@ -37,3 +35,6 @@ config  credentials
 region = eu-west-1
 
 ```
+
+
+For configuring CLI on EC2 - there's a good way and a bad way. Look into [[AWS CLI on EC2]].

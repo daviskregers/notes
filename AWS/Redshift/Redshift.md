@@ -3,7 +3,7 @@ Created: 2022-11-08 08:36:20
 Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
-Tags: [development/aws/redshift, database, data-warehouse, review]
+Tags: [development/aws/redshift, development/database, development/data-warehouse, review]
 sr-due: 2022-12-18
 sr-interval: 26
 sr-ease: 250
@@ -14,7 +14,7 @@ sr-ease: 250
 - Redshift is based on [[PostgreSQL]], but it's not used for [[OLTP]]
 - It's [[OLAP]] - online analytical processing (analytics and data warehousing)
 - 10x better performance than other data warehouses, scale to PBs of data
-- [[Massively Parrallel Query Execution (MPP)]], [[highly available]]
+- [[Massively Parrallel Query Execution (MPP)]], [[Highly Available]]
 - Pay as you go based on the instances provisioned
 - Has a [[SQL]] interface for performing the queries
 - BI tools such as [[AWS Quicksight]] or [[Tableau]] integrate with it

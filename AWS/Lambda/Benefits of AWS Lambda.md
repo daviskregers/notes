@@ -16,6 +16,6 @@ sr-ease: 270
     - Free tier of 1,000,000 [[AWS Lambda]] requests and 400,000 GBs of compute time
 - Integrated with the whole AWS Stack
 - Integrated with many [[Lambda Language Support|programming languages]]
-- Easy monitoring through [[AWS Cloudwatch]]
+- Easy monitoring through [[CloudWatch]]
 - Easy to get more resources per functions (up to 3GB of RAM)
 - Increasing [[RAM]] will also improve [[CPU]] and network

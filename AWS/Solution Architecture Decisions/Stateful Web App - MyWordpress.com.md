@@ -15,4 +15,4 @@ sr-ease: 230
 - We want that website to access and correctly display picture [[uploads]]
 - Our user data, an the blog content should be stored in a [[MySQL]] [[database]]
 
-Use multiple instances with a [[Load Balancer]]. For file uploads, use [[EFS - Elastic File System]]. For database, use [[AWS Aurora]] database to have easy [[Multi-AZ]] and [[Read Replica]]s.
+Use multiple instances with a [[Load Balancer]]. For file uploads, use [[EFS - Elastic File System]]. For database, use [[AWS Aurora]] database to have easy [[Multi AZ]] and [[Read Replica]]s.

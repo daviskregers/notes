@@ -15,7 +15,7 @@ sr-ease: 250
     - [[Memory]] allocation: 128MB to 3008MB (64MB increments)
     - Maximum [[execution time]]: 15 minutes
     - Disk capacity in the "function container" (in /tmp): 512MB
-    - [[Concurrency]] limits: 1000 (no of functions that can concurrently execute)
+    - [[Learn concurrency]] limits: 1000 (no of functions that can concurrently execute)
         - Can be increased by writing a support ticket.
 - Deployment 
     - [[AWS Lambda]] function deployment size (compressed .zip): 50MB

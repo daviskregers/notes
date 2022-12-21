@@ -4,7 +4,7 @@
 pacman -S vim
 ```
 
-Consider using [[ Neovim ]] though, as it support lua scripts and is easier to work with.
+Consider using [[Neovim]] though, as it support lua scripts and is easier to work with.
 
 ## Installing a plugin
 

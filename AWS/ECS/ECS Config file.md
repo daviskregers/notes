@@ -4,9 +4,9 @@ Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
 Tags: [development/aws/ecs, review]
-sr-due: 2022-11-24
-sr-interval: 1
-sr-ease: 130
+sr-due: 2022-12-06
+sr-interval: 9
+sr-ease: 150
 ---
 
 - [[ECS Config file]] is at `/etc/ecs/ecs.config`

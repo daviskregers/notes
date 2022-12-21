@@ -3,7 +3,7 @@ Created: 2022-11-08 08:36:20
 Modified: Monday 7th November 2022 07:09:16
 Type: course
 Source: https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c01/?xref=E0Aed11STH4LPUQvCz0GJFABTmM=
-Tags: [development/aws/vpc, networking, review]
+Tags: [development/aws/vpc, development/networking, review]
 sr-due: 2022-11-25
 sr-interval: 2
 sr-ease: 190
@@ -51,8 +51,8 @@ By doing this, the private instance will have an access to the internet, through
 ## NAT Instances - Comments
 
 - [[Amazon Linux AMI]] - preconfigured available
-- Not [[highly available]] / [[resilient]] setup out of the box
-- Would need to create [[Auto Scaling Group (ASG)]] in [[Multi-AZ]] + resilient [[EC2 User Data]] script
+- Not [[Highly Available]] / [[resilient]] setup out of the box
+- Would need to create [[Auto Scaling Group (ASG)]] in [[Multi AZ]] + resilient [[EC2 User Data]] script
 - Internet traffic bandwidth depends on [[AWS EC2]] instance performance
 - Must manage [[security group]]s & rules
     - Inbound

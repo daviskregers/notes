@@ -16,3 +16,7 @@ sr-ease: 250
 - But two different private networks (two companies) can have the same IPs
 - Machines connect to internet through a gateway
 - Only a specified range of IPs can be used as a private IP
+
+    - 10.0.0.0 - 10.255.255.255 (10.0.0.0/8) - in big networks
+    - 172.16.0.0 - 172.31.255.255 (172.16.0.0/12) - default AWS one
+    - 192.168.0.0-192.168.255.255 (192.168.0.0/16) - example: home networks

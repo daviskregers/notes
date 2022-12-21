@@ -1,4 +1,4 @@
-This is something very old. Consider using [[Ansible]] instead.
+This is something very old. Consider using [[ansible]] instead.
 
 ```
 # Show Hidden files
