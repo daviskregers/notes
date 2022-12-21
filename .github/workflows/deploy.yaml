@@ -18,7 +18,9 @@ jobs:
           repository: muerwre/obsidian-publish
           
       - name: Debug
-        run: ls -lah
+        run: |
+          pwd
+          ls -lah
           
       - name: Setup Yarn
         uses: mskelton/setup-yarn@v1.3.0
