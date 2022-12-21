@@ -23,7 +23,7 @@ jobs:
         
       - name: Debug Config
         run: |
-          echo "baseURL = 'https://notes.deiveris.lv/' > config.toml
+          echo "baseURL = 'https://notes.deiveris.lv/'" > config.toml
           echo "languageCode = 'en-us'" >> config.toml
           echo "title = 'notes'" >> config.toml
           echo "theme = 'ananke'" >> config.toml
