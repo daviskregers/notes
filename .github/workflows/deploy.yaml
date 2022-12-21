@@ -25,18 +25,18 @@ jobs:
       - name: make requirements.txt # https://github.com/jobindjohn/obsidian-publish-mkdocs/issues/1#issuecomment-1179677644
         run: |
           echo "mkdocs
-mkdocs-material
-mkdocs-mermaid2-plugin
-mkdocs-ezlinked-plugin
-mkdocs-awesome-pages-plugin
-mdx_breakless_lists
-mkdocs-preview-links-plugin
-mkdocs-embed-file-plugins
-Markdown
-obs2mk
-mkdocs-roamlinks-plugin
-PyYAML==6.0
-setuptools==60.8.2" > requirements.txt
+          mkdocs-material
+          mkdocs-mermaid2-plugin
+          mkdocs-ezlinked-plugin
+          mkdocs-awesome-pages-plugin
+          mdx_breakless_lists
+          mkdocs-preview-links-plugin
+          mkdocs-embed-file-plugins
+          Markdown
+          obs2mk
+          mkdocs-roamlinks-plugin
+          PyYAML==6.0
+          setuptools==60.8.2" > requirements.txt
           
       - name: Deploy 🚀
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
