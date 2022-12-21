@@ -15,10 +15,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.1
+        uses: jackyzha0/hugo-obsidian@v2.18
         with:
           # input: content # input folder
-          output: data   # output folder
+          output: .compiled   # output folder
           index: true    # whether to index content
 
       - name: Update theme
@@ -36,11 +36,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.TOKEN }}
-          external_repository: <username>/<username>.github.io
-          publish_dir: ./public
-          #   keep_files: true
-          user_name: <username>
-          user_email: <username@email.com>
-          publish_branch: master
+          publish_dir: .compiled
         #   cname: example.com
