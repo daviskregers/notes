@@ -16,7 +16,10 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         
       - name: initialize hugo
-        run: hugo new site hugo_site
+        run: hugo new site .
+        
+      - name: pick hugo theme
+        run: hugo new theme compose
         
       - name: Debug
         run: ls -lah
