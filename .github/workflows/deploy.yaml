@@ -24,20 +24,32 @@ jobs:
       - name: Debug
         run: ls -lah
         
-#       - name: Git checkout
-#         uses: actions/checkout@v2
+      - name: Git checkout
+        uses: actions/checkout@v3
+        with:
+          path: content
+          
+      - name: Debug
+        run: ls -lah content
 
-#       - name: Build Link Index
-#         uses: jackyzha0/hugo-obsidian@v2.18
+      - name: Build Link Index
+        uses: jackyzha0/hugo-obsidian@v2.18
+        with:
+          input: content # input folder
+          output: data   # output folder
+          index: true    # whether to index content
 
-#       - name: Update theme
-#         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
-#         run: git submodule update --init --recursive
+      - name: Update theme
+        # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
+        run: git submodule update --init --recursive
 
-#       - name: Build
-#         # remove --minify tag if you do not need it
-#         # docs: https://gohugo.io/hugo-pipes/minification/
-#         run: hugo --minify
+      - name: Build
+        # remove --minify tag if you do not need it
+        # docs: https://gohugo.io/hugo-pipes/minification/
+        run: hugo --minify
+        
+      - name: Debug
+        run: ls -lah data
 
 #       - name: Deploy
 #         uses: peaceiris/actions-gh-pages@v3
