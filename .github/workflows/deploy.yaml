@@ -15,51 +15,12 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v3
         with:
-          repository: muerwre/obsidian-publish
-          
-      - name: Install dependencies
-        run: yarn
+          repository: jobindjohn/obsidian-publish-mkdocs
 
       - name: Git checkout
         uses: actions/checkout@v3
         with:
-          path: content
-          
-      - name: Generate stuff
-        run: yarn generate
-        
-      - name: Remove cache?
-        run: rm .output/public/api/_content/cache.json
-        
+          path: docs
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
-        with:
-          folder: .output/public
-
-#       - name: pick hugo theme
-#         run: git init && git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
-        
-#       - name: Debug Config
-#         run: |
-#           echo "baseURL = 'https://notes.deiveris.lv/'" > config.toml
-#           echo "languageCode = 'en-us'" >> config.toml
-#           echo "title = 'notes'" >> config.toml
-#           echo "theme = 'ananke'" >> config.toml
-#           cat config.toml
-        
-#       - name: Git checkout
-#         uses: actions/checkout@v3
-#         with:
-#           path: content
-
-#       - name: Build Link Index
-#         uses: jackyzha0/hugo-obsidian@v2.18
-#         with:
-#           input: content # input folder
-#           output: data   # output folder
-#           index: true    # whether to index content
-
-#       - name: Publish Site
-#         uses: chabad360/hugo-gh-pages@master
-#         with:
-#           githubToken: ${{ secrets.PERSONAL_TOKEN }}
