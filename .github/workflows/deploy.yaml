@@ -15,11 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.1
-        with:
-          # input: content # input folder
-          # output: .compiled   # output folder
-          index: true    # whether to index content
+        uses: jackyzha0/hugo-obsidian@v2.18
 
       - name: Update theme
         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
