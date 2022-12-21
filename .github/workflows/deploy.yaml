@@ -28,13 +28,8 @@ jobs:
       - name: Generate stuff
         run: yarn generate
         
-      - name: Debug
-        run: |
-          ls -lah .output/public
-          echo ----
-          ls -lah .output/public/api
-          echo ----
-          ls -lah .output/public/api/content
+      - name: Remove cache?
+        run: rm .output/public/api/content/cache.json
         
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
