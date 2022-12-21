@@ -18,11 +18,11 @@ jobs:
       - name: initialize hugo
         run: hugo new site .
         
-      - name: configure hugo
-        run: cat config.toml | \
-             sed "s/title = \'.*\'/title = \'Daves notes'/" | \
-             sed "s/baseURL = \'.*\'/baseURL = 'https:\/\/notes.deiveris.lv\/'/" | \
-             cat > config.toml
+      - name: set title
+        run: sed -i "s/title = \'.*\'/title = \'notes'/" config.toml
+        
+      - name: set base url
+        run: sed -i "s/baseURL = \'.*\'/baseURL = 'https:\/\/notes.deiveris.lv\/'/" config.toml
         
       - name: pick hugo theme
         run: git init && git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke && echo "theme = 'ananke'" >> config.toml
