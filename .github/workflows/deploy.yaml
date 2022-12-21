@@ -17,18 +17,17 @@ jobs:
         
       - name: initialize hugo
         run: hugo new site .
-        
-      - name: set title
-        run: sed -i "s/title = \'.*\'/title = \'notes'/g" config.toml
-        
-      - name: set base url
-        run: sed -i "s/baseURL = \'.*\'/baseURL = 'https:\/\/notes.deiveris.lv\/'/g" config.toml
-        
+
       - name: pick hugo theme
-        run: git init && git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke && echo "theme = 'ananke'" >> config.toml
+        run: git init && git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
         
       - name: Debug Config
-        run: cat config.toml
+        run: |
+          echo "baseURL = 'https://notes.deiveris.lv/' \
+          languageCode = 'en-us' \
+          title = 'notes' \
+          theme = 'ananke'" > config.toml
+          cat config.toml
         
       - name: Git checkout
         uses: actions/checkout@v3
