@@ -17,11 +17,8 @@ jobs:
         with:
           repository: muerwre/obsidian-publish
           
-      - name: Debug
-        run: |
-          pwd
-          ls -lah
-          yarn
+      - name: Install dependencies
+        run: yarn
 
       - name: Git checkout
         uses: actions/checkout@v3
@@ -30,6 +27,14 @@ jobs:
           
       - name: Generate stuff
         run: yarn generate
+        
+      - name: Debug
+        run: |
+          ls -lah .output/public
+          echo ----
+          ls -lah .output/public/api
+          echo ----
+          ls -lah .output/public/api/content
         
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
