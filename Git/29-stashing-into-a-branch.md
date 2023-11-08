@@ -1,5 +1,0 @@
-# Stashing into a branch
-
-```
-
-```
